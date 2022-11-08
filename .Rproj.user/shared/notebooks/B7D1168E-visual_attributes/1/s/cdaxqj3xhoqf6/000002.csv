@@ -1,0 +1,12 @@
+"0","```r
+total_sales <- read_csv(\"data/total_sales.csv\") %>% 
+  janitor:: clean_names()
+
+```"
+"1","Rows: 7 Columns: 2── Column specification ───────────────────────────────────────────────────────────────────────────────────────────────────────────
+Delimiter: \",\"
+chr (1): branch
+dbl (1): sales
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+"

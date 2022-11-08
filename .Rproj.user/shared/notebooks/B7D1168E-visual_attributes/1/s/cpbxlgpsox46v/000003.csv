@@ -1,0 +1,6 @@
+"0","```r
+ggplot(monthly_sales) +
+  aes(x = branch, y = sales, fill = month) +
+  geom_col(position = \"dodge\") +
+  coord_flip()
+```"

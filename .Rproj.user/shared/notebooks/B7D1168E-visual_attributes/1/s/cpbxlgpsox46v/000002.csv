@@ -1,0 +1,15 @@
+"0","```r
+monthly_sales <- read_csv(\"data/monthly_sales.csv\") %>%
+  mutate(month = factor(month, levels = c(\"Jan\", \"Feb\", \"March\", \"April\"))) 
+
+```"
+"1","Rows: 28 Columns: 4── Column specification ─────────────────────────────────────────────────────────────────
+Delimiter: \",\"
+chr (2): branch, month
+dbl (2): sales, difference_from_jan
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+"
+"0","```r
+head(monthly_sales)
+```"

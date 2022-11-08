@@ -1,0 +1,10 @@
+"0","```r
+ggplot(monthly_sales) +
+  aes(x = branch, y = difference_from_jan, fill = month)+
+  geom_col(position = \"dodge\")+
+  scale_y_continuous(label = comma) +
+  coord_flip()
+
+```"
+"1","Error in check_breaks_labels(breaks, labels) : object 'comma' not found
+"
