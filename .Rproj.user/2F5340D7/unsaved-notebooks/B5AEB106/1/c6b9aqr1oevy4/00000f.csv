@@ -1,9 +1,0 @@
-"0","library(ggplot)
-"
-"2","Error in library(ggplot) : there is no package called ‘ggplot’
-"
-"2","In addition: "
-"2","Warning message:
-"
-"2","package ‘sp’ was built under R version 4.2.2 
-"

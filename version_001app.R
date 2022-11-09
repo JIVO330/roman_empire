@@ -34,11 +34,11 @@ ui <- fluidPage(
             
             column(4,
                    selectInput("province_input", label = h3("Imperial Province"), #h3 size phrase()
-                               choices = roman_empire$province
+                               choices = #roman_empire$province
                   ),
             column(4,
                    selectInput("city_input", label = h3("Modern city"), #h3 size phrase()
-                               choices = roman_empire$ModernToponym)
+                               choices = #roman_empire$ModernToponym)
                   ),
             # column(4,
             #        radioButtons("rights_input",
@@ -95,15 +95,15 @@ server <- function(input, output) {
    
   # we want to knnow the distribution of cities by Province
   
-      output$city_plot <- renderPlot({
-      roman_empire %>%
-      filter(Province ==input$province_input) %>%
-      filter(ModernToponym == input$city_input) %>%
-      ggplot(aes(x = Province , y = ModernToponym))+
-      geom_point()
+      # output$city_plot <- renderPlot({
+      # roman_empire %>%
+      # filter(Province ==input$province_input) %>%
+      # filter(ModernToponym == input$city_input) %>%
+      # ggplot(aes(x = Province , y = ModernToponym))+
+      # geom_point()
     
     
-  })
+
     
 }
 

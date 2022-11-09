@@ -1,0 +1,78 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(janitor)
+library(ggplot2)
+```
+
+
+ 
+
+
+```{r}
+
+roman_empire1 <- read.csv("re_data/hanson_cities_reform.csv") %>% 
+  clean_names()
+
+re1 <- roman_empire1 %>% 
+  select( -c(x : x_3,x_4 : x_21 ))
+
+re1
+```
+```{r}
+roman_empire2 <- read_csv("re_data/Hanson2016_Civic Status_OxREP.csv") %>% clean_names()
+
+
+
+roman_empire2
+```
+
+
+```{r}
+roman_empire <- full_join(re1,roman_empire2, by = "primary_key")
+
+roman_empire
+```
+
+```{r}
+write_csv(roman_empire,"re_data/roman_empire_modification.csv")
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+count_cities <- roman_empire %>% 
+  group_by(Province, Modern.Toponym) %>% 
+  summarise(counts = n())
+  
+  
+  
+  ggplot(count_cities)+
+    geom_bar(aes(x = Province, y = counts, fill = Modern.Toponym ), stat = 'identity')
+  
+  
+  
+  
+  
+  ggplot()+
+  geom_bar()
+```
+
+
+
+
+
+
+
+

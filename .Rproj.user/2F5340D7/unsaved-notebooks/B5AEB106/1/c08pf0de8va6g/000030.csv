@@ -1,5 +1,0 @@
-"0","  ggplot(count_cities)+
-    geom_bar(aes(x = Province, y = counts, fill = Modern.Toponym ), stat = 'identity')
-"
-"2","Error in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y,  : invalid input 'Gab�s' in 'utf8towcs'
-"
