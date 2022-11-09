@@ -17,7 +17,7 @@ ui <- fluidPage(
   # Application title
   titlePanel("THE ROMAN EMPIRE"),
   h2( tags$i("LUX MUNDI")),
-  theme = bs_theme(bootswatch = "solar" ),  
+  #theme = bs_theme(bootswatch = "solar" ),  
   # creation of 2 spaces/tables
   tabsetPanel(
     tabPanel(
@@ -82,11 +82,11 @@ ui <- fluidPage(
       h4("The music is part of the Game Caesar III, donwloaded from"),
     ), 
     tabPanel("Map",
+             tags$audio(src = "music/rome1.mp3",type = "audio/mp3", autoplay = TRUE),
              br(),
              br(),
              h3("Here should be go a Map of the Empire"),
-             tags$audio(src = "Rome1.mp3",type = "audio/mp3", autoplay = TRUE),
-                          )
+                                       )
     
   ), 
   

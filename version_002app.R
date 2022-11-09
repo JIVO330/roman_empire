@@ -19,7 +19,7 @@ ui <- fluidPage(
   
   # Application title
   titlePanel("THE ROMAN EMPIRE"),
-  #subtitlepA("LUX MUNDI"),
+  h2(tags$i("LUX MUNDI")),
   #theme = bs_theme(bootswatch =" " ),  
   # creation of 2 spaces/tables
   tabsetPanel(
