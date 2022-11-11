@@ -23,7 +23,7 @@ Hanson2016_18,Carthaea,Unknown,Achaea,Greece,24.314228,37.542346,NA,NA
 Hanson2016_19,Cassope,Kamarina,Achaea,Greece,20.675916,39.145016,NA,NA
 Hanson2016_20,Chaeronea,Khaironia,Achaea,Greece,22.844532,38.494687,NA,NA
 Hanson2016_21,Chalcis,Chalkis,Achaea,Greece,23.643172,38.549423,NA,NA
-Hanson2016_22,Cierium,Matar<e1>nga,Achaea,Greece,22.075455,39.361088,NA,NA
+Hanson2016_22,Cierium,Mataránga,Achaea,Greece,22.075455,39.361088,NA,NA
 Hanson2016_23,Cirrha,Xeropigadi,Achaea,Greece,22.450621,38.428937,NA,NA
 Hanson2016_24,Cleitor,Kato Klitoria,Achaea,Greece,22.044647,37.885611,NA,NA
 Hanson2016_25,Corcyra,Analipsi,Achaea,Greece,19.91558,39.606285,Rights and privileges,libera
@@ -66,7 +66,7 @@ Hanson2016_52,Lousoi,Lousoi,Achaea,Greece,22.116811,37.969025,NA,NA
 Hanson2016_53,Lycosura,Lykosoura,Achaea,Greece,22.031019,37.389722,NA,NA
 Hanson2016_54,Macynia,Paleokastro,Achaea,Greece,21.726328,38.355158,NA,NA
 Hanson2016_55,Mantinea,Mantineia,Achaea,Greece,22.405305,37.642803,NA,NA
-Hanson2016_56,Megalopolis,Sin<e1>nu,Achaea,Greece,22.136771,37.40225,NA,NA
+Hanson2016_56,Megalopolis,Sinánu,Achaea,Greece,22.136771,37.40225,NA,NA
 Hanson2016_57,Megara,Megara,Achaea,Greece,23.344591,37.994845,Colonia,NA
 Hanson2016_58,Melos,Unknown,Achaea,Greece,24.420716,36.733024,NA,NA
 Hanson2016_59,Messene,Mavromati,Achaea,Greece,22.008029,37.051363,NA,NA
@@ -80,9 +80,9 @@ Hanson2016_65,Nicopolis (Achaea),Palioprevesa,Achaea,Greece,20.733395,39.026505,
 Hanson2016_65,Nicopolis (Achaea),Palioprevesa,Achaea,Greece,20.733395,39.026505,Rights and privileges,foederata
 Hanson2016_65,Nicopolis (Achaea),Palioprevesa,Achaea,Greece,20.733395,39.026505,Rights and privileges,libera
 Hanson2016_66,Oeniadae,Oiniadai,Achaea,Greece,21.212962,38.398985,NA,NA
-Hanson2016_67,Onchesmus,Sarand<eb>,Achaea,Albania,20.000687,39.869988,NA,NA
+Hanson2016_67,Onchesmus,Sarandë,Achaea,Albania,20.000687,39.869988,NA,NA
 Hanson2016_68,Orchomenus Arcadicus,Kalpali,Achaea,Greece,22.31536,37.724716,NA,NA
-Hanson2016_69,Orchomenus Minyeaus,Skrip<fa>,Achaea,Greece,22.981125,38.493255,NA,NA
+Hanson2016_69,Orchomenus Minyeaus,Skripú,Achaea,Greece,22.981125,38.493255,NA,NA
 Hanson2016_70,Oricus,Pascha Liman,Achaea,Albania,19.451817,40.323257,NA,NA
 Hanson2016_71,Oropus,Skala Oropou,Achaea,Greece,23.775844,38.320255,NA,NA
 Hanson2016_72,Paeania,Mastru?,Achaea,Greece,23.855299,37.958506,NA,NA
@@ -98,7 +98,7 @@ Hanson2016_76,Patrae,Patrai,Achaea,Greece,21.737066,38.254465,Rights and privile
 Hanson2016_77,Pelinna,Palaiogardiki,Achaea,Greece,21.951944,39.576637,NA,NA
 Hanson2016_78,Pellene,Zougra,Achaea,Greece,22.548344,38.043207,NA,NA
 Hanson2016_79,Peparethum,Piperi,Achaea,Greece,23.719616,39.119096,NA,NA
-Hanson2016_80,Phalanna,Karadj<f3>li,Achaea,Greece,22.193106,39.708507,NA,NA
+Hanson2016_80,Phalanna,Karadjóli,Achaea,Greece,22.193106,39.708507,NA,NA
 Hanson2016_81,Pharsalus,Farsala,Achaea,Greece,22.38454,39.293958,Rights and privileges,libera
 Hanson2016_82,Pheneus,Feneos,Achaea,Greece,22.295238,37.919454,NA,NA
 Hanson2016_83,Pherae,Velestino,Achaea,Greece,22.753851,39.379043,NA,NA
@@ -109,14 +109,14 @@ Hanson2016_87,Piraeus,Piraeus,Achaea,Greece,23.641103,37.950902,NA,NA
 Hanson2016_88,Plataea,Plataea,Achaea,Greece,23.26689,38.215488,Rights and privileges,libera
 Hanson2016_89,Proerna,Gythokastro,Achaea,Greece,22.297255,39.241243,NA,NA
 Hanson2016_90,Rhamnus,Rhamnous,Achaea,Greece,24.028009,38.222727,NA,NA
-Hanson2016_91,Scotussa,Supl<ed>,Achaea,Greece,22.574579,39.37552,Rights and privileges,libera
+Hanson2016_91,Scotussa,Suplí,Achaea,Greece,22.574579,39.37552,Rights and privileges,libera
 Hanson2016_92,Sicyon,Basiliko,Achaea,Greece,22.726044,37.9799,NA,NA
 Hanson2016_93,Sparta,Sparti,Achaea,Greece,22.432584,37.074301,Rights and privileges,libera et immunis
 Hanson2016_94,Stratus,Surovigli,Achaea,Greece,21.31366,38.666849,NA,NA
 Hanson2016_95,Stymphalum,Stymphalos,Achaea,Greece,22.45934,37.859281,NA,NA
 Hanson2016_96,Tanagra,Graimadha,Achaea,Greece,23.536834,38.32732,Rights and privileges,libera
 Hanson2016_97,Tegea,Alea,Achaea,Greece,22.417226,37.427653,NA,NA
-Hanson2016_98,Teuthrone,Kotr<f3>nes,Achaea,Greece,22.489063,36.621145,NA,NA
+Hanson2016_98,Teuthrone,Kotrónes,Achaea,Greece,22.489063,36.621145,NA,NA
 Hanson2016_99,Thaumacia,Unknown,Achaea,Greece,22.321996,39.126554,NA,NA
 Hanson2016_100,Thebae,Thebes,Achaea,Greece,23.317799,38.319077,NA,NA
 Hanson2016_101,Thebae Phthiotides,Nea Anchialos,Achaea,Greece,22.762344,39.27303,NA,NA
@@ -136,7 +136,7 @@ Hanson2016_112,Antinoopolis,Sheikh Abadah,Aegyptus,Egypt,30.875182,27.81166,Righ
 Hanson2016_113,Aphroditopolis,El Gabalein,Aegyptus,Egypt,32.473946,25.369659,Metropolis (nome) capital,NA
 Hanson2016_114,Apollonopolis Magna,Kom Edfu,Aegyptus,Egypt,32.873294,24.979536,Metropolis (nome) capital,NA
 Hanson2016_115,Apollonopolis Parva,Kom Isfaht,Aegyptus,Egypt,32.710142,25.854554,Metropolis (nome) capital,NA
-Hanson2016_116,Arsinoe,Kom F?ris,Aegyptus,Egypt,30.75,29.250001,Metropolis (nome) capital,NA
+Hanson2016_116,Arsinoe,Kom Fāris,Aegyptus,Egypt,30.75,29.250001,Metropolis (nome) capital,NA
 Hanson2016_117,Athribis,Tell Atrib,Aegyptus,Egypt,31.184479,30.47243,Metropolis (nome) capital,NA
 Hanson2016_118,Bubastis,Tell Basta,Aegyptus,Egypt,31.507263,30.576879,Metropolis (nome) capital,NA
 Hanson2016_119,Busiris,Abu Sir Bana,Aegyptus,Egypt,31.244444,30.911111,Metropolis (nome) capital,NA
@@ -170,7 +170,7 @@ Hanson2016_146,Pelusium,Tell el Farama,Aegyptus,Egypt,32.600128,31.049917,Metrop
 Hanson2016_147,Phacus,Faqus,Aegyptus,Egypt,31.672165,30.720511,Metropolis (nome) capital,NA
 Hanson2016_148,Ptolemais (Aegyptus),El Manshah,Aegyptus,Egypt,31.8,26.483333,Metropolis (nome) capital,NA
 Hanson2016_149,Sais,Sa el Hagar,Aegyptus,Egypt,30.768333,30.964722,Metropolis (nome) capital,NA
-Hanson2016_150,Sebennytus,Samann?d,Aegyptus,Egypt,31.241003,30.960661,Metropolis (nome) capital,NA
+Hanson2016_150,Sebennytus,Samannūd,Aegyptus,Egypt,31.241003,30.960661,Metropolis (nome) capital,NA
 Hanson2016_151,Tanis,San el Hagar,Aegyptus,Egypt,31.874266,30.975841,Metropolis (nome) capital,NA
 Hanson2016_152,Tebtunis,Tell Umm el-Baragat,Aegyptus,Egypt,29.106896,30.761239,NA,NA
 Hanson2016_153,Tentyris,Dandara,Aegyptus,Egypt,32.65,26.166667,Metropolis (nome) capital,NA
@@ -246,8 +246,8 @@ Hanson2016_183,Macomades,Merkeb-Talha,Africa Proconsularis,Libya,16.588338,31.20
 Hanson2016_184,Mactaris,Mactar,Africa Proconsularis,Tunisia,9.207183,35.853814,Colonia,NA
 Hanson2016_184,Mactaris,Mactar,Africa Proconsularis,Tunisia,9.207183,35.853814,Rights and privileges,ius Romanum?
 Hanson2016_185,Maraci,Ksar Toual Zammel,Africa Proconsularis,Tunisia,9.222873,36.029941,NA,NA
-Hanson2016_186,Maxula,Rad<e8>s,Africa Proconsularis,Tunisia,10.271569,36.768841,Colonia,NA
-Hanson2016_186,Maxula,Rad<e8>s,Africa Proconsularis,Tunisia,10.271569,36.768841,Rights and privileges,ius Romanum
+Hanson2016_186,Maxula,Radès,Africa Proconsularis,Tunisia,10.271569,36.768841,Colonia,NA
+Hanson2016_186,Maxula,Radès,Africa Proconsularis,Tunisia,10.271569,36.768841,Rights and privileges,ius Romanum
 Hanson2016_187,Meninx,Bordj el Kantara,Africa Proconsularis,Tunisia,10.913075,33.688857,NA,NA
 Hanson2016_188,Missua,Sidi Daoud,Africa Proconsularis,Tunisia,10.899956,36.999978,Colonia?,NA
 Hanson2016_188,Missua,Sidi Daoud,Africa Proconsularis,Tunisia,10.899956,36.999978,Rights and privileges,NA
@@ -267,8 +267,8 @@ Hanson2016_196,Seressi,Henchir Oum el Abouab,Africa Proconsularis,Tunisia,9.7736
 Hanson2016_197,Sufes,Sbiba,Africa Proconsularis,Tunisia,9.074415,35.542707,Colonia,NA
 Hanson2016_198,Sufetula,Sbeitla,Africa Proconsularis,Tunisia,9.118399,35.241664,Colonia,NA
 Hanson2016_198,Sufetula,Sbeitla,Africa Proconsularis,Tunisia,9.118399,35.241664,Municipium,NA
-Hanson2016_199,Tacapae,Gab<e8>s,Africa Proconsularis,Libya,14.5,32.5,Colonia,NA
-Hanson2016_199,Tacapae,Gab<e8>s,Africa Proconsularis,Libya,14.5,32.5,Rights and privileges,libera
+Hanson2016_199,Tacapae,Gabès,Africa Proconsularis,Libya,14.5,32.5,Colonia,NA
+Hanson2016_199,Tacapae,Gabès,Africa Proconsularis,Libya,14.5,32.5,Rights and privileges,libera
 Hanson2016_200,Thaenae,Henchir Thina,Africa Proconsularis,Tunisia,10.670659,34.655347,Colonia,NA
 Hanson2016_200,Thaenae,Henchir Thina,Africa Proconsularis,Tunisia,10.670659,34.655347,Rights and privileges,ius Latii?
 Hanson2016_200,Thaenae,Henchir Thina,Africa Proconsularis,Tunisia,10.670659,34.655347,Rights and privileges,libera
@@ -276,15 +276,15 @@ Hanson2016_201,Thapsus,Ras Dimas,Africa Proconsularis,Tunisia,11.0428,35.622788,
 Hanson2016_201,Thapsus,Ras Dimas,Africa Proconsularis,Tunisia,11.0428,35.622788,Colonia?,NA
 Hanson2016_201,Thapsus,Ras Dimas,Africa Proconsularis,Tunisia,11.0428,35.622788,Rights and privileges,libera et immunis
 Hanson2016_201,Thapsus,Ras Dimas,Africa Proconsularis,Tunisia,11.0428,35.622788,Rights and privileges,ius Romanum
-Hanson2016_202,Thelepte,Th<e9>lepte,Africa Proconsularis,Tunisia,8.593867,34.975746,Colonia,NA
-Hanson2016_202,Thelepte,Th<e9>lepte,Africa Proconsularis,Tunisia,8.593867,34.975746,Municipium,NA
+Hanson2016_202,Thelepte,Thélepte,Africa Proconsularis,Tunisia,8.593867,34.975746,Colonia,NA
+Hanson2016_202,Thelepte,Thélepte,Africa Proconsularis,Tunisia,8.593867,34.975746,Municipium,NA
 Hanson2016_203,Thibiuca,Henchir Zouitina,Africa Proconsularis,Tunisia,9.750001,36.750001,Colonia,NA
 Hanson2016_203,Thibiuca,Henchir Zouitina,Africa Proconsularis,Tunisia,9.750001,36.750001,Municipium,NA
 Hanson2016_204,Thigibba,Hamman Zouakra,Africa Proconsularis,Tunisia,9.25,35.75,Colonia,NA
 Hanson2016_204,Thigibba,Hamman Zouakra,Africa Proconsularis,Tunisia,9.25,35.75,Rights and privileges,libera
-Hanson2016_205,Thignica,A<ef>n Tounga,Africa Proconsularis,Tunisia,9.361747,36.52366,NA,NA
-Hanson2016_206,Thisica,A<ef>n Tachegga,Africa Proconsularis,Tunisia,9.702008,37.003737,Municipium,NA
-Hanson2016_206,Thisica,A<ef>n Tachegga,Africa Proconsularis,Tunisia,9.702008,37.003737,Rights and privileges,libera
+Hanson2016_205,Thignica,Aïn Tounga,Africa Proconsularis,Tunisia,9.361747,36.52366,NA,NA
+Hanson2016_206,Thisica,Aïn Tachegga,Africa Proconsularis,Tunisia,9.702008,37.003737,Municipium,NA
+Hanson2016_206,Thisica,Aïn Tachegga,Africa Proconsularis,Tunisia,9.702008,37.003737,Rights and privileges,libera
 Hanson2016_207,Thuburbo Maius,Henchir Kasbat,Africa Proconsularis,Tunisia,9.904195,36.400856,Colonia,NA
 Hanson2016_207,Thuburbo Maius,Henchir Kasbat,Africa Proconsularis,Tunisia,9.904195,36.400856,Colonia,NA
 Hanson2016_207,Thuburbo Maius,Henchir Kasbat,Africa Proconsularis,Tunisia,9.904195,36.400856,Municipium,NA
@@ -327,10 +327,10 @@ Hanson2016_217,Utica,Utique,Africa Proconsularis,Tunisia,10.038,37.0358,Rights a
 Hanson2016_218,Uzalis,Al Alia,Africa Proconsularis,Tunisia,10.033986,37.169048,Colonia,NA
 Hanson2016_218,Uzalis,Al Alia,Africa Proconsularis,Tunisia,10.033986,37.169048,Rights and privileges,libera
 Hanson2016_218,Uzalis,Al Alia,Africa Proconsularis,Tunisia,10.033986,37.169048,Rights and privileges,libera
-Hanson2016_219,Vaga,B<e9>ja,Africa Proconsularis,Tunisia,9.182019,36.725536,Colonia,NA
-Hanson2016_219,Vaga,B<e9>ja,Africa Proconsularis,Tunisia,9.182019,36.725536,Municipium,NA
-Hanson2016_219,Vaga,B<e9>ja,Africa Proconsularis,Tunisia,9.182019,36.725536,Rights and privileges,libera
-Hanson2016_219,Vaga,B<e9>ja,Africa Proconsularis,Tunisia,9.182019,36.725536,Rights and privileges,ius Latii?
+Hanson2016_219,Vaga,Béja,Africa Proconsularis,Tunisia,9.182019,36.725536,Colonia,NA
+Hanson2016_219,Vaga,Béja,Africa Proconsularis,Tunisia,9.182019,36.725536,Municipium,NA
+Hanson2016_219,Vaga,Béja,Africa Proconsularis,Tunisia,9.182019,36.725536,Rights and privileges,libera
+Hanson2016_219,Vaga,Béja,Africa Proconsularis,Tunisia,9.182019,36.725536,Rights and privileges,ius Latii?
 Hanson2016_220,Vallis,Henchir Sidi Median,Africa Proconsularis,Tunisia,9.750001,36.750001,Colonia,NA
 Hanson2016_220,Vallis,Henchir Sidi Median,Africa Proconsularis,Tunisia,9.750001,36.750001,Municipium,NA
 Hanson2016_221,Zama Regia,Seba Biar,Africa Proconsularis,Tunisia,9.285786,36.111664,Colonia,NA
@@ -375,33 +375,33 @@ Hanson2016_240,Petra,Petra,Arabia,Jordan,35.442275,30.328981,Provincial capital,
 Hanson2016_241,Philippopolis (Arabia),Shahba,Arabia,Syria,36.627525,32.853765,Colonia,NA
 Hanson2016_242,Saccaea,Unknown,Arabia,Syria,36.697835,32.896794,NA,NA
 Hanson2016_243,Abydus,Nara Burnu,Asia,Turkey,26.416868,40.194977,Rights and privileges,libera
-Hanson2016_244,Acmonia,Ahat K<f6>y<fc>,Asia,Turkey,29.773954,38.659698,NA,NA
+Hanson2016_244,Acmonia,Ahat Köyü,Asia,Turkey,29.773954,38.659698,NA,NA
 Hanson2016_245,Adramyttium,Edremit,Asia,Turkey,26.947793,39.500301,Conventus capital,NA
 Hanson2016_245,Adramyttium,Edremit,Asia,Turkey,26.947793,39.500301,Metropolis capital,NA
 Hanson2016_246,Aegae,Nemrutkale,Asia,Turkey,27.168362,38.825064,Rights and privileges,libera
-Hanson2016_247,Aezanis,<c7>avdarhisar,Asia,Turkey,29.61965,39.193569,NA,NA
-Hanson2016_248,Alabanda,Do?anyurt,Asia,Turkey,27.985429,37.591796,Conventus capital,NA
-Hanson2016_248,Alabanda,Do?anyurt,Asia,Turkey,27.985429,37.591796,Metropolis capital,NA
-Hanson2016_248,Alabanda,Do?anyurt,Asia,Turkey,27.985429,37.591796,Rights and privileges,libera
-Hanson2016_248,Alabanda,Do?anyurt,Asia,Turkey,27.985429,37.591796,Rights and privileges,immunis
+Hanson2016_247,Aezanis,Çavdarhisar,Asia,Turkey,29.61965,39.193569,NA,NA
+Hanson2016_248,Alabanda,Doğanyurt,Asia,Turkey,27.985429,37.591796,Conventus capital,NA
+Hanson2016_248,Alabanda,Doğanyurt,Asia,Turkey,27.985429,37.591796,Metropolis capital,NA
+Hanson2016_248,Alabanda,Doğanyurt,Asia,Turkey,27.985429,37.591796,Rights and privileges,libera
+Hanson2016_248,Alabanda,Doğanyurt,Asia,Turkey,27.985429,37.591796,Rights and privileges,immunis
 Hanson2016_249,Alexandria (Asia),Stambul,Asia,Turkey,26.154749,39.756473,Colonia,NA
 Hanson2016_249,Alexandria (Asia),Stambul,Asia,Turkey,26.154749,39.756473,Rights and privileges,libera
 Hanson2016_249,Alexandria (Asia),Stambul,Asia,Turkey,26.154749,39.756473,Rights and privileges,ius Romanum
 Hanson2016_249,Alexandria (Asia),Stambul,Asia,Turkey,26.154749,39.756473,Rights and privileges,ius Italicum
 Hanson2016_250,Alinda,Demircideresi,Asia,Turkey,27.83048,37.560831,NA,NA
-Hanson2016_251,Amorium,Hisark<f6>y,Asia,Turkey,31.320619,39.035611,NA,NA
+Hanson2016_251,Amorium,Hisarköy,Asia,Turkey,31.320619,39.035611,NA,NA
 Hanson2016_252,Amyzon,Mazi n Kalesi,Asia,Turkey,27.690896,37.59888,Rights and privileges,libera
 Hanson2016_253,Antiochia (Asia),Kuyucak,Asia,Turkey,28.579354,37.871365,NA,NA
 Hanson2016_254,Aphrodisias,Geyre,Asia,Turkey,28.723436,37.708402,Colonia?,NA
 Hanson2016_254,Aphrodisias,Geyre,Asia,Turkey,28.723436,37.708402,Metropolis capital,NA
 Hanson2016_254,Aphrodisias,Geyre,Asia,Turkey,28.723436,37.708402,Rights and privileges,foederata
 Hanson2016_255,Apollonia (Asia) (1),Yeniji,Asia,Turkey,28.956451,38.048649,NA,NA
-Hanson2016_256,Apollonia (Asia) (2),G<f6>lyaz?,Asia,Turkey,28.684113,40.174987,Rights and privileges,stipendiaria
+Hanson2016_256,Apollonia (Asia) (2),Gölyazı,Asia,Turkey,28.684113,40.174987,Rights and privileges,stipendiaria
 Hanson2016_257,Assus,Behramkale,Asia,Turkey,26.336667,39.490556,NA,NA
 Hanson2016_258,Astypalaea,Chora,Asia,Greece,26.350463,36.544912,Rights and privileges,foederata
 Hanson2016_258,Astypalaea,Chora,Asia,Greece,26.350463,36.544912,Rights and privileges,libera
 Hanson2016_259,Bargylia,Varvil,Asia,Turkey,27.588037,37.195779,Rights and privileges,libera
-Hanson2016_260,Blaundus,S<fc>l<fc>menli,Asia,Turkey,29.209771,38.357291,NA,NA
+Hanson2016_260,Blaundus,Sülümenli,Asia,Turkey,29.209771,38.357291,NA,NA
 Hanson2016_261,Castabus,Pazarlik,Asia,Turkey,28.176816,36.787594,NA,NA
 Hanson2016_262,Caunus,Dalyan,Asia,Turkey,28.621505,36.825754,Rights and privileges,libera
 Hanson2016_262,Caunus,Dalyan,Asia,Turkey,28.621505,36.825754,Rights and privileges,libera
@@ -409,7 +409,7 @@ Hanson2016_263,Cedreae,Unknown,Asia,Turkey,30.88416,38.946418,NA,NA
 Hanson2016_264,Celaenae,Dinar,Asia,Turkey,30.15853,38.076044,Conventus capital,NA
 Hanson2016_264,Celaenae,Dinar,Asia,Turkey,30.15853,38.076044,Metropolis capital,NA
 Hanson2016_265,Ceramus,Oren,Asia,Turkey,27.956217,37.041728,NA,NA
-Hanson2016_266,Clazomenae,Klaz<fc>men,Asia,Turkey,26.770558,38.361462,NA,NA
+Hanson2016_266,Clazomenae,Klazümen,Asia,Turkey,26.770558,38.361462,NA,NA
 Hanson2016_267,Cnidus,Cnidus,Asia,Turkey,27.683943,36.732481,Rights and privileges,foederata
 Hanson2016_268,Colophon,Degirmendere,Asia,Turkey,27.200838,38.002389,NA,NA
 Hanson2016_269,Colossae,Honaz,Asia,Turkey,29.229382,37.786887,NA,NA
@@ -430,29 +430,29 @@ Hanson2016_278,Euhippe,Dalama,Asia,Turkey,28.086631,37.787596,NA,NA
 Hanson2016_279,Euromus,Ayakli,Asia,Turkey,27.673196,37.378355,NA,NA
 Hanson2016_280,Halicarnassus,Bodrum,Asia,Turkey,27.421615,37.040071,Rights and privileges,libera
 Hanson2016_281,Harpasa,Unknown,Asia,Turkey,28.348056,37.805833,NA,NA
-Hanson2016_282,Heraclea (Asia) (1),Bafa G<f6>l<fc>,Asia,Turkey,27.526883,37.502431,NA,NA
+Hanson2016_282,Heraclea (Asia) (1),Bafa Gölü,Asia,Turkey,27.526883,37.502431,NA,NA
 Hanson2016_283,Heraclea (Asia) (2),Vakif,Asia,Turkey,28.994099,37.628189,NA,NA
 Hanson2016_284,Hierapolis,Pamukkale,Asia,Turkey,29.131799,37.917505,Metropolis capital,NA
 Hanson2016_285,Hydissa,Karacahisar,Asia,Turkey,27.806175,37.150552,NA,NA
 Hanson2016_286,Hyllarima,Mesevle and Kapraklar,Asia,Turkey,28.348219,37.501643,NA,NA
 Hanson2016_287,Iasus,Kiyi Kilacik,Asia,Turkey,27.582133,37.277521,Rights and privileges,libera
-Hanson2016_288,Ilium,H?sarl?k,Asia,Turkey,26.257773,39.953869,Rights and privileges,libera et immunis
+Hanson2016_288,Ilium,Hısarlık,Asia,Turkey,26.257773,39.953869,Rights and privileges,libera et immunis
 Hanson2016_289,Lampsacus,Lamsaki,Asia,Turkey,26.699162,40.346685,Colonia,NA
 Hanson2016_289,Lampsacus,Lamsaki,Asia,Turkey,26.699162,40.346685,Metropolis capital,NA
 Hanson2016_289,Lampsacus,Lamsaki,Asia,Turkey,26.699162,40.346685,Rights and privileges,ius Romanum
 Hanson2016_289,Lampsacus,Lamsaki,Asia,Turkey,26.699162,40.346685,Rights and privileges,libera
-Hanson2016_290,Laodicea (Asia),Eskihisar and Gon<e7>al?,Asia,Turkey,29.114376,37.84108,Conventus capital,NA
-Hanson2016_290,Laodicea (Asia),Eskihisar and Gon<e7>al?,Asia,Turkey,29.114376,37.84108,Metropolis capital,NA
+Hanson2016_290,Laodicea (Asia),Eskihisar and Gonçalı,Asia,Turkey,29.114376,37.84108,Conventus capital,NA
+Hanson2016_290,Laodicea (Asia),Eskihisar and Gonçalı,Asia,Turkey,29.114376,37.84108,Metropolis capital,NA
 Hanson2016_291,Larisa (Asia),Buruncuk,Asia,Turkey,26.147559,39.615744,NA,NA
 Hanson2016_292,Lebedus,Kisik,Asia,Turkey,26.967317,38.072781,NA,NA
 Hanson2016_293,Lindus,Lindos,Asia,Greece,28.08776,36.091362,NA,NA
 Hanson2016_294,Magnesia (Asia) (1),Tekin,Asia,Turkey,27.524647,37.84779,NA,NA
 Hanson2016_295,Magnesia (Asia) (2),Manisa,Asia,Turkey,27.425833,38.613056,Rights and privileges,libera
 Hanson2016_296,Methymna,Mithymna,Asia,Greece,26.176097,39.36722,Rights and privileges,foederata
-Hanson2016_297,Metropolis,Yenik<f6>y,Asia,Turkey,30.628155,39.171334,Metropolis capital,NA
+Hanson2016_297,Metropolis,Yeniköy,Asia,Turkey,30.628155,39.171334,Metropolis capital,NA
 Hanson2016_298,Miletus,Balat,Asia,Turkey,27.27621,37.531791,Rights and privileges,libera
-Hanson2016_299,Mylasa,Mil<e2>s,Asia,Turkey,27.78165,37.31714,Rights and privileges,libera
-Hanson2016_300,Myndus,G<fc>m<fc>sl<fc>k,Asia,Turkey,27.233275,37.052928,NA,NA
+Hanson2016_299,Mylasa,Milâs,Asia,Turkey,27.78165,37.31714,Rights and privileges,libera
+Hanson2016_300,Myndus,Gümüslük,Asia,Turkey,27.233275,37.052928,NA,NA
 Hanson2016_301,Myrina,Sandarlik,Asia,Turkey,26.985537,38.840097,NA,NA
 Hanson2016_302,Mytilene,Mytilini,Asia,Greece,26.555374,39.107893,Rights and privileges,libera
 Hanson2016_303,Nysa,Sultanhisar,Asia,Turkey,28.144999,37.903405,NA,NA
@@ -464,8 +464,8 @@ Hanson2016_305,Pergamum,Bergama,Asia,Turkey,27.185314,39.12984,Conventus capital
 Hanson2016_305,Pergamum,Bergama,Asia,Turkey,27.185314,39.12984,Metropolis capital,NA
 Hanson2016_305,Pergamum,Bergama,Asia,Turkey,27.185314,39.12984,Rights and privileges,ius Romanum?
 Hanson2016_306,Pessinus,Sivrihisar,Asia,Turkey,31.551393,39.381063,NA,NA
-Hanson2016_307,Philadelphia (Asia),Ala?ehir,Asia,Turkey,28.516667,38.35,NA,NA
-Hanson2016_308,Phocaea,Fo<e7>a,Asia,Turkey,26.758728,38.672908,Rights and privileges,libera
+Hanson2016_307,Philadelphia (Asia),Alaşehir,Asia,Turkey,28.516667,38.35,NA,NA
+Hanson2016_308,Phocaea,Foça,Asia,Turkey,26.758728,38.672908,Rights and privileges,libera
 Hanson2016_309,Rhodus,Rhodes,Asia,Greece,28.227007,36.443235,Metropolis capital?,NA
 Hanson2016_309,Rhodus,Rhodes,Asia,Greece,28.227007,36.443235,Rights and privileges,foederata
 Hanson2016_310,Saettae,Sidas Kale,Asia,Turkey,28.624001,38.703021,NA,NA
@@ -479,9 +479,9 @@ Hanson2016_315,Smyrna,Izmir,Asia,Turkey,27.138709,38.418717,Conventus capital,NA
 Hanson2016_315,Smyrna,Izmir,Asia,Turkey,27.138709,38.418717,Metropolis capital,NA
 Hanson2016_315,Smyrna,Izmir,Asia,Turkey,27.138709,38.418717,Rights and privileges,libera
 Hanson2016_316,Stratonicaea,Eskihisar,Asia,Turkey,27.801765,39.142114,Rights and privileges,libera
-Hanson2016_317,Synnada,?uhut,Asia,Turkey,30.545083,38.535716,Conventus capital,NA
-Hanson2016_317,Synnada,?uhut,Asia,Turkey,30.545083,38.535716,Metropolis capital,NA
-Hanson2016_318,Teus,Si?acik,Asia,Turkey,26.785014,38.177262,NA,NA
+Hanson2016_317,Synnada,Şuhut,Asia,Turkey,30.545083,38.535716,Conventus capital,NA
+Hanson2016_317,Synnada,Şuhut,Asia,Turkey,30.545083,38.535716,Metropolis capital,NA
+Hanson2016_318,Teus,Siğacik,Asia,Turkey,26.785014,38.177262,NA,NA
 Hanson2016_319,Theangela,Etrim,Asia,Turkey,27.59493,37.044492,NA,NA
 Hanson2016_320,Thyatira,Akhisar,Asia,Turkey,27.840523,38.922933,Metropolis capital,NA
 Hanson2016_320,Thyatira,Akhisar,Asia,Turkey,27.840523,38.922933,Rights and privileges,libera
@@ -519,23 +519,23 @@ Hanson2016_334,Carteia,Cortijo de el Rocadillo,Baetica,Spain,-5.410359,36.183163
 Hanson2016_335,Cartima,Cartama,Baetica,Spain,-4.630741,36.711313,Municipium,NA
 Hanson2016_335,Cartima,Cartama,Baetica,Spain,-4.630741,36.711313,Rights and privileges,libera
 Hanson2016_335,Cartima,Cartama,Baetica,Spain,-4.630741,36.711313,Rights and privileges,ius Latii
-Hanson2016_336,Corduba,C<f3>rdoba,Baetica,Spain,-4.78025,37.88376,Colonia,NA
-Hanson2016_336,Corduba,C<f3>rdoba,Baetica,Spain,-4.78025,37.88376,Colonia?,NA
-Hanson2016_336,Corduba,C<f3>rdoba,Baetica,Spain,-4.78025,37.88376,Colonia?,NA
-Hanson2016_336,Corduba,C<f3>rdoba,Baetica,Spain,-4.78025,37.88376,Conventus capital,NA
-Hanson2016_336,Corduba,C<f3>rdoba,Baetica,Spain,-4.78025,37.88376,Provincial capital,NA
-Hanson2016_336,Corduba,C<f3>rdoba,Baetica,Spain,-4.78025,37.88376,Rights and privileges,ius Romanum
-Hanson2016_336,Corduba,C<f3>rdoba,Baetica,Spain,-4.78025,37.88376,Rights and privileges,ius Romanum
-Hanson2016_336,Corduba,C<f3>rdoba,Baetica,Spain,-4.78025,37.88376,Rights and privileges,ius Romanum
-Hanson2016_337,Gades,C<e1>diz,Baetica,Spain,-6.292409,36.529942,Colonia?,NA
-Hanson2016_337,Gades,C<e1>diz,Baetica,Spain,-6.292409,36.529942,Conventus capital,NA
-Hanson2016_337,Gades,C<e1>diz,Baetica,Spain,-6.292409,36.529942,Municipium?,NA
-Hanson2016_337,Gades,C<e1>diz,Baetica,Spain,-6.292409,36.529942,Municipium?,NA
-Hanson2016_337,Gades,C<e1>diz,Baetica,Spain,-6.292409,36.529942,Rights and privileges,ius Latii?
-Hanson2016_337,Gades,C<e1>diz,Baetica,Spain,-6.292409,36.529942,Rights and privileges,foederata
-Hanson2016_337,Gades,C<e1>diz,Baetica,Spain,-6.292409,36.529942,Rights and privileges,libera
-Hanson2016_337,Gades,C<e1>diz,Baetica,Spain,-6.292409,36.529942,Rights and privileges,ius Romanum?
-Hanson2016_337,Gades,C<e1>diz,Baetica,Spain,-6.292409,36.529942,Rights and privileges,ius Latii?
+Hanson2016_336,Corduba,Córdoba,Baetica,Spain,-4.78025,37.88376,Colonia,NA
+Hanson2016_336,Corduba,Córdoba,Baetica,Spain,-4.78025,37.88376,Colonia?,NA
+Hanson2016_336,Corduba,Córdoba,Baetica,Spain,-4.78025,37.88376,Colonia?,NA
+Hanson2016_336,Corduba,Córdoba,Baetica,Spain,-4.78025,37.88376,Conventus capital,NA
+Hanson2016_336,Corduba,Córdoba,Baetica,Spain,-4.78025,37.88376,Provincial capital,NA
+Hanson2016_336,Corduba,Córdoba,Baetica,Spain,-4.78025,37.88376,Rights and privileges,ius Romanum
+Hanson2016_336,Corduba,Córdoba,Baetica,Spain,-4.78025,37.88376,Rights and privileges,ius Romanum
+Hanson2016_336,Corduba,Córdoba,Baetica,Spain,-4.78025,37.88376,Rights and privileges,ius Romanum
+Hanson2016_337,Gades,Cádiz,Baetica,Spain,-6.292409,36.529942,Colonia?,NA
+Hanson2016_337,Gades,Cádiz,Baetica,Spain,-6.292409,36.529942,Conventus capital,NA
+Hanson2016_337,Gades,Cádiz,Baetica,Spain,-6.292409,36.529942,Municipium?,NA
+Hanson2016_337,Gades,Cádiz,Baetica,Spain,-6.292409,36.529942,Municipium?,NA
+Hanson2016_337,Gades,Cádiz,Baetica,Spain,-6.292409,36.529942,Rights and privileges,ius Latii?
+Hanson2016_337,Gades,Cádiz,Baetica,Spain,-6.292409,36.529942,Rights and privileges,foederata
+Hanson2016_337,Gades,Cádiz,Baetica,Spain,-6.292409,36.529942,Rights and privileges,libera
+Hanson2016_337,Gades,Cádiz,Baetica,Spain,-6.292409,36.529942,Rights and privileges,ius Romanum?
+Hanson2016_337,Gades,Cádiz,Baetica,Spain,-6.292409,36.529942,Rights and privileges,ius Latii?
 Hanson2016_338,Hasta Regia,Mesas de Asta,Baetica,Spain,-6.172572,36.788002,Colonia,NA
 Hanson2016_338,Hasta Regia,Mesas de Asta,Baetica,Spain,-6.172572,36.788002,Rights and privileges,ius Romanum
 Hanson2016_339,Hispalis,Seville,Baetica,Spain,-5.996676,37.394112,Colonia,NA
@@ -543,14 +543,14 @@ Hanson2016_339,Hispalis,Seville,Baetica,Spain,-5.996676,37.394112,Colonia,NA
 Hanson2016_339,Hispalis,Seville,Baetica,Spain,-5.996676,37.394112,Conventus capital,NA
 Hanson2016_339,Hispalis,Seville,Baetica,Spain,-5.996676,37.394112,Rights and privileges,ius Romanum
 Hanson2016_339,Hispalis,Seville,Baetica,Spain,-5.996676,37.394112,Rights and privileges,ius Romanum
-Hanson2016_340,Ilipa,Alcal<e1> del R<ed>o,Baetica,Spain,-5.978254,37.518215,Colonia?,NA
-Hanson2016_340,Ilipa,Alcal<e1> del R<ed>o,Baetica,Spain,-5.978254,37.518215,Municipium,NA
-Hanson2016_340,Ilipa,Alcal<e1> del R<ed>o,Baetica,Spain,-5.978254,37.518215,Rights and privileges,ius Latii?
-Hanson2016_340,Ilipa,Alcal<e1> del R<ed>o,Baetica,Spain,-5.978254,37.518215,Rights and privileges,ius Romanum?
+Hanson2016_340,Ilipa,Alcalá del Río,Baetica,Spain,-5.978254,37.518215,Colonia?,NA
+Hanson2016_340,Ilipa,Alcalá del Río,Baetica,Spain,-5.978254,37.518215,Municipium,NA
+Hanson2016_340,Ilipa,Alcalá del Río,Baetica,Spain,-5.978254,37.518215,Rights and privileges,ius Latii?
+Hanson2016_340,Ilipa,Alcalá del Río,Baetica,Spain,-5.978254,37.518215,Rights and privileges,ius Romanum?
 Hanson2016_341,Iliturgi,Cortijo de Maquiz,Baetica,Spain,-3.80883,37.968343,Municipium,NA
 Hanson2016_342,Illiberi,Elvira,Baetica,Spain,-3.597934,37.176484,Municipium?,NA
-Hanson2016_343,Iluro,Matar<f3>,Baetica,Spain,-4.706673,36.822609,Municipium,NA
-Hanson2016_343,Iluro,Matar<f3>,Baetica,Spain,-4.706673,36.822609,Rights and privileges,ius Latii?
+Hanson2016_343,Iluro,Mataró,Baetica,Spain,-4.706673,36.822609,Municipium,NA
+Hanson2016_343,Iluro,Mataró,Baetica,Spain,-4.706673,36.822609,Rights and privileges,ius Latii?
 Hanson2016_344,Iptuci,Torreparedones,Baetica,Spain,-4.377602,37.755932,Colonia,NA
 Hanson2016_344,Iptuci,Torreparedones,Baetica,Spain,-4.377602,37.755932,Rights and privileges,immunis
 Hanson2016_344,Iptuci,Torreparedones,Baetica,Spain,-4.377602,37.755932,Rights and privileges,ius Romanum
@@ -568,8 +568,8 @@ Hanson2016_348,Iulia Traducta,Algericas,Baetica,Spain,-5.447744,36.129768,Rights
 Hanson2016_349,Laepia,Rio de las Piedras?,Baetica,Spain,-6.1064870000000004,36.695801,Municipium,NA
 Hanson2016_349,Laepia,Rio de las Piedras?,Baetica,Spain,-6.1064870000000004,36.695801,Rights and privileges,ius Latii
 Hanson2016_350,Lucurgentum,Moron de la Frontera,Baetica,Spain,-5.451969,37.122328,Colonia?,NA
-Hanson2016_351,Malaca,M<e1>laga,Baetica,Spain,-4.416667,36.716667,Municipium,NA
-Hanson2016_351,Malaca,M<e1>laga,Baetica,Spain,-4.416667,36.716667,Rights and privileges,foederata
+Hanson2016_351,Malaca,Málaga,Baetica,Spain,-4.416667,36.716667,Municipium,NA
+Hanson2016_351,Malaca,Málaga,Baetica,Spain,-4.416667,36.716667,Rights and privileges,foederata
 Hanson2016_352,Munigua,Mulva,Baetica,Spain,-5.740734,37.713343,Municipium,NA
 Hanson2016_352,Munigua,Mulva,Baetica,Spain,-5.740734,37.713343,Rights and privileges,ius Latii
 Hanson2016_353,Nabrissa,Lebrija,Baetica,Spain,-6.078402,36.919505,Colonia?,NA
@@ -585,9 +585,9 @@ Hanson2016_360,Salpensa,Cortijo de la Coria,Baetica,Spain,-5.781537,37.181513,Mu
 Hanson2016_361,Segida,Unknown,Baetica,Spain,-6.589301,38.378494,Municipium,NA
 Hanson2016_361,Segida,Unknown,Baetica,Spain,-6.589301,38.378494,Rights and privileges,ius Latii
 Hanson2016_362,Seria,Jerez de los Caballeros,Baetica,Spain,-6.771094,38.319329,Colonia?,NA
-Hanson2016_363,Sexi,Almu<f1><e9>car,Baetica,Spain,-3.690736,36.73454,Colonia?,NA
+Hanson2016_363,Sexi,Almuñécar,Baetica,Spain,-3.690736,36.73454,Colonia?,NA
 Hanson2016_364,Siarum,Torre del Aguila,Baetica,Spain,-5.751603,37.052397,Municipium,NA
-Hanson2016_365,Singilia Barba,Cortijo del Castill<f3>n,Baetica,Spain,-4.630364,37.032488,Rights and privileges,libera
+Hanson2016_365,Singilia Barba,Cortijo del Castillón,Baetica,Spain,-4.630364,37.032488,Rights and privileges,libera
 Hanson2016_366,Suel,Fuengirola,Baetica,Spain,-4.628919,36.525435,Municipium,NA
 Hanson2016_367,Tucci,Martos,Baetica,Spain,-3.966243,37.722761,Colonia,NA
 Hanson2016_367,Tucci,Martos,Baetica,Spain,-3.966243,37.722761,Rights and privileges,ius Romanum
@@ -616,7 +616,7 @@ Hanson2016_376,Apamea (Bithynia et Pontus),Mudanya,Bithynia et Pontus,Turkey,28.
 Hanson2016_376,Apamea (Bithynia et Pontus),Mudanya,Bithynia et Pontus,Turkey,28.891104,40.368487,Rights and privileges,ius Romanum?
 Hanson2016_376,Apamea (Bithynia et Pontus),Mudanya,Bithynia et Pontus,Turkey,28.891104,40.368487,Rights and privileges,ius Italicum
 Hanson2016_376,Apamea (Bithynia et Pontus),Mudanya,Bithynia et Pontus,Turkey,28.891104,40.368487,Rights and privileges,ius Romanum?
-Hanson2016_377,Chalcedon,Kad?k<f6>y,Bithynia et Pontus,Turkey,29.026779,40.985381,Rights and privileges,libera
+Hanson2016_377,Chalcedon,Kadıköy,Bithynia et Pontus,Turkey,29.026779,40.985381,Rights and privileges,libera
 Hanson2016_378,Nicaea,Iznik,Bithynia et Pontus,Turkey,29.71967,40.427979,Metropolis capital,NA
 Hanson2016_378,Nicaea,Iznik,Bithynia et Pontus,Turkey,29.71967,40.427979,Metropolis capital,NA
 Hanson2016_379,Nicomedia,Ismit,Bithynia et Pontus,Turkey,29.919877,40.760677,Colonia,NA
@@ -627,7 +627,7 @@ Hanson2016_381,Sinope,Sinop,Bithynia et Pontus,Turkey,35.148025,42.026184,Coloni
 Hanson2016_381,Sinope,Sinop,Bithynia et Pontus,Turkey,35.148025,42.026184,Colonia,NA
 Hanson2016_381,Sinope,Sinop,Bithynia et Pontus,Turkey,35.148025,42.026184,Rights and privileges,ius Romanum
 Hanson2016_381,Sinope,Sinop,Bithynia et Pontus,Turkey,35.148025,42.026184,Rights and privileges,ius Romanum
-Hanson2016_382,Tius,Hisar<f6>n<fc>,Bithynia et Pontus,Turkey,32.055366,41.558273,NA,NA
+Hanson2016_382,Tius,Hisarönü,Bithynia et Pontus,Turkey,32.055366,41.558273,NA,NA
 Hanson2016_383,Aquae Sulis,Bath,Britannia,United Kingdom,-2.357454,51.381428,NA,NA
 Hanson2016_384,Caesaromagus (Britannia),Chelmsford,Britannia,France,0.469708,51.735814,Civitas capital,Failed
 Hanson2016_385,Calleva,Silchester,Britannia,United Kingdom,-1.082817,51.357148,Civitas capital,NA
@@ -665,12 +665,12 @@ Hanson2016_409,Viroconium,Wroxeter,Britannia,United Kingdom,-2.644025,52.674302,
 Hanson2016_410,Amasia,Amasya,Cappadocia et Galatia,Turkey,35.828747,40.659003,Metropolis capital,NA
 Hanson2016_411,Ancyra,Ankara,Cappadocia et Galatia,Turkey,32.860416,39.941901,Metropolis capital,NA
 Hanson2016_411,Ancyra,Ankara,Cappadocia et Galatia,Turkey,32.860416,39.941901,Provincial capital,NA
-Hanson2016_412,Antiochia (Cappadocia et Galatia),Yalva<e7>,Cappadocia et Galatia,Turkey,31.178933,38.300733,Colonia,NA
-Hanson2016_412,Antiochia (Cappadocia et Galatia),Yalva<e7>,Cappadocia et Galatia,Turkey,31.178933,38.300733,Metropolis capital?,NA
-Hanson2016_412,Antiochia (Cappadocia et Galatia),Yalva<e7>,Cappadocia et Galatia,Turkey,31.178933,38.300733,Rights and privileges,ius Romanum
+Hanson2016_412,Antiochia (Cappadocia et Galatia),Yalvaç,Cappadocia et Galatia,Turkey,31.178933,38.300733,Colonia,NA
+Hanson2016_412,Antiochia (Cappadocia et Galatia),Yalvaç,Cappadocia et Galatia,Turkey,31.178933,38.300733,Metropolis capital?,NA
+Hanson2016_412,Antiochia (Cappadocia et Galatia),Yalvaç,Cappadocia et Galatia,Turkey,31.178933,38.300733,Rights and privileges,ius Romanum
 Hanson2016_413,Archelais,Aksaray,Cappadocia et Galatia,Turkey,34.035252,38.37844,Colonia,NA
-Hanson2016_414,Comana,?ar,Cappadocia et Galatia,Turkey,36.325893,38.329523,Colonia,NA
-Hanson2016_415,Faustinopolis,Ba?mak<e7>?,Cappadocia et Galatia,Turkey,34.744323,37.654291,Colonia,NA
+Hanson2016_414,Comana,Şar,Cappadocia et Galatia,Turkey,36.325893,38.329523,Colonia,NA
+Hanson2016_415,Faustinopolis,Başmakçı,Cappadocia et Galatia,Turkey,34.744323,37.654291,Colonia,NA
 Hanson2016_416,Germa,Babadat,Cappadocia et Galatia,Turkey,31.616172,39.511421,Colonia,NA
 Hanson2016_417,Iconium,Konya,Cappadocia et Galatia,Turkey,32.492331,37.872202,Colonia,NA
 Hanson2016_417,Iconium,Konya,Cappadocia et Galatia,Turkey,32.492331,37.872202,Colonia,NA
@@ -690,16 +690,16 @@ Hanson2016_423,Nicopolis (Cappadocia (et Galatia)),Yeilyayla,Cappadocia et Galat
 Hanson2016_423,Nicopolis (Cappadocia (et Galatia)),Yeilyayla,Cappadocia et Galatia,Turkey,38.143534,40.148557,Metropolis capital,NA
 Hanson2016_423,Nicopolis (Cappadocia (et Galatia)),Yeilyayla,Cappadocia et Galatia,Turkey,38.143534,40.148557,Rights and privileges,ius Italicum
 Hanson2016_424,Sebaste,Sivas,Cappadocia et Galatia,Turkey,37.016663,39.749999,Metropolis capital,NA
-Hanson2016_425,Tavium,B<fc>y<fc>knefes,Cappadocia et Galatia,Turkey,34.456374,39.878991,NA,NA
+Hanson2016_425,Tavium,Büyüknefes,Cappadocia et Galatia,Turkey,34.456374,39.878991,NA,NA
 Hanson2016_426,Tyana,Kemerhisan,Cappadocia et Galatia,Turkey,34.572513,37.82365,Colonia,NA
 Hanson2016_426,Tyana,Kemerhisan,Cappadocia et Galatia,Turkey,34.572513,37.82365,Rights and privileges,libera
 Hanson2016_427,Zela,Zile,Cappadocia et Galatia,Turkey,35.883334,40.3,NA,NA
 Hanson2016_428,Amathus,Amathos,Cilicia et Cyprus,Cyprus,33.14383,34.712175,NA,NA
 Hanson2016_429,Anazarbus,Anavarza,Cilicia et Cyprus,Turkey,35.906017,37.260375,Metropolis capital,NA
 Hanson2016_430,Anemurium,Eski Anemur,Cilicia et Cyprus,Turkey,32.802995,36.022713,NA,NA
-Hanson2016_431,Antiochia (Cilicia et Cyprus) (1),Endi?eg<fc>ney,Cilicia et Cyprus,Turkey,32.429139,36.153303,NA,NA
-Hanson2016_432,Antiochia (Cilicia et Cyprus) (2),Karata?,Cilicia et Cyprus,Turkey,35.4852,36.756188,Colonia,NA
-Hanson2016_433,Augusta Cilicia,G<fc>be,Cilicia et Cyprus,Turkey,35.344088,37.245212,NA,NA
+Hanson2016_431,Antiochia (Cilicia et Cyprus) (1),Endişegüney,Cilicia et Cyprus,Turkey,32.429139,36.153303,NA,NA
+Hanson2016_432,Antiochia (Cilicia et Cyprus) (2),Karataş,Cilicia et Cyprus,Turkey,35.4852,36.756188,Colonia,NA
+Hanson2016_433,Augusta Cilicia,Gübe,Cilicia et Cyprus,Turkey,35.344088,37.245212,NA,NA
 Hanson2016_434,Carpasium,Haghios Philon,Cilicia et Cyprus,Northern Cyprus,34.368147,35.62473,NA,NA
 Hanson2016_435,Castabala,Denlizi,Cilicia et Cyprus,Turkey,36.177154,37.160372,NA,NA
 Hanson2016_436,Celenderis,Gilindire,Cilicia et Cyprus,Turkey,33.318,36.1427,NA,NA
@@ -709,13 +709,13 @@ Hanson2016_439,Claudiopolis,Mut,Cilicia et Cyprus,Turkey,33.436874,36.645318,Col
 Hanson2016_439,Claudiopolis,Mut,Cilicia et Cyprus,Turkey,33.436874,36.645318,Municipium,NA
 Hanson2016_440,Colybrassus,Ayasofya,Cilicia et Cyprus,Turkey,31.962405,36.732198,NA,NA
 Hanson2016_441,Coracesium,Alanya,Cilicia et Cyprus,Turkey,31.985995,36.549144,NA,NA
-Hanson2016_442,Coropissus,Da? Pazari,Cilicia et Cyprus,Turkey,33.4775,36.818889,NA,NA
+Hanson2016_442,Coropissus,Dağ Pazari,Cilicia et Cyprus,Turkey,33.4775,36.818889,NA,NA
 Hanson2016_443,Curium,Kourion,Cilicia et Cyprus,United Kingdom,32.8877,34.6642,NA,NA
-Hanson2016_444,Diocaesarea,Uzuncabur<e7>,Cilicia et Cyprus,Turkey,33.924665,36.580481,Metropolis capital?,NA
+Hanson2016_444,Diocaesarea,Uzuncaburç,Cilicia et Cyprus,Turkey,33.924665,36.580481,Metropolis capital?,NA
 Hanson2016_445,Drepanum (Cilicia et Cyprus),Unknown,Cilicia et Cyprus,Cyprus,32.320817,34.902248,NA,NA
-Hanson2016_446,Elaeussa,Aya?,Cilicia et Cyprus,Turkey,34.178741,36.494212,Rights and privileges,libera
+Hanson2016_446,Elaeussa,Ayaş,Cilicia et Cyprus,Turkey,34.178741,36.494212,Rights and privileges,libera
 Hanson2016_447,Idalium,Dali,Cilicia et Cyprus,Cyprus,33.424817,35.01609,NA,NA
-Hanson2016_448,Laertes,Cebelire?,Cilicia et Cyprus,Turkey,32.159407,36.514825,NA,NA
+Hanson2016_448,Laertes,Cebelireş,Cilicia et Cyprus,Turkey,32.159407,36.514825,NA,NA
 Hanson2016_449,Lapethus,Lampousa,Cilicia et Cyprus,Northern Cyprus,33.202109,35.350592,NA,NA
 Hanson2016_450,Laranda,Karaman,Cilicia et Cyprus,Turkey,33.221587,37.178451,Metropolis capital,NA
 Hanson2016_451,Marion,Polis,Cilicia et Cyprus,Cyprus,32.436032,35.037245,NA,NA
@@ -723,13 +723,13 @@ Hanson2016_452,Mopsuestia,Yilan Kale,Cilicia et Cyprus,Turkey,35.619478,36.95778
 Hanson2016_453,Neapaphus,Kato Paphos,Cilicia et Cyprus,Cyprus,32.406593,34.757212,Metropolis capital?,NA
 Hanson2016_453,Neapaphus,Kato Paphos,Cilicia et Cyprus,Cyprus,32.406593,34.757212,Provincial capital,NA
 Hanson2016_454,Oeniandus,Oiniandos,Cilicia et Cyprus,Turkey,36.154415,36.961892,NA,NA
-Hanson2016_455,Olba,U?ura,Cilicia et Cyprus,Turkey,33.956686,36.585191,Colonia,NA
+Hanson2016_455,Olba,Uğura,Cilicia et Cyprus,Turkey,33.956686,36.585191,Colonia,NA
 Hanson2016_456,Palaepaphus,Kouklia,Cilicia et Cyprus,Cyprus,32.573711,34.707147,NA,NA
-Hanson2016_457,Pompeiopolis,Ta?k<f6>pr<fc>,Cilicia et Cyprus,Turkey,34.603922,36.80888,Metropolis capital,NA
+Hanson2016_457,Pompeiopolis,Taşköprü,Cilicia et Cyprus,Turkey,34.603922,36.80888,Metropolis capital,NA
 Hanson2016_458,Salamis,Salamis,Cilicia et Cyprus,Northern Cyprus,33.902516,35.1848,Metropolis capital,NA
 Hanson2016_459,Seleucia (Cilicia et Cyprus),Silifke,Cilicia et Cyprus,Turkey,33.921463,36.379274,Metropolis capital,NA
 Hanson2016_459,Seleucia (Cilicia et Cyprus),Silifke,Cilicia et Cyprus,Turkey,33.921463,36.379274,Rights and privileges,libera
-Hanson2016_460,Selinus,Gazipa?a,Cilicia et Cyprus,Turkey,32.283277,36.258467,Colonia,NA
+Hanson2016_460,Selinus,Gazipaşa,Cilicia et Cyprus,Turkey,32.283277,36.258467,Colonia,NA
 Hanson2016_461,Soli,Karavostasi,Cilicia et Cyprus,Northern Cyprus,32.811959,35.139761,Rights and privileges,libera
 Hanson2016_462,Syedra,Sedra,Cilicia et Cyprus,Turkey,32.147655,36.446061,NA,NA
 Hanson2016_463,Tarsus,Tarsus,Cilicia et Cyprus,Turkey,34.892717,36.917425,Conventus capital,NA
@@ -737,8 +737,8 @@ Hanson2016_463,Tarsus,Tarsus,Cilicia et Cyprus,Turkey,34.892717,36.917425,Metrop
 Hanson2016_463,Tarsus,Tarsus,Cilicia et Cyprus,Turkey,34.892717,36.917425,Provincial capital,NA
 Hanson2016_463,Tarsus,Tarsus,Cilicia et Cyprus,Turkey,34.892717,36.917425,Rights and privileges,libera et immunis
 Hanson2016_463,Tarsus,Tarsus,Cilicia et Cyprus,Turkey,34.892717,36.917425,Rights and privileges,stipendiaria
-Hanson2016_464,Aleria,Al<e9>ria,Corsica et Sardinia,France,9.512141,42.102958,Colonia,NA
-Hanson2016_464,Aleria,Al<e9>ria,Corsica et Sardinia,France,9.512141,42.102958,Rights and privileges,ius Romanum
+Hanson2016_464,Aleria,Aléria,Corsica et Sardinia,France,9.512141,42.102958,Colonia,NA
+Hanson2016_464,Aleria,Aléria,Corsica et Sardinia,France,9.512141,42.102958,Rights and privileges,ius Romanum
 Hanson2016_465,Caralis,Cagliari,Corsica et Sardinia,Italy,9.104227,39.220021,Municipium,NA
 Hanson2016_465,Caralis,Cagliari,Corsica et Sardinia,Italy,9.104227,39.220021,Provincial capital,NA
 Hanson2016_465,Caralis,Cagliari,Corsica et Sardinia,Italy,9.104227,39.220021,Rights and privileges,ius Latii
@@ -762,9 +762,9 @@ Hanson2016_478,Cisamus,Kastelli Kisamou,Creta et Cyrenaica,Greece,23.660727,35.4
 Hanson2016_479,Cnossus,Knossos,Creta et Cyrenaica,Greece,25.160724,35.298843,Colonia,NA
 Hanson2016_479,Cnossus,Knossos,Creta et Cyrenaica,Greece,25.160724,35.298843,Rights and privileges,ius Romanum
 Hanson2016_480,Cydonea,Khania,Creta et Cyrenaica,Greece,24.01869,35.515775,Rights and privileges,libera
-Hanson2016_481,Cyrene,A<ef>n Shahat,Creta et Cyrenaica,Libya,21.854404,32.820182,City of the Libyan Pentapolis,NA
-Hanson2016_481,Cyrene,A<ef>n Shahat,Creta et Cyrenaica,Libya,21.854404,32.820182,Colonia?,NA
-Hanson2016_481,Cyrene,A<ef>n Shahat,Creta et Cyrenaica,Libya,21.854404,32.820182,Metropolis capital,NA
+Hanson2016_481,Cyrene,Aïn Shahat,Creta et Cyrenaica,Libya,21.854404,32.820182,City of the Libyan Pentapolis,NA
+Hanson2016_481,Cyrene,Aïn Shahat,Creta et Cyrenaica,Libya,21.854404,32.820182,Colonia?,NA
+Hanson2016_481,Cyrene,Aïn Shahat,Creta et Cyrenaica,Libya,21.854404,32.820182,Metropolis capital,NA
 Hanson2016_482,Gortyna,Kainourgiou,Creta et Cyrenaica,Greece,24.946944,35.06272,Provincial capital,NA
 Hanson2016_483,Hadrianopolis (Cyrenaica),Driana,Creta et Cyrenaica,Libya,20.3075,32.358,NA,NA
 Hanson2016_484,Hierapytna,Ierapetra,Creta et Cyrenaica,Greece,25.736874,35.008189,NA,NA
@@ -782,9 +782,9 @@ Hanson2016_492,Apulum (1),Weissenburg,Dacia,Romania,23.572665,46.069003,Municipi
 Hanson2016_492,Apulum (1),Weissenburg,Dacia,Romania,23.572665,46.069003,Provincial capital?,NA
 Hanson2016_493,Apulum (2),Weissenburg,Dacia,Romania,23.572315,46.066695,Colonia,NA
 Hanson2016_493,Apulum (2),Weissenburg,Dacia,Romania,23.572315,46.066695,Municipium,NA
-Hanson2016_494,Dierna,Or?ova,Dacia,Romania,22.407645,44.738264,Colonia,NA
-Hanson2016_494,Dierna,Or?ova,Dacia,Romania,22.407645,44.738264,Municipium,NA
-Hanson2016_495,Micia,Ve?el,Dacia,Romania,22.797945,45.902042,NA,NA
+Hanson2016_494,Dierna,Orşova,Dacia,Romania,22.407645,44.738264,Colonia,NA
+Hanson2016_494,Dierna,Orşova,Dacia,Romania,22.407645,44.738264,Municipium,NA
+Hanson2016_495,Micia,Veţel,Dacia,Romania,22.797945,45.902042,NA,NA
 Hanson2016_496,Napoca,Cluj,Dacia,Romania,23.60429,46.776306,Colonia,NA
 Hanson2016_496,Napoca,Cluj,Dacia,Romania,23.60429,46.776306,Municipium,NA
 Hanson2016_496,Napoca,Cluj,Dacia,Romania,23.60429,46.776306,Provincial capital,NA
@@ -794,9 +794,9 @@ Hanson2016_497,Porolissum,Moigrad,Dacia,Romania,23.126667,47.230278,Provincial c
 Hanson2016_498,Potaissa,Turda,Dacia,Romania,23.772393,46.570265,Colonia,NA
 Hanson2016_498,Potaissa,Turda,Dacia,Romania,23.772393,46.570265,Municipium,NA
 Hanson2016_498,Potaissa,Turda,Dacia,Romania,23.772393,46.570265,Rights and privileges,ius Italicum
-Hanson2016_499,Romula,Re?ca,Dacia,Romania,24.39625,44.174152,Colonia,NA
-Hanson2016_499,Romula,Re?ca,Dacia,Romania,24.39625,44.174152,Municipium,NA
-Hanson2016_499,Romula,Re?ca,Dacia,Romania,24.39625,44.174152,Provincial capital,NA
+Hanson2016_499,Romula,Reşca,Dacia,Romania,24.39625,44.174152,Colonia,NA
+Hanson2016_499,Romula,Reşca,Dacia,Romania,24.39625,44.174152,Municipium,NA
+Hanson2016_499,Romula,Reşca,Dacia,Romania,24.39625,44.174152,Provincial capital,NA
 Hanson2016_500,Sarmizegetusa,Hunedoara,Dacia,Romania,22.809406,45.509997,Colonia,NA
 Hanson2016_500,Sarmizegetusa,Hunedoara,Dacia,Romania,22.809406,45.509997,Metropolis capital,NA
 Hanson2016_500,Sarmizegetusa,Hunedoara,Dacia,Romania,22.809406,45.509997,Provincial capital,NA
@@ -809,8 +809,8 @@ Hanson2016_503,Acruvium,Kotor,Dalmatia,Montenegro,18.767302,42.421537,Rights and
 Hanson2016_503,Acruvium,Kotor,Dalmatia,Montenegro,18.767302,42.421537,Rights and privileges,ius Latii
 Hanson2016_504,Aenona,Nin,Dalmatia,Croatia,15.18415,44.243529,Municipium,NA
 Hanson2016_504,Aenona,Nin,Dalmatia,Croatia,15.18415,44.243529,Rights and privileges,ius Latii?
-Hanson2016_505,Aequum,?itluk,Dalmatia,Croatia,16.655704,43.739278,Colonia,NA
-Hanson2016_505,Aequum,?itluk,Dalmatia,Croatia,16.655704,43.739278,Rights and privileges,ius Romanum
+Hanson2016_505,Aequum,Čitluk,Dalmatia,Croatia,16.655704,43.739278,Colonia,NA
+Hanson2016_505,Aequum,Čitluk,Dalmatia,Croatia,16.655704,43.739278,Rights and privileges,ius Romanum
 Hanson2016_506,Alveria,Gradina,Dalmatia,Croatia,15.823192,44.045358,Municipium,NA
 Hanson2016_507,Ansium,Cvijina Gradina,Dalmatia,Croatia,15.665413,44.178837,Municipium?,NA
 Hanson2016_508,Arba,Rab,Dalmatia,Croatia,14.760889,44.755761,Municipium,NA
@@ -824,7 +824,7 @@ Hanson2016_513,Baloie,Sipovo,Dalmatia,Bosnia and Herzegovina,17.090799,44.282804
 Hanson2016_514,Benzavaticum,Mostar,Dalmatia,Bosnia and Herzegovina,18.5,43.500001,Municipium,NA
 Hanson2016_515,Bistua Nova,Bugojno,Dalmatia,Bosnia and Herzegovina,17.437348,44.053454,Municipium,NA
 Hanson2016_516,Blandona,Stabanj,Dalmatia,Croatia,15.501534,43.986045,Municipium,NA
-Hanson2016_517,Burnum,Ivo<9a>evci,Dalmatia,Croatia,15.993626,44.031704,Municipium,NA
+Hanson2016_517,Burnum,Ivoševci,Dalmatia,Croatia,15.993626,44.031704,Municipium,NA
 Hanson2016_518,Butua,Budva,Dalmatia,Montenegro,18.8425,42.288056,Colonia?,NA
 Hanson2016_518,Butua,Budva,Dalmatia,Montenegro,18.8425,42.288056,Municipium?,NA
 Hanson2016_518,Butua,Budva,Dalmatia,Montenegro,18.8425,42.288056,Rights and privileges,ius Latii?
@@ -833,7 +833,7 @@ Hanson2016_520,Corinium,Karin,Dalmatia,Croatia,15.633505,44.104528,Municipium,NA
 Hanson2016_521,Crexa,Cres,Dalmatia,Croatia,14.397461,44.856809,Municipium,NA
 Hanson2016_522,Curicum,Krk,Dalmatia,Croatia,14.573373,45.026157,Municipium,NA
 Hanson2016_522,Curicum,Krk,Dalmatia,Croatia,14.573373,45.026157,Rights and privileges,ius Italicum
-Hanson2016_523,Delminium,Bor?ani,Dalmatia,Bosnia and Herzegovina,17.225719,43.72076,Municipium,NA
+Hanson2016_523,Delminium,Borčani,Dalmatia,Bosnia and Herzegovina,17.225719,43.72076,Municipium,NA
 Hanson2016_524,Diluntum,Stolac,Dalmatia,Bosnia and Herzegovina,17.958448,43.078729,Municipium,NA
 Hanson2016_524,Diluntum,Stolac,Dalmatia,Bosnia and Herzegovina,17.958448,43.078729,Rights and privileges,ius Latii?
 Hanson2016_525,Doclea,Dukljia,Dalmatia,Montenegro,19.265596,42.468229,Municipium,NA
@@ -841,7 +841,7 @@ Hanson2016_526,Domavium,Gradina,Dalmatia,Bosnia and Herzegovina,19.36267,44.1439
 Hanson2016_526,Domavium,Gradina,Dalmatia,Bosnia and Herzegovina,19.36267,44.143981,Municipium,NA
 Hanson2016_527,Epidaurum,Cavtat,Dalmatia,Croatia,18.216409,42.582593,Colonia,NA
 Hanson2016_527,Epidaurum,Cavtat,Dalmatia,Croatia,18.216409,42.582593,Rights and privileges,ius Romanum
-Hanson2016_528,Fulfinium,Omi<9a>alj,Dalmatia,Croatia,14.554038,45.211779,Municipium,NA
+Hanson2016_528,Fulfinium,Omišalj,Dalmatia,Croatia,14.554038,45.211779,Municipium,NA
 Hanson2016_529,Iader,Zadar,Dalmatia,Croatia,15.224674,44.115526,Colonia,NA
 Hanson2016_529,Iader,Zadar,Dalmatia,Croatia,15.224674,44.115526,Colonia,NA
 Hanson2016_529,Iader,Zadar,Dalmatia,Croatia,15.224674,44.115526,Rights and privileges,ius Romanum
@@ -852,15 +852,15 @@ Hanson2016_530,Issa,Vis,Dalmatia,Croatia,16.184086,43.061568,Rights and privileg
 Hanson2016_530,Issa,Vis,Dalmatia,Croatia,16.184086,43.061568,Rights and privileges,libera
 Hanson2016_530,Issa,Vis,Dalmatia,Croatia,16.184086,43.061568,Rights and privileges,immunis
 Hanson2016_531,Leusaba,Bjelajce,Dalmatia,Bosnia and Herzegovina,17.083953,44.416993,Municipium?,NA
-Hanson2016_532,Lissus,Lezh<eb>,Dalmatia,Albania,19.64367,41.785984,Colonia?,NA
-Hanson2016_532,Lissus,Lezh<eb>,Dalmatia,Albania,19.64367,41.785984,Municipium?,NA
-Hanson2016_532,Lissus,Lezh<eb>,Dalmatia,Albania,19.64367,41.785984,Rights and privileges,ius Latii?
+Hanson2016_532,Lissus,Lezhë,Dalmatia,Albania,19.64367,41.785984,Colonia?,NA
+Hanson2016_532,Lissus,Lezhë,Dalmatia,Albania,19.64367,41.785984,Municipium?,NA
+Hanson2016_532,Lissus,Lezhë,Dalmatia,Albania,19.64367,41.785984,Rights and privileges,ius Latii?
 Hanson2016_533,Lopsica,Sv. Juraj,Dalmatia,Croatia,14.92,44.928868,Municipium,NA
 Hanson2016_534,Magnum,Umljanovic,Dalmatia,Croatia,16.31337,43.793599,Municipium,NA
 Hanson2016_535,Malvesia,Skelani,Dalmatia,Serbia,19.568865,43.969954,Municipium,NA
 Hanson2016_536,Metulum,Vinicica,Dalmatia,Croatia,15.299752,45.209371,Municipium,NA
-Hanson2016_537,Municipium S<85>,Komini,Dalmatia,Montenegro,19.358333,43.356667,Colonia?,NA
-Hanson2016_537,Municipium S<85>,Komini,Dalmatia,Montenegro,19.358333,43.356667,Municipium,NA
+Hanson2016_537,Municipium S…,Komini,Dalmatia,Montenegro,19.358333,43.356667,Colonia?,NA
+Hanson2016_537,Municipium S…,Komini,Dalmatia,Montenegro,19.358333,43.356667,Municipium,NA
 Hanson2016_538,Narona,Narenta,Dalmatia,Bosnia and Herzegovina,17.61342,43.063722,Colonia,NA
 Hanson2016_538,Narona,Narenta,Dalmatia,Bosnia and Herzegovina,17.61342,43.063722,Conventus capital,NA
 Hanson2016_538,Narona,Narenta,Dalmatia,Bosnia and Herzegovina,17.61342,43.063722,Rights and privileges,ius Romanum
@@ -875,7 +875,7 @@ Hanson2016_542,Ortoplinia,Stinica,Dalmatia,Croatia,14.89265,44.717576,Municipium
 Hanson2016_542,Ortoplinia,Stinica,Dalmatia,Croatia,14.89265,44.717576,Rights and privileges,ius Latii?
 Hanson2016_543,Raetinium,Golubic,Dalmatia,Bosnia and Herzegovina,15.938378,44.781037,Municipium,NA
 Hanson2016_544,Rider,Danilo,Dalmatia,Croatia,16.055704,43.700462,Municipium,NA
-Hanson2016_545,Ris<85>,Rogatica,Dalmatia,Bosnia and Herzegovina,19.004323,43.8017,Colonia?,NA
+Hanson2016_545,Ris…,Rogatica,Dalmatia,Bosnia and Herzegovina,19.004323,43.8017,Colonia?,NA
 Hanson2016_546,Risinium,Risan,Dalmatia,Montenegro,18.694988,42.514718,Colonia?,NA
 Hanson2016_546,Risinium,Risan,Dalmatia,Montenegro,18.694988,42.514718,Municipium?,NA
 Hanson2016_546,Risinium,Risan,Dalmatia,Montenegro,18.694988,42.514718,Rights and privileges,immunis
@@ -886,13 +886,13 @@ Hanson2016_547,Salona,Solin,Dalmatia,Croatia,16.48323,43.539485,Conventus capita
 Hanson2016_547,Salona,Solin,Dalmatia,Croatia,16.48323,43.539485,Provincial capital,NA
 Hanson2016_547,Salona,Solin,Dalmatia,Croatia,16.48323,43.539485,Rights and privileges,ius Romanum
 Hanson2016_547,Salona,Solin,Dalmatia,Croatia,16.48323,43.539485,Rights and privileges,ius Romanum
-Hanson2016_548,Salvium,Glamo?,Dalmatia,Bosnia and Herzegovina,16.751098,44.048361,Municipium,NA
+Hanson2016_548,Salvium,Glamoč,Dalmatia,Bosnia and Herzegovina,16.751098,44.048361,Municipium,NA
 Hanson2016_549,Scardona,Skradin,Dalmatia,Croatia,15.923047,43.817902,Conventus capital,NA
 Hanson2016_549,Scardona,Skradin,Dalmatia,Croatia,15.923047,43.817902,Municipium,NA
-Hanson2016_550,Scodra,Shkod<eb>r,Dalmatia,Albania,19.522997,42.066252,Colonia,NA
-Hanson2016_550,Scodra,Shkod<eb>r,Dalmatia,Albania,19.522997,42.066252,Conventus capital,NA
-Hanson2016_550,Scodra,Shkod<eb>r,Dalmatia,Albania,19.522997,42.066252,Municipium,NA
-Hanson2016_550,Scodra,Shkod<eb>r,Dalmatia,Albania,19.522997,42.066252,Rights and privileges,ius Latii?
+Hanson2016_550,Scodra,Shkodër,Dalmatia,Albania,19.522997,42.066252,Colonia,NA
+Hanson2016_550,Scodra,Shkodër,Dalmatia,Albania,19.522997,42.066252,Conventus capital,NA
+Hanson2016_550,Scodra,Shkodër,Dalmatia,Albania,19.522997,42.066252,Municipium,NA
+Hanson2016_550,Scodra,Shkodër,Dalmatia,Albania,19.522997,42.066252,Rights and privileges,ius Latii?
 Hanson2016_551,Senia,Senj,Dalmatia,Croatia,14.900878,44.990559,Colonia?,NA
 Hanson2016_551,Senia,Senj,Dalmatia,Croatia,14.900878,44.990559,Municipium?,NA
 Hanson2016_551,Senia,Senj,Dalmatia,Croatia,14.900878,44.990559,Rights and privileges,ius Romanum
@@ -935,11 +935,11 @@ Hanson2016_571,Lugdunum Convenarum,S. Bertrand de Comminges,Gallia Aquitania,Fra
 Hanson2016_571,Lugdunum Convenarum,S. Bertrand de Comminges,Gallia Aquitania,France,0.573699,43.02753,Colonia,NA
 Hanson2016_571,Lugdunum Convenarum,S. Bertrand de Comminges,Gallia Aquitania,France,0.573699,43.02753,Rights and privileges,ius Italicum
 Hanson2016_572,Mediolanum (Gallia Aquitania),Saintes,Gallia Aquitania,France,-0.641006,45.745105,Civitas capital,NA
-Hanson2016_573,Ratiatum,Rez<e9>,Gallia Aquitania,France,-1.546694,47.183971,NA,NA
+Hanson2016_573,Ratiatum,Rezé,Gallia Aquitania,France,-1.546694,47.183971,NA,NA
 Hanson2016_574,Segodunum,Rodez,Gallia Aquitania,France,2.573786,44.351011,Civitas capital,NA
 Hanson2016_575,Unknown (2),Civaux,Gallia Aquitania,France,0.664866,46.444209,NA,NA
-Hanson2016_576,Vesunna,P<e9>rigueux,Gallia Aquitania,France,0.721994,45.183546,Civitas capital,NA
-Hanson2016_576,Vesunna,P<e9>rigueux,Gallia Aquitania,France,0.721994,45.183546,Rights and privileges,libera
+Hanson2016_576,Vesunna,Périgueux,Gallia Aquitania,France,0.721994,45.183546,Civitas capital,NA
+Hanson2016_576,Vesunna,Périgueux,Gallia Aquitania,France,0.721994,45.183546,Rights and privileges,libera
 Hanson2016_577,Vetus Pictavis,Vieux Poitiers,Gallia Aquitania,France,0.512508,46.761759,NA,NA
 Hanson2016_578,Vindobriga (Gallia Aquitania) (1),Vendeuvre du Poitou,Gallia Aquitania,France,0.309739,46.735447,NA,NA
 Hanson2016_579,Vindobriga (Gallia Aquitania) (2),Vendoeuvres en Brenne,Gallia Aquitania,France,1.354148,46.800928,NA,NA
@@ -985,9 +985,9 @@ Hanson2016_603,Augustodurum,Bayeux,Gallia Lugdunensis,France,-0.7052,49.275312,C
 Hanson2016_603,Augustodurum,Bayeux,Gallia Lugdunensis,France,-0.7052,49.275312,Rights and privileges,Peregrine
 Hanson2016_604,Augustomagus,Senlis,Gallia Lugdunensis,France,2.586016,49.206826,Civitas capital,NA
 Hanson2016_605,Autricum,Chartres,Gallia Lugdunensis,France,1.485618,48.445658,NA,NA
-Hanson2016_606,Cabillonum,Chalon sur Sa<f4>ne,Gallia Lugdunensis,France,4.856014,46.783372,NA,NA
+Hanson2016_606,Cabillonum,Chalon sur Saône,Gallia Lugdunensis,France,4.856014,46.783372,NA,NA
 Hanson2016_607,Caesarodunum,Tours,Gallia Lugdunensis,France,0.68666,47.395241,Civitas capital,NA
-Hanson2016_608,Cenabum,Orl<e9>ans,Gallia Lugdunensis,France,1.903976,47.901387,NA,NA
+Hanson2016_608,Cenabum,Orléans,Gallia Lugdunensis,France,1.903976,47.901387,NA,NA
 Hanson2016_609,Condate Redonum,Rennes,Gallia Lugdunensis,France,-1.679444,48.114722,Civitas capital?,NA
 Hanson2016_610,Cosedia,Coutances,Gallia Lugdunensis,France,-1.444318,49.048162,Civitas capital?,NA
 Hanson2016_611,Darioritum,Vannes,Gallia Lugdunensis,France,-2.75957,47.654797,Civitas capital,NA
@@ -1007,7 +1007,7 @@ Hanson2016_620,Lugdunum,Lyon,Gallia Lugdunensis,France,4.820576,45.759119,Provin
 Hanson2016_620,Lugdunum,Lyon,Gallia Lugdunensis,France,4.820576,45.759119,Rights and privileges,ius Romanum
 Hanson2016_621,Lutetia,Paris,Gallia Lugdunensis,France,2.351107,48.856515,Civitas capital,NA
 Hanson2016_622,Mediolanum (Gallia Lugdunensis) (1),Evreux,Gallia Lugdunensis,France,1.153484,49.021165,Civitas capital,NA
-Hanson2016_623,Mediolanum (Gallia Lugdunensis) (2),M<e2>lain,Gallia Lugdunensis,France,4.795725,47.327119,NA,NA
+Hanson2016_623,Mediolanum (Gallia Lugdunensis) (2),Mâlain,Gallia Lugdunensis,France,4.795725,47.327119,NA,NA
 Hanson2016_624,Noviodunum (Gallia Lugdunensis),Jublains,Gallia Lugdunensis,France,-0.494546,48.25736,Civitas capital,NA
 Hanson2016_625,Noviomagus (Gallia Lugdunensis),Lisieux,Gallia Lugdunensis,France,0.22653,49.14635,Civitas capital,NA
 Hanson2016_626,Rotomagus,Rouen,Gallia Lugdunensis,France,1.092623,49.441988,Civitas capital,NA
@@ -1050,10 +1050,10 @@ Hanson2016_641,Carpentorate,Carpentras,Gallia Narbonensis,France,5.048903,44.055
 Hanson2016_642,Consoranni,S. Lizier en Couseran,Gallia Narbonensis,France,1.138354,43.00174,Civitas capital,NA
 Hanson2016_643,Cularo,Grenoble,Gallia Narbonensis,France,5.726945,45.187778,Civitas capital,NA
 Hanson2016_644,Dea Augusta Vocontiorum,Die,Gallia Narbonensis,France,5.370462,44.752501,NA,NA
-Hanson2016_645,Forum Iulii (Gallia Narbonensis),Fr<e9>jus,Gallia Narbonensis,France,6.733551,43.433273,Colonia,NA
-Hanson2016_645,Forum Iulii (Gallia Narbonensis),Fr<e9>jus,Gallia Narbonensis,France,6.733551,43.433273,Colonia,NA
-Hanson2016_645,Forum Iulii (Gallia Narbonensis),Fr<e9>jus,Gallia Narbonensis,France,6.733551,43.433273,Rights and privileges,ius Romanum
-Hanson2016_645,Forum Iulii (Gallia Narbonensis),Fr<e9>jus,Gallia Narbonensis,France,6.733551,43.433273,Rights and privileges,ius Romanum?
+Hanson2016_645,Forum Iulii (Gallia Narbonensis),Fréjus,Gallia Narbonensis,France,6.733551,43.433273,Colonia,NA
+Hanson2016_645,Forum Iulii (Gallia Narbonensis),Fréjus,Gallia Narbonensis,France,6.733551,43.433273,Colonia,NA
+Hanson2016_645,Forum Iulii (Gallia Narbonensis),Fréjus,Gallia Narbonensis,France,6.733551,43.433273,Rights and privileges,ius Romanum
+Hanson2016_645,Forum Iulii (Gallia Narbonensis),Fréjus,Gallia Narbonensis,France,6.733551,43.433273,Rights and privileges,ius Romanum?
 Hanson2016_646,Genava,Geneva,Gallia Narbonensis,Switzerland,6.139959,46.20381,Rights and privileges,ius Latii?
 Hanson2016_647,Glanum,S. Remy de Provence,Gallia Narbonensis,France,4.8325,43.773889,Colonia?,NA
 Hanson2016_647,Glanum,S. Remy de Provence,Gallia Narbonensis,France,4.8325,43.773889,Rights and privileges,ius Latii?
@@ -1070,10 +1070,10 @@ Hanson2016_651,Narbo Martius,Narbonne,Gallia Narbonensis,France,3.004192,43.1835
 Hanson2016_651,Narbo Martius,Narbonne,Gallia Narbonensis,France,3.004192,43.183566,Provincial capital,NA
 Hanson2016_651,Narbo Martius,Narbonne,Gallia Narbonensis,France,3.004192,43.183566,Rights and privileges,ius Romanum
 Hanson2016_651,Narbo Martius,Narbonne,Gallia Narbonensis,France,3.004192,43.183566,Rights and privileges,ius Romanum?
-Hanson2016_652,Nemausus,N<ee>mes,Gallia Narbonensis,France,4.360864,43.83459,Civitas capital,NA
-Hanson2016_652,Nemausus,N<ee>mes,Gallia Narbonensis,France,4.360864,43.83459,Colonia,NA
-Hanson2016_652,Nemausus,N<ee>mes,Gallia Narbonensis,France,4.360864,43.83459,Provincial capital,NA
-Hanson2016_652,Nemausus,N<ee>mes,Gallia Narbonensis,France,4.360864,43.83459,Rights and privileges,ius Latii
+Hanson2016_652,Nemausus,Nîmes,Gallia Narbonensis,France,4.360864,43.83459,Civitas capital,NA
+Hanson2016_652,Nemausus,Nîmes,Gallia Narbonensis,France,4.360864,43.83459,Colonia,NA
+Hanson2016_652,Nemausus,Nîmes,Gallia Narbonensis,France,4.360864,43.83459,Provincial capital,NA
+Hanson2016_652,Nemausus,Nîmes,Gallia Narbonensis,France,4.360864,43.83459,Rights and privileges,ius Latii
 Hanson2016_653,Ruscino,Castel Roussillon,Gallia Narbonensis,France,2.913713,42.708051,Colonia,NA
 Hanson2016_653,Ruscino,Castel Roussillon,Gallia Narbonensis,France,2.913713,42.708051,Rights and privileges,ius Latii
 Hanson2016_654,Tolosa,Toulouse,Gallia Narbonensis,France,1.436275,43.61905,Civitas capital,NA
@@ -1125,7 +1125,7 @@ Hanson2016_675,Noviomagus (Germania Superior),Speyer,Germania Superior,Germany,8
 Hanson2016_676,Saletio,Seltz,Germania Superior,France,8.106202,48.895055,NA,NA
 Hanson2016_677,Sumelocenna,Rottenburg am Neckar,Germania Superior,Germany,8.93775,48.476887,Civitas capital,NA
 Hanson2016_678,Vertillum,Vertault,Germania Superior,France,4.352002,47.917449,NA,NA
-Hanson2016_679,Vesontio,Besan<e7>on,Germania Superior,France,6.022908,47.236543,Civitas capital,NA
+Hanson2016_679,Vesontio,Besançon,Germania Superior,France,6.022908,47.236543,Civitas capital,NA
 Hanson2016_680,Vindonissa,Brugg,Germania Superior,Switzerland,8.206654,47.47965,NA,NA
 Hanson2016_681,Acci,Guadix el Viejo,Hispania Tarraconensis,Spain,-3.134636,37.300309,Colonia,NA
 Hanson2016_681,Acci,Guadix el Viejo,Hispania Tarraconensis,Spain,-3.134636,37.300309,Rights and privileges,ius Romanum
@@ -1159,9 +1159,9 @@ Hanson2016_694,Castulo,Cazona,Hispania Tarraconensis,Spain,-3.623611,38.035833,M
 Hanson2016_694,Castulo,Cazona,Hispania Tarraconensis,Spain,-3.623611,38.035833,Rights and privileges,ius Latii
 Hanson2016_695,Celsa,Velilla del Ebro,Hispania Tarraconensis,Spain,-0.437853,41.374996,Colonia,NA
 Hanson2016_695,Celsa,Velilla del Ebro,Hispania Tarraconensis,Spain,-0.437853,41.374996,Rights and privileges,ius Romanum
-Hanson2016_696,Clunia,Pe<f1>alba de Castro,Hispania Tarraconensis,Spain,-3.370101,41.781171,Colonia,NA
-Hanson2016_696,Clunia,Pe<f1>alba de Castro,Hispania Tarraconensis,Spain,-3.370101,41.781171,Conventus capital,NA
-Hanson2016_696,Clunia,Pe<f1>alba de Castro,Hispania Tarraconensis,Spain,-3.370101,41.781171,Municipium,NA
+Hanson2016_696,Clunia,Peñalba de Castro,Hispania Tarraconensis,Spain,-3.370101,41.781171,Colonia,NA
+Hanson2016_696,Clunia,Peñalba de Castro,Hispania Tarraconensis,Spain,-3.370101,41.781171,Conventus capital,NA
+Hanson2016_696,Clunia,Peñalba de Castro,Hispania Tarraconensis,Spain,-3.370101,41.781171,Municipium,NA
 Hanson2016_697,Dertosa,Tortosa,Hispania Tarraconensis,Spain,0.520955,40.811004,Colonia?,NA
 Hanson2016_697,Dertosa,Tortosa,Hispania Tarraconensis,Spain,0.520955,40.811004,Municipium?,NA
 Hanson2016_697,Dertosa,Tortosa,Hispania Tarraconensis,Spain,0.520955,40.811004,Rights and privileges,ius Latii?
@@ -1170,12 +1170,12 @@ Hanson2016_698,Dianium,Unknown,Hispania Tarraconensis,Spain,0.107511,38.842795,M
 Hanson2016_698,Dianium,Unknown,Hispania Tarraconensis,Spain,0.107511,38.842795,Rights and privileges,stipendiaria
 Hanson2016_699,Ebusus,Ebusus,Hispania Tarraconensis,Spain,1.432264,38.90841,Municipium,NA
 Hanson2016_699,Ebusus,Ebusus,Hispania Tarraconensis,Spain,1.432264,38.90841,Rights and privileges,foederata
-Hanson2016_700,Emporiae,Emp<fa>ries,Hispania Tarraconensis,Spain,3.115825,42.133303,Colonia,NA
-Hanson2016_700,Emporiae,Emp<fa>ries,Hispania Tarraconensis,Spain,3.115825,42.133303,Municipium,NA
-Hanson2016_700,Emporiae,Emp<fa>ries,Hispania Tarraconensis,Spain,3.115825,42.133303,Rights and privileges,ius Romanum?
-Hanson2016_700,Emporiae,Emp<fa>ries,Hispania Tarraconensis,Spain,3.115825,42.133303,Rights and privileges,ius Latii?
-Hanson2016_701,Ercavica,Ca<f1>averuelas,Hispania Tarraconensis,Spain,-2.669748,40.433344,Municipium,NA
-Hanson2016_701,Ercavica,Ca<f1>averuelas,Hispania Tarraconensis,Spain,-2.669748,40.433344,Rights and privileges,ius Latii
+Hanson2016_700,Emporiae,Empúries,Hispania Tarraconensis,Spain,3.115825,42.133303,Colonia,NA
+Hanson2016_700,Emporiae,Empúries,Hispania Tarraconensis,Spain,3.115825,42.133303,Municipium,NA
+Hanson2016_700,Emporiae,Empúries,Hispania Tarraconensis,Spain,3.115825,42.133303,Rights and privileges,ius Romanum?
+Hanson2016_700,Emporiae,Empúries,Hispania Tarraconensis,Spain,3.115825,42.133303,Rights and privileges,ius Latii?
+Hanson2016_701,Ercavica,Cañaveruelas,Hispania Tarraconensis,Spain,-2.669748,40.433344,Municipium,NA
+Hanson2016_701,Ercavica,Cañaveruelas,Hispania Tarraconensis,Spain,-2.669748,40.433344,Rights and privileges,ius Latii
 Hanson2016_702,Flaviobriga,Portugalete,Hispania Tarraconensis,Spain,-3.219572,43.382784,Colonia,NA
 Hanson2016_703,Gerunda,Gerona,Hispania Tarraconensis,Spain,2.826608,41.987346,Municipium?,NA
 Hanson2016_703,Gerunda,Gerona,Hispania Tarraconensis,Spain,2.826608,41.987346,Rights and privileges,ius Latii
@@ -1186,10 +1186,10 @@ Hanson2016_705,Iamo,Ciudadela,Hispania Tarraconensis,Spain,3.861187,40.009209,Mu
 Hanson2016_705,Iamo,Ciudadela,Hispania Tarraconensis,Spain,3.861187,40.009209,Rights and privileges,ius Latii
 Hanson2016_705,Iamo,Ciudadela,Hispania Tarraconensis,Spain,3.861187,40.009209,Rights and privileges,stipendiaria
 Hanson2016_706,Iesso,Guissona,Hispania Tarraconensis,Spain,1.290233,41.787158,NA,NA
-Hanson2016_707,Ilerda,L<e9>rida,Hispania Tarraconensis,Spain,0.625938,41.615953,Colonia?,NA
-Hanson2016_707,Ilerda,L<e9>rida,Hispania Tarraconensis,Spain,0.625938,41.615953,Municipium,NA
-Hanson2016_707,Ilerda,L<e9>rida,Hispania Tarraconensis,Spain,0.625938,41.615953,Rights and privileges,ius Romanum?
-Hanson2016_707,Ilerda,L<e9>rida,Hispania Tarraconensis,Spain,0.625938,41.615953,Rights and privileges,ius Latii
+Hanson2016_707,Ilerda,Lérida,Hispania Tarraconensis,Spain,0.625938,41.615953,Colonia?,NA
+Hanson2016_707,Ilerda,Lérida,Hispania Tarraconensis,Spain,0.625938,41.615953,Municipium,NA
+Hanson2016_707,Ilerda,Lérida,Hispania Tarraconensis,Spain,0.625938,41.615953,Rights and privileges,ius Romanum?
+Hanson2016_707,Ilerda,Lérida,Hispania Tarraconensis,Spain,0.625938,41.615953,Rights and privileges,ius Latii
 Hanson2016_708,Ilici,Elche,Hispania Tarraconensis,Spain,-0.6953,38.2396,Colonia,NA
 Hanson2016_708,Ilici,Elche,Hispania Tarraconensis,Spain,-0.6953,38.2396,Rights and privileges,immunis
 Hanson2016_708,Ilici,Elche,Hispania Tarraconensis,Spain,-0.6953,38.2396,Rights and privileges,ius Romanum
@@ -1203,7 +1203,7 @@ Hanson2016_713,Lucentum,Tossal de Manises,Hispania Tarraconensis,Spain,-0.484794
 Hanson2016_713,Lucentum,Tossal de Manises,Hispania Tarraconensis,Spain,-0.484794,38.346018,Rights and privileges,ius Latii
 Hanson2016_714,Lucus Augusti (Hispania Tarraconensis),Lugo,Hispania Tarraconensis,Spain,-7.557873,43.011212,Colonia,NA
 Hanson2016_714,Lucus Augusti (Hispania Tarraconensis),Lugo,Hispania Tarraconensis,Spain,-7.557873,43.011212,Conventus capital,NA
-Hanson2016_715,Mago,Mah<f3>n,Hispania Tarraconensis,Spain,4.251253,39.895863,NA,NA
+Hanson2016_715,Mago,Mahón,Hispania Tarraconensis,Spain,4.251253,39.895863,NA,NA
 Hanson2016_716,Mirobriga (Hispania Tarraconensis),Capilla,Hispania Tarraconensis,Spain,-5.084293,38.82045,Municipium,NA
 Hanson2016_717,Numantia,Numancia,Hispania Tarraconensis,Spain,-2.444258,41.809586,NA,NA
 Hanson2016_718,Osca,Huesca,Hispania Tarraconensis,Spain,-0.408898,42.140102,Colonia?,NA
@@ -1220,7 +1220,7 @@ Hanson2016_721,Pollentia (Hispania Tarraconensis),Alcudia de Pollensa,Hispania T
 Hanson2016_722,Pompaelo,Pamplona,Hispania Tarraconensis,Spain,-1.6428,42.817,Municipium,NA
 Hanson2016_722,Pompaelo,Pamplona,Hispania Tarraconensis,Spain,-1.6428,42.817,Rights and privileges,stipendiaria
 Hanson2016_723,Roda,Rosas,Hispania Tarraconensis,Spain,3.169169,42.267489,NA,NA
-Hanson2016_724,Saetabis,J<e1>tiva,Hispania Tarraconensis,Spain,-0.515639,38.988847,Municipium,NA
+Hanson2016_724,Saetabis,Játiva,Hispania Tarraconensis,Spain,-0.515639,38.988847,Municipium,NA
 Hanson2016_725,Saguntum,Sagunto,Hispania Tarraconensis,Spain,-0.277795,39.676202,Colonia,NA
 Hanson2016_725,Saguntum,Sagunto,Hispania Tarraconensis,Spain,-0.277795,39.676202,Municipium,NA
 Hanson2016_725,Saguntum,Sagunto,Hispania Tarraconensis,Spain,-0.277795,39.676202,Municipium,NA
@@ -1658,7 +1658,7 @@ Hanson2016_932,Hispellum,Spello,Italia (VI Umbria and Ager Gallicus),Italy,12.67
 Hanson2016_933,Iguvium,Gubbio,Italia (VI Umbria and Ager Gallicus),Italy,12.580375,43.350411,Municipium,NA
 Hanson2016_933,Iguvium,Gubbio,Italia (VI Umbria and Ager Gallicus),Italy,12.580375,43.350411,Rights and privileges,foederata
 Hanson2016_934,Interamna Nahars,Terni,Italia (VI Umbria and Ager Gallicus),Italy,12.646781,42.560219,Municipium,NA
-Hanson2016_935,Matilica,Mat<e9>lica,Italia (VI Umbria and Ager Gallicus),Italy,13.008723,43.255867,Municipium,NA
+Hanson2016_935,Matilica,Matélica,Italia (VI Umbria and Ager Gallicus),Italy,13.008723,43.255867,Municipium,NA
 Hanson2016_936,Mevania,Bevagna,Italia (VI Umbria and Ager Gallicus),Italy,12.607281,42.931821,Municipium,NA
 Hanson2016_937,Mevaniola,Unknown,Italia (VI Umbria and Ager Gallicus),Italy,11.903398,43.983123,Municipium,NA
 Hanson2016_938,Narnia,Narni,Italia (VI Umbria and Ager Gallicus),Italy,12.51563,42.517602,Colonia,NA
@@ -1774,7 +1774,7 @@ Hanson2016_998,Sutrium,Sutri,Italia (VII Etruria),Italy,12.224259,42.241269,Colo
 Hanson2016_998,Sutrium,Sutri,Italia (VII Etruria),Italy,12.224259,42.241269,Municipium,NA
 Hanson2016_998,Sutrium,Sutri,Italia (VII Etruria),Italy,12.224259,42.241269,Rights and privileges,ius Latii
 Hanson2016_999,Tarquinii,Tarquinia,Italia (VII Etruria),Italy,11.758011,42.254051,Municipium,NA
-Hanson2016_1000,Tifernum Tiberinum,Citt<e0> di Castello,Italia (VII Etruria),Italy,12.243968,43.460874,Municipium,NA
+Hanson2016_1000,Tifernum Tiberinum,Città di Castello,Italia (VII Etruria),Italy,12.243968,43.460874,Municipium,NA
 Hanson2016_1001,Tuscana,Tuscania,Italia (VII Etruria),Italy,11.872307,42.417272,Municipium,NA
 Hanson2016_1002,Veii,Veio,Italia (VII Etruria),Italy,12.395451,42.021684,Colonia,NA
 Hanson2016_1002,Veii,Veio,Italia (VII Etruria),Italy,12.395451,42.021684,Municipium,NA
@@ -1890,7 +1890,7 @@ Hanson2016_1054,Iulium Carnicum,Zuglio,Italia (X Venetia et Histria),Italy,13.02
 Hanson2016_1055,Mantua,Mantova,Italia (X Venetia et Histria),Italy,10.794299,45.159243,Municipium,NA
 Hanson2016_1055,Mantua,Mantova,Italia (X Venetia et Histria),Italy,10.794299,45.159243,Rights and privileges,ius Latii
 Hanson2016_1055,Mantua,Mantova,Italia (X Venetia et Histria),Italy,10.794299,45.159243,Rights and privileges,ius Romanum?
-Hanson2016_1056,Nesactium,Viza?e,Italia (X Venetia et Histria),Croatia,13.969722,44.916667,Municipium,NA
+Hanson2016_1056,Nesactium,Vizače,Italia (X Venetia et Histria),Croatia,13.969722,44.916667,Municipium,NA
 Hanson2016_1057,Opitergum,Oderzo,Italia (X Venetia et Histria),Italy,12.490642,45.781115,Colonia,NA
 Hanson2016_1057,Opitergum,Oderzo,Italia (X Venetia et Histria),Italy,12.490642,45.781115,Municipium,NA
 Hanson2016_1058,Parentium,Porec,Italia (X Venetia et Histria),Croatia,13.597752,45.226697,Colonia,NA
@@ -1923,30 +1923,30 @@ Hanson2016_1073,Novaria,Novara,Italia (XI Transpadana),Italy,8.621834,45.446198,
 Hanson2016_1074,Ticinum,Pavia,Italia (XI Transpadana),Italy,9.155164,45.184912,Municipium,NA
 Hanson2016_1075,Vercellae,Vercelli,Italia (XI Transpadana),Italy,8.422795,45.325287,Municipium,NA
 Hanson2016_1076,Aeminium,Coimbra,Lusitania,Portugal,-8.415964,40.213267,NA,NA
-Hanson2016_1077,Augusta Emerita,M<e9>rida,Lusitania,Spain,-6.338496,38.915571,Colonia,NA
-Hanson2016_1077,Augusta Emerita,M<e9>rida,Lusitania,Spain,-6.338496,38.915571,Colonia,NA
-Hanson2016_1077,Augusta Emerita,M<e9>rida,Lusitania,Spain,-6.338496,38.915571,Conventus capital,NA
-Hanson2016_1077,Augusta Emerita,M<e9>rida,Lusitania,Spain,-6.338496,38.915571,Provincial capital,NA
-Hanson2016_1077,Augusta Emerita,M<e9>rida,Lusitania,Spain,-6.338496,38.915571,Rights and privileges,ius Romanum
+Hanson2016_1077,Augusta Emerita,Mérida,Lusitania,Spain,-6.338496,38.915571,Colonia,NA
+Hanson2016_1077,Augusta Emerita,Mérida,Lusitania,Spain,-6.338496,38.915571,Colonia,NA
+Hanson2016_1077,Augusta Emerita,Mérida,Lusitania,Spain,-6.338496,38.915571,Conventus capital,NA
+Hanson2016_1077,Augusta Emerita,Mérida,Lusitania,Spain,-6.338496,38.915571,Provincial capital,NA
+Hanson2016_1077,Augusta Emerita,Mérida,Lusitania,Spain,-6.338496,38.915571,Rights and privileges,ius Romanum
 Hanson2016_1078,Balsa,Tavira,Lusitania,Portugal,-7.649448,37.126277,Municipium,NA
 Hanson2016_1078,Balsa,Tavira,Lusitania,Portugal,-7.649448,37.126277,Rights and privileges,stipendiaria
 Hanson2016_1079,Caesarobriga,Talavera de la Reina,Lusitania,Spain,-4.832609,39.958228,Municipium,NA
 Hanson2016_1079,Caesarobriga,Talavera de la Reina,Lusitania,Spain,-4.832609,39.958228,Rights and privileges,stipendiaria
-Hanson2016_1080,Capera,C<e1>parra,Lusitania,Spain,-6.101091,40.166755,Rights and privileges,stipendiaria
+Hanson2016_1080,Capera,Cáparra,Lusitania,Spain,-6.101091,40.166755,Rights and privileges,stipendiaria
 Hanson2016_1081,Conimbriga,Condeixa a Velha,Lusitania,Portugal,-8.494923,40.099154,Municipium,NA
 Hanson2016_1082,Ebora,Evora,Lusitania,Portugal,-7.907296,38.572638,Municipium,NA
 Hanson2016_1082,Ebora,Evora,Lusitania,Portugal,-7.907296,38.572638,Rights and privileges,ius Latii
 Hanson2016_1083,Egitania,Idanha a Velha,Lusitania,Portugal,-7.144524,39.997054,Municipium,NA
 Hanson2016_1084,Lacimurga,Unknown,Lusitania,Spain,-5.461123,39.091793,Colonia?,NA
-Hanson2016_1085,Metellinum,Medell<ed>n,Lusitania,Spain,-5.958211,38.964642,Colonia,NA
-Hanson2016_1085,Metellinum,Medell<ed>n,Lusitania,Spain,-5.958211,38.964642,Colonia?,NA
-Hanson2016_1085,Metellinum,Medell<ed>n,Lusitania,Spain,-5.958211,38.964642,Rights and privileges,ius Romanum
-Hanson2016_1085,Metellinum,Medell<ed>n,Lusitania,Spain,-5.958211,38.964642,Rights and privileges,ius Romanum
-Hanson2016_1086,Mirobriga (Lusitania),Santiago do Cac<e9>m,Lusitania,Portugal,-8.683718,38.010169,NA,NA
-Hanson2016_1087,Myrtilis,M<e9>rtola,Lusitania,Portugal,-7.668795,37.634902,Municipium,NA
-Hanson2016_1087,Myrtilis,M<e9>rtola,Lusitania,Portugal,-7.668795,37.634902,Rights and privileges,ius Latii
-Hanson2016_1088,Norba Caesarina,C<e1>ceres,Lusitania,Spain,-6.38098,39.454368,Colonia,NA
-Hanson2016_1088,Norba Caesarina,C<e1>ceres,Lusitania,Spain,-6.38098,39.454368,Rights and privileges,ius Romanum
+Hanson2016_1085,Metellinum,Medellín,Lusitania,Spain,-5.958211,38.964642,Colonia,NA
+Hanson2016_1085,Metellinum,Medellín,Lusitania,Spain,-5.958211,38.964642,Colonia?,NA
+Hanson2016_1085,Metellinum,Medellín,Lusitania,Spain,-5.958211,38.964642,Rights and privileges,ius Romanum
+Hanson2016_1085,Metellinum,Medellín,Lusitania,Spain,-5.958211,38.964642,Rights and privileges,ius Romanum
+Hanson2016_1086,Mirobriga (Lusitania),Santiago do Cacém,Lusitania,Portugal,-8.683718,38.010169,NA,NA
+Hanson2016_1087,Myrtilis,Mértola,Lusitania,Portugal,-7.668795,37.634902,Municipium,NA
+Hanson2016_1087,Myrtilis,Mértola,Lusitania,Portugal,-7.668795,37.634902,Rights and privileges,ius Latii
+Hanson2016_1088,Norba Caesarina,Cáceres,Lusitania,Spain,-6.38098,39.454368,Colonia,NA
+Hanson2016_1088,Norba Caesarina,Cáceres,Lusitania,Spain,-6.38098,39.454368,Rights and privileges,ius Romanum
 Hanson2016_1089,Olisipo,Lisbon,Lusitania,Portugal,-9.145302,38.721227,Municipium,NA
 Hanson2016_1089,Olisipo,Lisbon,Lusitania,Portugal,-9.145302,38.721227,Rights and privileges,ius Latii?
 Hanson2016_1090,Ossonoba,Faro,Lusitania,Portugal,-7.935108,37.01535,NA,NA
@@ -1960,41 +1960,41 @@ Hanson2016_1093,Salmantica,Salamanca,Lusitania,Spain,-5.663087,40.964965,Municip
 Hanson2016_1094,Scallabis,Santarem,Lusitania,Portugal,-8.687059,39.236177,Colonia,NA
 Hanson2016_1094,Scallabis,Santarem,Lusitania,Portugal,-8.687059,39.236177,Conventus capital,NA
 Hanson2016_1094,Scallabis,Santarem,Lusitania,Portugal,-8.687059,39.236177,Rights and privileges,ius Romanum
-Hanson2016_1095,Unknown (4),Tr<f3>ia,Lusitania,Portugal,-8.903604,38.488819,NA,NA
+Hanson2016_1095,Unknown (4),Tróia,Lusitania,Portugal,-8.903604,38.488819,NA,NA
 Hanson2016_1096,Adada,Karabaulo,Lycia et Pamphylia,Turkey,30.986348,37.581776,Rights and privileges,libera
-Hanson2016_1097,Antiphellus,Ka?,Lycia et Pamphylia,Turkey,29.634935,36.199973,NA,NA
+Hanson2016_1097,Antiphellus,Kaş,Lycia et Pamphylia,Turkey,29.634935,36.199973,NA,NA
 Hanson2016_1098,Apollonia (Lycia et Pamphylia) (1),Olou Borlon,Lycia et Pamphylia,Turkey,30.456957,38.078272,NA,NA
-Hanson2016_1099,Apollonia (Lycia et Pamphylia) (2),Kilin<e7>li,Lycia et Pamphylia,Turkey,29.763668,36.186655,NA,NA
-Hanson2016_1100,Ariassus,<dc><e7>kap?,Lycia et Pamphylia,Turkey,30.470806,37.179694,NA,NA
-Hanson2016_1101,Arycanda,Aykiri<e7>ay,Lycia et Pamphylia,Turkey,30.048508000000002,36.513408,NA,NA
+Hanson2016_1099,Apollonia (Lycia et Pamphylia) (2),Kilinçli,Lycia et Pamphylia,Turkey,29.763668,36.186655,NA,NA
+Hanson2016_1100,Ariassus,Üçkapı,Lycia et Pamphylia,Turkey,30.470806,37.179694,NA,NA
+Hanson2016_1101,Arycanda,Aykiriçay,Lycia et Pamphylia,Turkey,30.048508000000002,36.513408,NA,NA
 Hanson2016_1102,Aspendus,Belkis,Lycia et Pamphylia,Turkey,31.169115,36.939472,NA,NA
 Hanson2016_1103,Attalea,Antalya,Lycia et Pamphylia,Turkey,30.705521,36.884284,Colonia,NA
 Hanson2016_1103,Attalea,Antalya,Lycia et Pamphylia,Turkey,30.705521,36.884284,Provincial capital,NA
 Hanson2016_1104,Attalea,Adala,Lycia et Pamphylia,Turkey,30.699969,36.89031,NA,NA
-Hanson2016_1105,Balbura,<c7><f6>lkayi?i,Lycia et Pamphylia,Turkey,29.602567,36.967055,NA,NA
+Hanson2016_1105,Balbura,Çölkayiği,Lycia et Pamphylia,Turkey,29.602567,36.967055,NA,NA
 Hanson2016_1106,Bubon,Ibecik,Lycia et Pamphylia,Turkey,29.415217,36.974003,NA,NA
-Hanson2016_1107,Cadyanda,<dc>z<fc>ml<fc>,Lycia et Pamphylia,Turkey,29.242155,36.725913,NA,NA
+Hanson2016_1107,Cadyanda,Üzümlü,Lycia et Pamphylia,Turkey,29.242155,36.725913,NA,NA
 Hanson2016_1108,Candyba,Gendevar,Lycia et Pamphylia,Turkey,29.666491,36.308363,NA,NA
-Hanson2016_1109,Cibyra,G<f6>lhisar,Lycia et Pamphylia,Turkey,29.489819,37.160008,Conventus capital,NA
-Hanson2016_1109,Cibyra,G<f6>lhisar,Lycia et Pamphylia,Turkey,29.489819,37.160008,Metropolis capital,NA
-Hanson2016_1110,Comama,Seref<f6>n<fc>,Lycia et Pamphylia,Turkey,30.3371,37.3213,Colonia,NA
-Hanson2016_1110,Comama,Seref<f6>n<fc>,Lycia et Pamphylia,Turkey,30.3371,37.3213,Rights and privileges,ius Romanum
+Hanson2016_1109,Cibyra,Gölhisar,Lycia et Pamphylia,Turkey,29.489819,37.160008,Conventus capital,NA
+Hanson2016_1109,Cibyra,Gölhisar,Lycia et Pamphylia,Turkey,29.489819,37.160008,Metropolis capital,NA
+Hanson2016_1110,Comama,Serefönü,Lycia et Pamphylia,Turkey,30.3371,37.3213,Colonia,NA
+Hanson2016_1110,Comama,Serefönü,Lycia et Pamphylia,Turkey,30.3371,37.3213,Rights and privileges,ius Romanum
 Hanson2016_1111,Corycus,Kizkalesi,Lycia et Pamphylia,Turkey,30.470547,36.436081,Rights and privileges,libera
 Hanson2016_1112,Corydalla,Haciveliler,Lycia et Pamphylia,Turkey,30.273841,36.371287,NA,NA
 Hanson2016_1113,Cremna,Amlik,Lycia et Pamphylia,Turkey,30.6911,37.500139,Colonia,NA
 Hanson2016_1113,Cremna,Amlik,Lycia et Pamphylia,Turkey,30.6911,37.500139,Rights and privileges,ius Romanum
 Hanson2016_1114,Cyaneae,Yavu,Lycia et Pamphylia,Turkey,29.822492,36.244673,NA,NA
-Hanson2016_1115,Gagae,Akta?,Lycia et Pamphylia,Turkey,30.350017,36.288646,NA,NA
-Hanson2016_1116,Idebessus,Koza?ac?,Lycia et Pamphylia,Turkey,30.202995,36.554976,NA,NA
+Hanson2016_1115,Gagae,Aktaş,Lycia et Pamphylia,Turkey,30.350017,36.288646,NA,NA
+Hanson2016_1116,Idebessus,Kozağacı,Lycia et Pamphylia,Turkey,30.202995,36.554976,NA,NA
 Hanson2016_1117,Limyra,Finike,Lycia et Pamphylia,Turkey,30.173168,36.344057,NA,NA
-Hanson2016_1118,Lydai,Kapi Da?i,Lycia et Pamphylia,Turkey,28.860181,36.614948,NA,NA
+Hanson2016_1118,Lydai,Kapi Daği,Lycia et Pamphylia,Turkey,28.860181,36.614948,NA,NA
 Hanson2016_1119,Milyas,Melli,Lycia et Pamphylia,Turkey,29.75,36.750001,NA,NA
 Hanson2016_1120,Myra,Demre,Lycia et Pamphylia,Turkey,30.014409,36.246429,Metropolis capital,NA
-Hanson2016_1121,Nisa,S<fc>tl?en,Lycia et Pamphylia,Turkey,29.633049,36.439231,NA,NA
+Hanson2016_1121,Nisa,Sütlğen,Lycia et Pamphylia,Turkey,29.633049,36.439231,NA,NA
 Hanson2016_1122,Oenoanda,Incealiler,Lycia et Pamphylia,Turkey,29.549677,36.809338,NA,NA
 Hanson2016_1123,Olbasa,Belenli,Lycia et Pamphylia,Turkey,30.005519,37.303875,Colonia,NA
 Hanson2016_1123,Olbasa,Belenli,Lycia et Pamphylia,Turkey,30.005519,37.303875,Rights and privileges,ius Romanum
-Hanson2016_1124,Olympus,Delikta?,Lycia et Pamphylia,Turkey,30.471532,36.387902,NA,NA
+Hanson2016_1124,Olympus,Deliktaş,Lycia et Pamphylia,Turkey,30.471532,36.387902,NA,NA
 Hanson2016_1125,Parlais,Unknown,Lycia et Pamphylia,Turkey,30.792102,38.014815,Colonia,NA
 Hanson2016_1125,Parlais,Unknown,Lycia et Pamphylia,Turkey,30.792102,38.014815,Rights and privileges,ius Romanum
 Hanson2016_1126,Patara,Kelemi,Lycia et Pamphylia,Turkey,29.319372,36.260957,Metropolis capital,NA
@@ -2005,20 +2005,20 @@ Hanson2016_1128,Perge,Aksu,Lycia et Pamphylia,Turkey,30.854072,36.960317,Provinc
 Hanson2016_1128,Perge,Aksu,Lycia et Pamphylia,Turkey,30.854072,36.960317,Rights and privileges,libera?
 Hanson2016_1129,Phaselis,Tekirova,Lycia et Pamphylia,Turkey,30.548712,36.52178,NA,NA
 Hanson2016_1130,Phellus,Felendai,Lycia et Pamphylia,Turkey,29.666308,36.24085,NA,NA
-Hanson2016_1131,Pinara,Minare K<f6>y<fc>,Lycia et Pamphylia,Turkey,29.240952,36.497572,NA,NA
+Hanson2016_1131,Pinara,Minare Köyü,Lycia et Pamphylia,Turkey,29.240952,36.497572,NA,NA
 Hanson2016_1132,Rhodiapolis,Kumluca,Lycia et Pamphylia,Turkey,30.267204,36.385704,NA,NA
 Hanson2016_1133,Sagalassus,Aglasun,Lycia et Pamphylia,Turkey,30.519188,37.67674,Rights and privileges,libera
 Hanson2016_1134,Seleucia (Lycia et Pamphylia),Selef,Lycia et Pamphylia,Turkey,30.632381,37.897296,NA,NA
 Hanson2016_1135,Selge,Selge,Lycia et Pamphylia,Turkey,31.127958,37.228159,NA,NA
 Hanson2016_1136,Side,Selimiye,Lycia et Pamphylia,Turkey,31.388793,36.766346,Metropolis capital,NA
 Hanson2016_1137,Sidyma,Dudurga Asari,Lycia et Pamphylia,Turkey,29.197819,36.409728,NA,NA
-Hanson2016_1138,Sillyum,Asar K<f6>y<fc>,Lycia et Pamphylia,Turkey,30.98638,36.990721,NA,NA
-Hanson2016_1139,Simena,Kalek<f6>y,Lycia et Pamphylia,Turkey,29.86135,36.190221,NA,NA
+Hanson2016_1138,Sillyum,Asar Köyü,Lycia et Pamphylia,Turkey,30.98638,36.990721,NA,NA
+Hanson2016_1139,Simena,Kaleköy,Lycia et Pamphylia,Turkey,29.86135,36.190221,NA,NA
 Hanson2016_1140,Telmessus,Fethiye,Lycia et Pamphylia,Turkey,29.116464,36.621188,Metropolis capital,NA
 Hanson2016_1141,Tenedos,Bozcaada,Lycia et Pamphylia,Turkey,30.647928,36.885834,NA,NA
-Hanson2016_1142,Termessus,G<fc>ll<fc>k Da?,Lycia et Pamphylia,Turkey,30.464722,36.9825,Rights and privileges,libera
+Hanson2016_1142,Termessus,Güllük Dağ,Lycia et Pamphylia,Turkey,30.464722,36.9825,Rights and privileges,libera
 Hanson2016_1143,Tlos,Dilver,Lycia et Pamphylia,Turkey,29.420789,36.553889,NA,NA
-Hanson2016_1144,Trebenna,<c7>a?larca,Lycia et Pamphylia,Turkey,30.461845,36.876066,Colonia,NA
+Hanson2016_1144,Trebenna,Çağlarca,Lycia et Pamphylia,Turkey,30.461845,36.876066,Colonia,NA
 Hanson2016_1145,Xanthus,Kinik,Lycia et Pamphylia,Turkey,29.319885,36.356552,NA,NA
 Hanson2016_1146,Amantia,Klos,Macedonia,Albania,19.61777,40.467945,Rights and privileges,libera
 Hanson2016_1147,Amphipolis,Amfipoli,Macedonia,Greece,23.84013,40.821057,Rights and privileges,libera
@@ -2038,10 +2038,10 @@ Hanson2016_1152,Dium,Dion,Macedonia,Greece,22.48613,40.172852,Colonia,NA
 Hanson2016_1152,Dium,Dion,Macedonia,Greece,22.48613,40.172852,Rights and privileges,ius Italicum
 Hanson2016_1152,Dium,Dion,Macedonia,Greece,22.48613,40.172852,Rights and privileges,ius Romanum
 Hanson2016_1152,Dium,Dion,Macedonia,Greece,22.48613,40.172852,Rights and privileges,ius Romanum
-Hanson2016_1153,Dyrrachium,Durr<eb>s,Macedonia,Albania,19.456811,41.327377,Colonia,NA
-Hanson2016_1153,Dyrrachium,Durr<eb>s,Macedonia,Albania,19.456811,41.327377,Rights and privileges,ius Italicum
-Hanson2016_1153,Dyrrachium,Durr<eb>s,Macedonia,Albania,19.456811,41.327377,Rights and privileges,ius Romanum
-Hanson2016_1153,Dyrrachium,Durr<eb>s,Macedonia,Albania,19.456811,41.327377,Rights and privileges,libera
+Hanson2016_1153,Dyrrachium,Durrës,Macedonia,Albania,19.456811,41.327377,Colonia,NA
+Hanson2016_1153,Dyrrachium,Durrës,Macedonia,Albania,19.456811,41.327377,Rights and privileges,ius Italicum
+Hanson2016_1153,Dyrrachium,Durrës,Macedonia,Albania,19.456811,41.327377,Rights and privileges,ius Romanum
+Hanson2016_1153,Dyrrachium,Durrës,Macedonia,Albania,19.456811,41.327377,Rights and privileges,libera
 Hanson2016_1154,Edessa,Edessa,Macedonia,Greece,22.050693,40.802398,NA,NA
 Hanson2016_1155,Heraclea (Macedonia),Bitola,Macedonia,Macedonia,21.342,41.011,NA,NA
 Hanson2016_1156,Lychnidus,Ochrid,Macedonia,Macedonia,20.793964,41.114676,NA,NA
@@ -2074,8 +2074,8 @@ Hanson2016_1166,Arsennaria,Sidi bou Ras,Mauretania Caesariensis,Algeria,0.873111
 Hanson2016_1167,Auzia,Aumale,Mauretania Caesariensis,Algeria,3.689949,36.145619,Colonia,NA
 Hanson2016_1167,Auzia,Aumale,Mauretania Caesariensis,Algeria,3.689949,36.145619,Municipium,NA
 Hanson2016_1168,Bida,Djemaa Saharidj,Mauretania Caesariensis,Algeria,4.289191,36.683267,Colonia,NA
-Hanson2016_1169,Cartenna,T<e9>n<e8>s,Mauretania Caesariensis,Algeria,1.307598,36.510418,Colonia,NA
-Hanson2016_1169,Cartenna,T<e9>n<e8>s,Mauretania Caesariensis,Algeria,1.307598,36.510418,Rights and privileges,ius Romanum
+Hanson2016_1169,Cartenna,Ténès,Mauretania Caesariensis,Algeria,1.307598,36.510418,Colonia,NA
+Hanson2016_1169,Cartenna,Ténès,Mauretania Caesariensis,Algeria,1.307598,36.510418,Rights and privileges,ius Romanum
 Hanson2016_1170,Choba,Ziama,Mauretania Caesariensis,Algeria,5.481269,36.673105,Municipium,NA
 Hanson2016_1171,Cuicul,Djemila,Mauretania Caesariensis,Algeria,5.735732,36.320494,Colonia,NA
 Hanson2016_1171,Cuicul,Djemila,Mauretania Caesariensis,Algeria,5.735732,36.320494,Colonia,NA
@@ -2099,12 +2099,12 @@ Hanson2016_1179,Milev,Mila,Mauretania Caesariensis,Algeria,6.267698,36.451276,Co
 Hanson2016_1179,Milev,Mila,Mauretania Caesariensis,Algeria,6.267698,36.451276,Colonia,NA
 Hanson2016_1179,Milev,Mila,Mauretania Caesariensis,Algeria,6.267698,36.451276,Rights and privileges,foederata
 Hanson2016_1180,Mopthensium,Mons,Mauretania Caesariensis,Algeria,5.567436,36.247346,NA,NA
-Hanson2016_1181,Oppidum Novum,A<ef>n Defla,Mauretania Caesariensis,Algeria,1.965443,36.257137,Colonia,NA
+Hanson2016_1181,Oppidum Novum,Aïn Defla,Mauretania Caesariensis,Algeria,1.965443,36.257137,Colonia,NA
 Hanson2016_1182,Portus Magnus,Arzew,Mauretania Caesariensis,Algeria,-0.266018,35.807917,Municipium,NA
 Hanson2016_1182,Portus Magnus,Arzew,Mauretania Caesariensis,Algeria,-0.266018,35.807917,Rights and privileges,ius Latii?
-Hanson2016_1183,Quiza,El B<e9>nian,Mauretania Caesariensis,Algeria,0.241679,36.02993,Colonia,NA
-Hanson2016_1183,Quiza,El B<e9>nian,Mauretania Caesariensis,Algeria,0.241679,36.02993,Municipium,NA
-Hanson2016_1183,Quiza,El B<e9>nian,Mauretania Caesariensis,Algeria,0.241679,36.02993,Rights and privileges,libera
+Hanson2016_1183,Quiza,El Bénian,Mauretania Caesariensis,Algeria,0.241679,36.02993,Colonia,NA
+Hanson2016_1183,Quiza,El Bénian,Mauretania Caesariensis,Algeria,0.241679,36.02993,Municipium,NA
+Hanson2016_1183,Quiza,El Bénian,Mauretania Caesariensis,Algeria,0.241679,36.02993,Rights and privileges,libera
 Hanson2016_1184,Rapidum,Sour Djouab,Mauretania Caesariensis,Algeria,3.421825,36.136435,Municipium,NA
 Hanson2016_1185,Rusazus,Azeffoun,Mauretania Caesariensis,Algeria,4.422655,36.893992,Colonia,NA
 Hanson2016_1185,Rusazus,Azeffoun,Mauretania Caesariensis,Algeria,4.422655,36.893992,Municipium,NA
@@ -2115,11 +2115,11 @@ Hanson2016_1187,Rusippisir,Taksebt,Mauretania Caesariensis,Algeria,4.174236,36.9
 Hanson2016_1187,Rusippisir,Taksebt,Mauretania Caesariensis,Algeria,4.174236,36.900733,Municipium,NA
 Hanson2016_1188,Rusuccuru,Dellys?,Mauretania Caesariensis,Algeria,3.9141,36.916,Colonia,NA
 Hanson2016_1188,Rusuccuru,Dellys?,Mauretania Caesariensis,Algeria,3.9141,36.916,Municipium,NA
-Hanson2016_1189,Saldae,B<e9>jaia,Mauretania Caesariensis,Algeria,5.078027,36.758025,Colonia,NA
-Hanson2016_1189,Saldae,B<e9>jaia,Mauretania Caesariensis,Algeria,5.078027,36.758025,Rights and privileges,ius Romanum
+Hanson2016_1189,Saldae,Béjaia,Mauretania Caesariensis,Algeria,5.078027,36.758025,Colonia,NA
+Hanson2016_1189,Saldae,Béjaia,Mauretania Caesariensis,Algeria,5.078027,36.758025,Rights and privileges,ius Romanum
 Hanson2016_1190,Siga,Takembrit,Mauretania Caesariensis,Algeria,-1.451732,35.252924,Colonia,NA
 Hanson2016_1190,Siga,Takembrit,Mauretania Caesariensis,Algeria,-1.451732,35.252924,Municipium,NA
-Hanson2016_1191,Sitifis,S<e9>tif,Mauretania Caesariensis,Algeria,5.4072,36.1886,Colonia,NA
+Hanson2016_1191,Sitifis,Sétif,Mauretania Caesariensis,Algeria,5.4072,36.1886,Colonia,NA
 Hanson2016_1192,Tigava,El Kherba,Mauretania Caesariensis,Algeria,1.651388,36.231943,Municipium,NA
 Hanson2016_1192,Tigava,El Kherba,Mauretania Caesariensis,Algeria,1.651388,36.231943,Rights and privileges,ius Latii?
 Hanson2016_1193,Tipasa,Tipaza,Mauretania Caesariensis,Algeria,2.4456,36.5914,Colonia,NA
@@ -2173,18 +2173,18 @@ Hanson2016_1218,Drobeta,Turnu Severin,Moesia Superior,Serbia,22.665,44.631111,Co
 Hanson2016_1218,Drobeta,Turnu Severin,Moesia Superior,Serbia,22.665,44.631111,Municipium,NA
 Hanson2016_1219,Margum,Dubravica,Moesia Superior,Serbia,21.061748,44.69123,Municipium,NA
 Hanson2016_1220,Montana,Montana,Moesia Superior,Bulgaria,23.226095,43.408743,Municipium,NA
-Hanson2016_1221,Naissus,Ni<9a>,Moesia Superior,Serbia,21.893884,43.316295,Municipium,NA
+Hanson2016_1221,Naissus,Niš,Moesia Superior,Serbia,21.893884,43.316295,Municipium,NA
 Hanson2016_1222,Ratiaria,Archar,Moesia Superior,Bulgaria,22.904856,43.817397,Colonia,NA
 Hanson2016_1223,Remesiana,Bela Palanka,Moesia Superior,Serbia,22.293498,43.214499000000004,Municipium?,NA
 Hanson2016_1224,Scupi,Skopje,Moesia Superior,Macedonia,21.391437,42.016885,Colonia,NA
 Hanson2016_1225,Singidunum,Belgrade,Moesia Superior,Serbia,20.4503,44.8236,Colonia,NA
 Hanson2016_1225,Singidunum,Belgrade,Moesia Superior,Serbia,20.4503,44.8236,Municipium,NA
-Hanson2016_1226,Ulpiana,Gra?anica,Moesia Superior,Kosovo,21.195698,42.600105,Municipium,NA
+Hanson2016_1226,Ulpiana,Gračanica,Moesia Superior,Kosovo,21.195698,42.600105,Municipium,NA
 Hanson2016_1227,Viminacium (1),Kostolac,Moesia Superior,Serbia,21.216122,44.736776,Colonia,NA
 Hanson2016_1227,Viminacium (1),Kostolac,Moesia Superior,Serbia,21.216122,44.736776,Provincial capital,NA
 Hanson2016_1228,Viminacium (2),Kostolac,Moesia Superior,Serbia,21.216122,44.736776,Municipium,NA
-Hanson2016_1229,Aguntum,D<f6>lsach and Nu<df>dorf Debant,Noricum,Austria,12.822158,46.827894,Municipium,NA
-Hanson2016_1230,Cetium,S. P<f6>lten,Noricum,Austria,15.622696,48.20473,Municipium,NA
+Hanson2016_1229,Aguntum,Dölsach and Nußdorf Debant,Noricum,Austria,12.822158,46.827894,Municipium,NA
+Hanson2016_1230,Cetium,S. Pölten,Noricum,Austria,15.622696,48.20473,Municipium,NA
 Hanson2016_1231,Flavia Solva,Solfeld,Noricum,Austria,15.568722,46.768972,Colonia,NA
 Hanson2016_1231,Flavia Solva,Solfeld,Noricum,Austria,15.568722,46.768972,Municipium,NA
 Hanson2016_1232,Iuvavum,Salzburg,Noricum,Austria,13.045517,47.799173,Municipium,NA
@@ -2255,7 +2255,7 @@ Hanson2016_1256,Thabraca,Tabarka,Numidia,Tunisia,8.748512,36.956243,Rights and p
 Hanson2016_1256,Thabraca,Tabarka,Numidia,Tunisia,8.748512,36.956243,Rights and privileges,ius Romanum
 Hanson2016_1257,Thala,Thala,Numidia,Tunisia,8.6692,35.5724,Municipium,NA
 Hanson2016_1258,Thamugadi,Timgad,Numidia,Algeria,6.468525,35.485017,Colonia,NA
-Hanson2016_1259,Theveste,T<e9>bessa,Numidia,Algeria,8.121558,35.403084,Colonia,NA
+Hanson2016_1259,Theveste,Tébessa,Numidia,Algeria,8.121558,35.403084,Colonia,NA
 Hanson2016_1260,Thibilis,Announa,Numidia,Algeria,7.250033,36.382567,Colonia,NA
 Hanson2016_1260,Thibilis,Announa,Numidia,Algeria,7.250033,36.382567,Municipium,NA
 Hanson2016_1261,Thuburnica,Sidi Ali bel Kassem,Numidia,Tunisia,8.461267,36.527541,Colonia,NA
@@ -2277,23 +2277,23 @@ Hanson2016_1267,Aquincum,Obuda,Pannonia Inferior,Hungary,19.050216,47.56473,Muni
 Hanson2016_1267,Aquincum,Obuda,Pannonia Inferior,Hungary,19.050216,47.56473,Provincial capital,NA
 Hanson2016_1268,Bassiana (Pannonia Inferior),Petrovci,Pannonia Inferior,Serbia,19.977001,44.969659,Colonia,NA
 Hanson2016_1268,Bassiana (Pannonia Inferior),Petrovci,Pannonia Inferior,Serbia,19.977001,44.969659,Municipium,NA
-Hanson2016_1269,Brigetio,Sz<f6>ny,Pannonia Inferior,Hungary,18.169507,47.735239,Colonia,NA
-Hanson2016_1269,Brigetio,Sz<f6>ny,Pannonia Inferior,Hungary,18.169507,47.735239,Municipium,NA
+Hanson2016_1269,Brigetio,Szöny,Pannonia Inferior,Hungary,18.169507,47.735239,Colonia,NA
+Hanson2016_1269,Brigetio,Szöny,Pannonia Inferior,Hungary,18.169507,47.735239,Municipium,NA
 Hanson2016_1270,Cibalae,Vinkovci,Pannonia Inferior,Croatia,18.801048,45.291025,Colonia,NA
 Hanson2016_1270,Cibalae,Vinkovci,Pannonia Inferior,Croatia,18.801048,45.291025,Municipium,NA
-Hanson2016_1271,Gorsium,T<e1>c,Pannonia Inferior,Hungary,18.419781,47.09017,Municipium,NA
+Hanson2016_1271,Gorsium,Tác,Pannonia Inferior,Hungary,18.419781,47.09017,Municipium,NA
 Hanson2016_1272,Mursa,Osijek,Pannonia Inferior,Croatia,18.675749,45.560018,Colonia,NA
 Hanson2016_1273,Sirmium,Sremska Mitrovica,Pannonia Inferior,Serbia,19.610106,44.966447,Colonia,NA
-Hanson2016_1274,Andautonia,??itarjevo,Pannonia Superior,Croatia,16.11724,45.773624,Municipium,NA
+Hanson2016_1274,Andautonia,Şćitarjevo,Pannonia Superior,Croatia,16.11724,45.773624,Municipium,NA
 Hanson2016_1275,Aquae Balissae,Daruvar,Pannonia Superior,Croatia,17.224015,45.593653,Municipium,NA
-Hanson2016_1276,Bassiana (Pannonia Superior),S<e1>rv<e1>r,Pannonia Superior,Hungary,16.935227,47.254062,Colonia,NA
+Hanson2016_1276,Bassiana (Pannonia Superior),Sárvár,Pannonia Superior,Hungary,16.935227,47.254062,Colonia,NA
 Hanson2016_1277,Carnuntum (1),Petronell,Pannonia Superior,Austria,16.867891,48.113346,NA,NA
 Hanson2016_1278,Carnuntum (2),Petronell,Pannonia Superior,Austria,16.863149,48.114778,Colonia,NA
 Hanson2016_1278,Carnuntum (2),Petronell,Pannonia Superior,Austria,16.863149,48.114778,Municipium,NA
 Hanson2016_1278,Carnuntum (2),Petronell,Pannonia Superior,Austria,16.863149,48.114778,Provincial capital,NA
 Hanson2016_1279,Celeia,Celje,Pannonia Superior,Slovenia,15.260294,46.231018,Colonia?,NA
 Hanson2016_1279,Celeia,Celje,Pannonia Superior,Slovenia,15.260294,46.231018,Municipium,NA
-Hanson2016_1280,Mogentiana,T<fc>skev<e1>r,Pannonia Superior,Hungary,17.314149,47.118283,Municipium,NA
+Hanson2016_1280,Mogentiana,Tüskevár,Pannonia Superior,Hungary,17.314149,47.118283,Municipium,NA
 Hanson2016_1281,Neviodunum,Drnovo,Pannonia Superior,Slovenia,15.499078,45.920942,Municipium,NA
 Hanson2016_1282,Savaria,Szombathely,Pannonia Superior,Hungary,16.617369,47.231643,Colonia,NA
 Hanson2016_1282,Savaria,Szombathely,Pannonia Superior,Hungary,16.617369,47.231643,Provincial capital,NA
@@ -2318,7 +2318,7 @@ Hanson2016_1294,Agrigentum,Agrigento,Silicia,Italy,13.576956,37.311188,Conventus
 Hanson2016_1294,Agrigentum,Agrigento,Silicia,Italy,13.576956,37.311188,Municipium,NA
 Hanson2016_1294,Agrigentum,Agrigento,Silicia,Italy,13.576956,37.311188,Rights and privileges,decumana
 Hanson2016_1294,Agrigentum,Agrigento,Silicia,Italy,13.576956,37.311188,Rights and privileges,ius Latii?
-Hanson2016_1295,Agyrium,S. Filippo d'Argir<f2>,Silicia,Italy,14.529547,37.655226,Rights and privileges,stipendiaria
+Hanson2016_1295,Agyrium,S. Filippo d'Argirò,Silicia,Italy,14.529547,37.655226,Rights and privileges,stipendiaria
 Hanson2016_1296,Apollonia (Sicilia),S. Fratello,Silicia,Italy,14.5974572,38.0128274,Municipium,NA
 Hanson2016_1296,Apollonia (Sicilia),S. Fratello,Silicia,Italy,14.5974572,38.0128274,Rights and privileges,decumana
 Hanson2016_1297,Camarina,Camarina,Silicia,Italy,14.447679,36.872063,Municipium?,NA
@@ -2489,12 +2489,12 @@ Hanson2016_1377,Deultum,Debelt,Thracia,Bulgaria,27.28956,42.390761,Rights and pr
 Hanson2016_1378,Diocletianopolis,Hisariya,Thracia,Bulgaria,24.707716,42.503218,NA,NA
 Hanson2016_1379,Flaviopolis,Kadirli,Thracia,Turkey,26.834645,40.538708,Colonia,NA
 Hanson2016_1380,Hadrianopolis (Thracia),Edirne,Thracia,Turkey,26.562891,41.676459,NA,NA
-Hanson2016_1381,Heraclea (Thracia),Ere?li,Thracia,Turkey,27.952973,40.971013,Colonia,NA
-Hanson2016_1381,Heraclea (Thracia),Ere?li,Thracia,Turkey,27.952973,40.971013,Metropolis capital,NA
-Hanson2016_1381,Heraclea (Thracia),Ere?li,Thracia,Turkey,27.952973,40.971013,Provincial capital,NA
-Hanson2016_1381,Heraclea (Thracia),Ere?li,Thracia,Turkey,27.952973,40.971013,Rights and privileges,ius Romanum
+Hanson2016_1381,Heraclea (Thracia),Ereğli,Thracia,Turkey,27.952973,40.971013,Colonia,NA
+Hanson2016_1381,Heraclea (Thracia),Ereğli,Thracia,Turkey,27.952973,40.971013,Metropolis capital,NA
+Hanson2016_1381,Heraclea (Thracia),Ereğli,Thracia,Turkey,27.952973,40.971013,Provincial capital,NA
+Hanson2016_1381,Heraclea (Thracia),Ereğli,Thracia,Turkey,27.952973,40.971013,Rights and privileges,ius Romanum
 Hanson2016_1382,Maronea,Maronia,Thracia,Greece,25.519074,40.906385,Rights and privileges,libera
-Hanson2016_1383,Nicopolis (Thracia),Goce Del?ev,Thracia,Bulgaria,23.815278,41.605833,Municipium?,NA
+Hanson2016_1383,Nicopolis (Thracia),Goce Delčev,Thracia,Bulgaria,23.815278,41.605833,Municipium?,NA
 Hanson2016_1384,Pautalia,Kyustendi,Thracia,Bulgaria,22.680752,42.282517,Rights and privileges,NA
 Hanson2016_1385,Philippopolis (Thracia),Plovdiv,Thracia,Bulgaria,24.750913,42.146652,Colonia,NA
 Hanson2016_1385,Philippopolis (Thracia),Plovdiv,Thracia,Bulgaria,24.750913,42.146652,Metropolis capital,NA

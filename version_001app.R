@@ -6,15 +6,15 @@ library(shiny)
 library(tidyverse)
 library(ggplot2)
 library(bslib)
-library(here)
+#library(here)
 
-roman_empire <- read_csv("re_data/hanson_cities_reform.csv")
+roman_empire <- read_csv("re_data/roman_empire.csv")
 
 roman_empire
 
 
 # here:here()
-#  roman_empire <- read_csv(here("re_data/hanson_cities_reform.csv"))
+#  roman_empire <- read_csv(here("re_data/roman_empire"))
 
 
 # Define UI for application 
@@ -24,21 +24,19 @@ ui <- fluidPage(
     titlePanel("THE ROMAN EMPIRE"),
      h2(tags$i("LUX MUNDI")),
      #theme = bs_theme(bootswatch ="slate", version = 5),  
-    # creation of 2 spaces/tables
+    # creation of 3 spaces/tables
      tabsetPanel(
        tabPanel(
          "SPQR",
          tags$audio(src = "music/rome1.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
-         (fluidRow
-          (
-            
-            column(4,
+         (fluidRow (
+              column(4,
                    selectInput("province_input", label = h3("Imperial Province"), #h3 size phrase()
-                               choices = #roman_empire$province
+                               choices = 1,2)
                   ),
             column(4,
                    selectInput("city_input", label = h3("Modern city"), #h3 size phrase()
-                               choices = #roman_empire$ModernToponym)
+                               choices = 1, 2 )
                   ),
             # column(4,
             #        radioButtons("rights_input",
@@ -47,15 +45,9 @@ ui <- fluidPage(
             # 
             #       )
             )
-
-            
-        )),
-          
-     
-         
-         
-         
-        tabPanel(
+        )
+      ),
+         tabPanel(
           "About",# About the app
           br(),
           br(),
@@ -86,9 +78,9 @@ ui <- fluidPage(
          mainPanel(
             plotOutput("city_plot")
         
-)
-)
-)
+   )
+  )
+ 
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {

@@ -8,11 +8,13 @@ library(ggplot2)
 library(bslib)
 #library(here)
 
-roma_empire <- read_csv("re_data/hanson_cities_reform.csv")
+roman_empire <- read_csv("re_data/roman_empire.csv")
+
+roman_empire
 
 
 # here:here()
-# roma_empire <- read_csv(here("re_data/hanson_cities_reform.csv"))
+# roman_empire <- read_csv(here("re_data/roman_empire.csv"))
 
 # Define UI for application 
 ui <- fluidPage(
@@ -48,21 +50,13 @@ ui <- fluidPage(
                            choices = list("UnderConstruction" = 1, "Esparta" = 2, "Corinto" = 3), 
                            selected = 1)
         )
-        
-        
-        
       )
       
       )),
     
-    
-    
-    
-    
-    
-    
     tabPanel(
       "About",# About the app
+      tags$audio(src = "music/rome2.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
       br(),
       br(),
       h3("This shiny dashboar have been created with the intention of fun, enjoy and expand the knowledge over the base of the work of Jack Hanson."),
@@ -79,10 +73,20 @@ ui <- fluidPage(
       h4("Also, you can visit the website :"),
       br(), 
       br(),
-      h3 (tags$a("The Oxford Roman Economy Project", href = "http://oxrep.classics.ox.ac.uk/"  ))
+      h3 (tags$a("The Oxford Roman Economy Project", href = "http://oxrep.classics.ox.ac.uk/" )),
+      br(),
+      br(),
+      h4("The music is part of the Game Caesar III, donwloaded from"),
+    ),
+    tabPanel("Map",
+      tags$audio(src = "music/rome3.mp3",type = "audio/mp3", autoplay = TRUE, controls = NA),
+      br(),
+      br(),
+      h3("Here should be go a Map of the Empire"),
     )
     
-  ), 
+  ),
+    
   
   
   
@@ -99,14 +103,13 @@ ui <- fluidPage(
 # Define server logic required to draw a histogram
 server <- function(input, output) {
   
-  output$city_plot <- renderPlot({
-    roma_empire%>%
-      filter(Province == input$Province_input) %>%
-      ggplot() +
-      aes(x = cities, y = count) +
-      geom_col()
+  # output$city_plot <- renderPlot({
+  #   roma_empire%>%
+  #     filter(Province == input$Province_input) %>%
+  #     ggplot() +
+  #     aes(x = cities, y = count) +
+  #     geom_col()
   
-})
 }
 # Run the application 
 shinyApp(ui = ui, server = server)

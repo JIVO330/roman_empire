@@ -11,6 +11,10 @@ library(maps)
 library(leaflet)
 #library(here)
 
+roman_empire <- read_csv("re_data/roman_empire.csv")
+
+roman_empire
+
 # Define UI for application 
 ui <- fluidPage(
   
@@ -46,20 +50,13 @@ ui <- fluidPage(
                            selected = 1)
         )
         
-        
-        
-      )
+       )
       
-      )),
-    
-    
-    
-    
-    
-    
-    
-    tabPanel(
+      )
+    ),
+     tabPanel(
       "About",# About the app
+      tags$audio(src = "music/rome2.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
       br(),
       br(),
       h3("This shiny dashboar have been created with the intention of fun, enjoy and expand the knowledge over the base of the work of Jack Hanson."),
@@ -81,11 +78,11 @@ ui <- fluidPage(
       br(),
       h4("The music is part of the Game Caesar III, donwloaded from"),
     ), 
-    tabPanel("Map",
-             tags$audio(src = "music/rome1.mp3",type = "audio/mp3", autoplay = TRUE),
-             br(),
-             br(),
-             h3("Here should be go a Map of the Empire"),
+     tabPanel("Map",
+     tags$audio(src = "music/rome3.mp3",type = "audio/mp3", autoplay = TRUE, controls = NA),
+     br(),
+     br(),
+     h3("Here should be go a Map of the Empire"),
                                        )
     
   ), 

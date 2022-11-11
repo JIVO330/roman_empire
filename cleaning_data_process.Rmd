@@ -7,6 +7,7 @@ output: html_notebook
 library(tidyverse)
 library(janitor)
 library(ggplot2)
+library(readxl)
 ```
 
 
@@ -15,38 +16,40 @@ library(ggplot2)
 
 ```{r}
 
-roman_empire1 <- read.csv("re_data/hanson_cities_reform.csv") %>% 
-  clean_names()
-
-re1 <- roman_empire1 %>% 
-  select( -c(x : x_3,x_4 : x_21 ))
-
-re1
-```
-```{r}
-roman_empire2 <- read_csv("re_data/Hanson2016_Civic Status_OxREP.csv") %>% clean_names()
+hanson1 <- read_excel("re_data/Hanson2016_Cities_copy.xlsx", sheet = 1) %>% clean_names()
 
 
+hanson1 <- hanson1%>% 
+  select(- c(6,7,8,9))
 
-roman_empire2
+hanson1
 ```
 
 
 ```{r}
-roman_empire <- full_join(re1,roman_empire2, by = "primary_key")
+hanson2 <- read_excel("re_data/Hanson2016_Cities_copy.xlsx", sheet = 2) %>% clean_names()
+
+hanson2
+```
+```{r}
+roman_empire <- full_join(hanson1,hanson2, by = "primary_key")
 
 roman_empire
 ```
 
 ```{r}
-write_csv(roman_empire,"re_data/roman_empire_modification.csv")
+write_csv(roman_empire,"re_data/roman_empire.csv")
 
+
+
+roman_empire
 ```
 
 
+WHAT I WANT TO SHOW????
 
-
-
+Number cities per province??
+map? cities by location , in the map name city - location
 
 
 
