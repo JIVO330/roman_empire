@@ -12,6 +12,14 @@ roman_empire <- read_csv("re_data/roman_empire.csv")
 
 roman_empire
 
+imperial_province <- roman_empire%>% 
+  distinct(province) %>% 
+   arrange(province) %>% 
+    pull()
+status <- roman_empire %>% 
+  distinct(civic_status) %>% 
+  arrange(civic_status) %>% 
+  pull()
 
 # here:here()
 #  roman_empire <- read_csv(here("re_data/roman_empire"))
@@ -30,22 +38,23 @@ ui <- fluidPage(
          "SPQR",
          tags$audio(src = "music/rome1.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
          (fluidRow (
+                
               column(4,
-                   selectInput("province_input", label = h3("Imperial Province"), #h3 size phrase()
-                               choices = 1,2)
+                   selectInput("imperial_province", label = h3("Imperial Province"), #h3 size phrase()
+                               choices = imperial_province)
                   ),
             column(4,
-                   selectInput("city_input", label = h3("Modern city"), #h3 size phrase()
-                               choices = 1, 2 )
+                   # selectInput("city_input", label = h3("Modern city"), #h3 size phrase()
+                   #             choices = 1, 2 )
                   ),
-            # column(4,
-            #        radioButtons("rights_input",
-            #                     "Civic Status",
-            #                     choices = c("StatusA", "StatusB", "StatusC"))
-            # 
-            #       )
-            )
-        )
+            column(4,
+                   selectInput("status",label = h3("Civic Status"),
+                                choices = status)
+                   ),
+            plotOutput("city_plot"),
+         )
+       )
+      
       ),
          tabPanel(
           "About",# About the app
@@ -73,13 +82,13 @@ ui <- fluidPage(
 
 
 
-
+          #if you keep in this position, appear in all the tabs
         # This is the plot to show the cities of the Empire
-         mainPanel(
-            plotOutput("city_plot")
+        # mainPanel()
+            
         
    )
-  )
+  
  
 
 # Define server logic required to draw a histogram
@@ -87,13 +96,13 @@ server <- function(input, output) {
    
   # we want to knnow the distribution of cities by Province
   
-      # output$city_plot <- renderPlot({
-      # roman_empire %>%
-      # filter(Province ==input$province_input) %>%
-      # filter(ModernToponym == input$city_input) %>%
-      # ggplot(aes(x = Province , y = ModernToponym))+
-      # geom_point()
-    
+      output$city_plot <- renderPlot(
+      roman_empire %>%
+      filter(province == input$imperial_province) %>%
+      #filter(ModernToponym == input$city_input) %>%
+      ggplot(aes(x = province , y = modern_toponym, fill = status))+
+      geom_point()
+      )
     
 
     
