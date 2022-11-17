@@ -1,7 +1,5 @@
 
-
-
-######VERSION 0003.1MAP
+######FINAL VERSION. ALLL THE STUFF THAT WORKS
 
 library(shiny)
 library(tidyverse)
@@ -15,6 +13,11 @@ roman_empire <- read_csv("re_data/roman_empire.csv")
 
 roman_empire
 
+imperial_province <- roman_empire%>% 
+  distinct(province) %>% 
+  arrange(province) %>% 
+  pull()
+
 modern_city <- roman_empire %>% 
   distinct(modern_toponym) %>% 
   arrange(modern_toponym) %>% 
@@ -23,6 +26,11 @@ modern_city <- roman_empire %>%
 ancient_city <- roman_empire %>% 
   distinct(ancient_toponym) %>% 
   arrange(ancient_toponym) %>% 
+  pull()
+
+status <- roman_empire %>% 
+  distinct(civic_status) %>% 
+  arrange(civic_status) %>% 
   pull()
 
 # Define UI for application 
@@ -37,34 +45,23 @@ ui <- fluidPage(
     tabPanel(
       "SPQR",
       tags$audio(src = "music/rome1.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
-      (fluidRow(
+      (fluidRow (
         
-        column(3,
-               selectInput("modern_top_input", label = h3("Modern Toponym"), #h3 size phrase()
-                           choices = list("Alejandria" = 1, "Tiro" = 2, "Cartago" = 3), 
-                           selected = 1)
+        column(4,
+               selectInput("imperial_province", label = h3("Imperial Province"), #h3 size phrase()
+                           choices = imperial_province)
         ),
-        column(3,
-               selectInput("Province_input", label = h3("Imperial Province"), #h3 size phrase()
-                           choices = list("Germania" = 1, "Panonia" = 2, "Judea" = 3), 
-                           selected = 1)
-        ),
-        column(3,
-               selectInput("country_input", label = h3("Modern Country"), #h3 size phrase()
-                           choices = list("Spain" = 1, "Tunisia" = 2, "Egipt" = 3), 
-                           selected = 1)
-        ),
-        column(3,
-               selectInput("rights_input", label = h3("Civic Status"), #h3 size phrase()
-                           choices = list("Athenas" = 1, "Esparta" = 2, "Corinto" = 3), 
-                           selected = 1)
-        )
         
-       )
-      
+        column(4,
+               selectInput("status",label = h3("Civic Status"),
+                           choices = status)
+        ),
+        plotOutput("city_plot"),
       )
+      )
+      
     ),
-     tabPanel(
+    tabPanel(
       "About",# About the app
       tags$audio(src = "music/rome2.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
       br(),
@@ -88,30 +85,26 @@ ui <- fluidPage(
       br(),
       h4("The music is part of the Game Caesar III, donwloaded from"),
     ), 
-     tabPanel("Map",
-     tags$audio(src = "music/rome3.mp3",type = "audio/mp3", autoplay = TRUE, controls = NA),
-     br(),
-     br(),
-     h3("Here you can explore the different locations of the Roman cities. Choose a name from the list and it will be displayed in the map. If you click in the blue circle, you will see its Roman name"),
-     br(),
-    selectInput("city",label = h3("Modern City"),
-                 choices = modern_city, selected = 1),
-              
-  
-      
-      leafletOutput("map_modern_city"),
-      
-     )
-    ), 
+    tabPanel("Map",
+             tags$audio(src = "music/rome3.mp3",type = "audio/mp3", autoplay = TRUE, controls = NA),
+             br(),
+             br(),
+             h3("Here you can explore the different locations of the Roman cities. Choose a name from the list and it will be displayed in the map. If you click in the blue circle, you will see its Roman name"),
+             br(),
+             selectInput("city",label = h3("Modern City"),
+                         choices = modern_city, selected = 1),
+             
+             leafletOutput("map_modern_city"),
+             
+    )
+  ), 
   
   
   
   
   
-  # # This is the plot to show the cities of the Empire
-  mainPanel(
-    plotOutput("city_plot")
-  )
+  # # This is the plot to show the cities of the Empire. Here you will see in all the 'pages'
+  #mainPanel()
   
 )
 
@@ -119,15 +112,24 @@ ui <- fluidPage(
 server <- function(input, output) {
   
   
-  output$map_modern_city <- renderLeaflet({
-  roman_empire %>% 
-    filter(modern_toponym == input$city) %>% 
-    leaflet() %>% 
-    addTiles() %>%
-    addCircleMarkers(lat = ~latitude_y, lng = ~longitude_x, popup = ~ ancient_toponym)
-  })
+  output$city_plot <- renderPlot(
+      roman_empire %>%
+      filter(province == input$imperial_province) %>%
+      #filter(ModernToponym == input$city_input) %>%
+      ggplot(aes(x = modern_toponym , y = province , fill = civic_status))+
+      geom_col()
+  )
   
- 
+  
+  output$map_modern_city <- renderLeaflet(
+      roman_empire %>% 
+      filter(modern_toponym == input$city) %>% 
+      leaflet() %>% 
+      addTiles() %>%
+      addCircleMarkers(lat = ~latitude_y, lng = ~longitude_x, popup = ~ ancient_toponym)
+  )
+  
+  
   
   
 }

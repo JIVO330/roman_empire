@@ -16,9 +16,15 @@ imperial_province <- roman_empire%>%
   distinct(province) %>% 
    arrange(province) %>% 
     pull()
+
 status <- roman_empire %>% 
   distinct(civic_status) %>% 
   arrange(civic_status) %>% 
+  pull()
+
+modern_city <- roman_empire %>% 
+  distinct(modern_toponym) %>% 
+  arrange(modern_toponym) %>% 
   pull()
 
 # here:here()
@@ -43,10 +49,7 @@ ui <- fluidPage(
                    selectInput("imperial_province", label = h3("Imperial Province"), #h3 size phrase()
                                choices = imperial_province)
                   ),
-            column(4,
-                   # selectInput("city_input", label = h3("Modern city"), #h3 size phrase()
-                   #             choices = 1, 2 )
-                  ),
+            
             column(4,
                    selectInput("status",label = h3("Civic Status"),
                                 choices = status)
@@ -100,8 +103,8 @@ server <- function(input, output) {
       roman_empire %>%
       filter(province == input$imperial_province) %>%
       #filter(ModernToponym == input$city_input) %>%
-      ggplot(aes(x = province , y = modern_toponym, fill = status))+
-      geom_point()
+      ggplot(aes(x = modern_toponym , y = province))+
+      geom_col()
       )
     
 
@@ -111,4 +114,11 @@ server <- function(input, output) {
 # Run the application 
 shinyApp(ui = ui, server = server)
 
-
+# 
+# output$city_plot <- renderPlot(
+#   roman_empire %>%
+#     filter(province == input$imperial_province) %>%
+#     #filter(ModernToponym == input$city_input) %>%
+#     ggplot(aes(x = province , y = modern_toponym, fill = status))+
+#     geom_point()
+# )

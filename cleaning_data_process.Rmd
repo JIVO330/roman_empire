@@ -10,10 +10,7 @@ library(ggplot2)
 library(readxl)
 ```
 
-
  
-
-
 ```{r}
 
 hanson1 <- read_excel("re_data/Hanson2016_Cities_copy.xlsx", sheet = 1) %>% clean_names()
@@ -52,30 +49,16 @@ Number cities per province??
 map? cities by location , in the map name city - location
 
 
-
-
 ```{r}
 count_cities <- roman_empire %>% 
   group_by(Province, Modern.Toponym) %>% 
   summarise(counts = n())
   
   
-  
   ggplot(count_cities)+
     geom_bar(aes(x = Province, y = counts, fill = Modern.Toponym ), stat = 'identity')
   
   
-  
-  
-  
-  ggplot()+
-  geom_bar()
 ```
-
-
-
-
-
-
 
 

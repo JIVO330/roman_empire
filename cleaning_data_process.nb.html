@@ -1763,34 +1763,10 @@ pre code {
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeSh0aWR5dmVyc2UpXG5gYGAifQ== -->
-<pre class="r"><code>library(tidyverse)</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiUmVnaXN0ZXJlZCBTMyBtZXRob2RzIG92ZXJ3cml0dGVuIGJ5ICdkYnBseXInOlxuICBtZXRob2QgICAgICAgICBmcm9tXG4gIHByaW50LnRibF9sYXp5ICAgICBcbiAgcHJpbnQudGJsX3NxbCAgICAgIFxu4pSA4pSAIEF0dGFjaGluZyBwYWNrYWdlcyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAgdGlkeXZlcnNlIDEuMy4yIOKUgOKUgOKclCBnZ3Bsb3QyIDMuMy42ICAgICAg4pyUIHB1cnJyICAgMC4zLjUgXG7inJQgdGliYmxlICAzLjEuOCAgICAgIOKclCBkcGx5ciAgIDEuMC4xMFxu4pyUIHRpZHlyICAgMS4yLjEgICAgICDinJQgc3RyaW5nciAxLjQuMSBcbuKclCByZWFkciAgIDIuMS4zICAgICAg4pyUIGZvcmNhdHMgMC41LjIg4pSA4pSAIENvbmZsaWN0cyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAgdGlkeXZlcnNlX2NvbmZsaWN0cygpIOKUgOKUgFxu4pyWIGRwbHlyOjpmaWx0ZXIoKSBtYXNrcyBzdGF0czo6ZmlsdGVyKClcbuKcliBkcGx5cjo6bGFnKCkgICAgbWFza3Mgc3RhdHM6OmxhZygpXG4ifQ== -->
-<pre><code>Registered S3 methods overwritten by &#39;dbplyr&#39;:
-  method         from
-  print.tbl_lazy     
-  print.tbl_sql      
-── Attaching packages ─────────────────────────────────────────────────────────────── tidyverse 1.3.2 ──✔ ggplot2 3.3.6      ✔ purrr   0.3.5 
-✔ tibble  3.1.8      ✔ dplyr   1.0.10
-✔ tidyr   1.2.1      ✔ stringr 1.4.1 
-✔ readr   2.1.3      ✔ forcats 0.5.2 ── Conflicts ────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()</code></pre>
-<!-- rnb-output-end -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShqYW5pdG9yKVxuYGBgIn0= -->
-<pre class="r"><code>library(janitor)</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiXG5BdHRhY2hpbmcgcGFja2FnZTog4oCYamFuaXRvcuKAmVxuXG5UaGUgZm9sbG93aW5nIG9iamVjdHMgYXJlIG1hc2tlZCBmcm9tIOKAmHBhY2thZ2U6c3RhdHPigJk6XG5cbiAgICBjaGlzcS50ZXN0LCBmaXNoZXIudGVzdFxuIn0= -->
-<pre><code>
-Attaching package: ‘janitor’
-
-The following objects are masked from ‘package:stats’:
-
-    chisq.test, fisher.test</code></pre>
-<!-- rnb-output-end -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShnZ3Bsb3QyKVxubGlicmFyeShyZWFkeGwpXG5gYGAifQ== -->
-<pre class="r"><code>library(ggplot2)
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeSh0aWR5dmVyc2UpXG5saWJyYXJ5KGphbml0b3IpXG5saWJyYXJ5KGdncGxvdDIpXG5saWJyYXJ5KHJlYWR4bClcbmBgYCJ9 -->
+<pre class="r"><code>library(tidyverse)
+library(janitor)
+library(ggplot2)
 library(readxl)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
@@ -1841,28 +1817,22 @@ roman_empire</code></pre>
 name city - location</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY291bnRfY2l0aWVzIDwtIHJvbWFuX2VtcGlyZSAlPiUgXG4gIGdyb3VwX2J5KFByb3ZpbmNlLCBNb2Rlcm4uVG9wb255bSkgJT4lIFxuICBzdW1tYXJpc2UoY291bnRzID0gbigpKVxuICBcbiAgXG4gIFxuICBnZ3Bsb3QoY291bnRfY2l0aWVzKStcbiAgICBnZW9tX2JhcihhZXMoeCA9IFByb3ZpbmNlLCB5ID0gY291bnRzLCBmaWxsID0gTW9kZXJuLlRvcG9ueW0gKSwgc3RhdCA9ICdpZGVudGl0eScpXG4gIFxuICBcbiAgXG4gIFxuICBcbiAgZ2dwbG90KCkrXG4gIGdlb21fYmFyKClcbmBgYCJ9 -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY291bnRfY2l0aWVzIDwtIHJvbWFuX2VtcGlyZSAlPiUgXG4gIGdyb3VwX2J5KFByb3ZpbmNlLCBNb2Rlcm4uVG9wb255bSkgJT4lIFxuICBzdW1tYXJpc2UoY291bnRzID0gbigpKVxuICBcbiAgXG4gIGdncGxvdChjb3VudF9jaXRpZXMpK1xuICAgIGdlb21fYmFyKGFlcyh4ID0gUHJvdmluY2UsIHkgPSBjb3VudHMsIGZpbGwgPSBNb2Rlcm4uVG9wb255bSApLCBzdGF0ID0gJ2lkZW50aXR5JylcbiAgXG4gIFxuYGBgIn0= -->
 <pre class="r"><code>count_cities &lt;- roman_empire %&gt;% 
   group_by(Province, Modern.Toponym) %&gt;% 
   summarise(counts = n())
   
   
-  
   ggplot(count_cities)+
     geom_bar(aes(x = Province, y = counts, fill = Modern.Toponym ), stat = &#39;identity&#39;)
   
-  
-  
-  
-  
-  ggplot()+
-  geom_bar()</code></pre>
+  </code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIlIgTm90ZWJvb2siDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KDQpgYGB7cn0NCmxpYnJhcnkodGlkeXZlcnNlKQ0KbGlicmFyeShqYW5pdG9yKQ0KbGlicmFyeShnZ3Bsb3QyKQ0KbGlicmFyeShyZWFkeGwpDQpgYGANCg0KDQogDQoNCg0KYGBge3J9DQoNCmhhbnNvbjEgPC0gcmVhZF9leGNlbCgicmVfZGF0YS9IYW5zb24yMDE2X0NpdGllc19jb3B5Lnhsc3giLCBzaGVldCA9IDEpICU+JSBjbGVhbl9uYW1lcygpDQoNCg0KaGFuc29uMSA8LSBoYW5zb24xJT4lIA0KICBzZWxlY3QoLSBjKDYsNyw4LDkpKQ0KDQpoYW5zb24xDQpgYGANCg0KDQpgYGB7cn0NCmhhbnNvbjIgPC0gcmVhZF9leGNlbCgicmVfZGF0YS9IYW5zb24yMDE2X0NpdGllc19jb3B5Lnhsc3giLCBzaGVldCA9IDIpICU+JSBjbGVhbl9uYW1lcygpDQoNCmhhbnNvbjINCmBgYA0KYGBge3J9DQpyb21hbl9lbXBpcmUgPC0gZnVsbF9qb2luKGhhbnNvbjEsaGFuc29uMiwgYnkgPSAicHJpbWFyeV9rZXkiKQ0KDQpyb21hbl9lbXBpcmUNCmBgYA0KDQpgYGB7cn0NCndyaXRlX2Nzdihyb21hbl9lbXBpcmUsInJlX2RhdGEvcm9tYW5fZW1waXJlLmNzdiIpDQoNCg0KDQpyb21hbl9lbXBpcmUNCmBgYA0KDQoNCldIQVQgSSBXQU5UIFRPIFNIT1c/Pz8/DQoNCk51bWJlciBjaXRpZXMgcGVyIHByb3ZpbmNlPz8NCm1hcD8gY2l0aWVzIGJ5IGxvY2F0aW9uICwgaW4gdGhlIG1hcCBuYW1lIGNpdHkgLSBsb2NhdGlvbg0KDQoNCg0KDQpgYGB7cn0NCmNvdW50X2NpdGllcyA8LSByb21hbl9lbXBpcmUgJT4lIA0KICBncm91cF9ieShQcm92aW5jZSwgTW9kZXJuLlRvcG9ueW0pICU+JSANCiAgc3VtbWFyaXNlKGNvdW50cyA9IG4oKSkNCiAgDQogIA0KICANCiAgZ2dwbG90KGNvdW50X2NpdGllcykrDQogICAgZ2VvbV9iYXIoYWVzKHggPSBQcm92aW5jZSwgeSA9IGNvdW50cywgZmlsbCA9IE1vZGVybi5Ub3BvbnltICksIHN0YXQgPSAnaWRlbnRpdHknKQ0KICANCiAgDQogIA0KICANCiAgDQogIGdncGxvdCgpKw0KICBnZW9tX2JhcigpDQpgYGANCg0KDQoNCg0KDQoNCg0KDQo=</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIlIgTm90ZWJvb2siDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KDQpgYGB7cn0NCmxpYnJhcnkodGlkeXZlcnNlKQ0KbGlicmFyeShqYW5pdG9yKQ0KbGlicmFyeShnZ3Bsb3QyKQ0KbGlicmFyeShyZWFkeGwpDQpgYGANCg0KIA0KYGBge3J9DQoNCmhhbnNvbjEgPC0gcmVhZF9leGNlbCgicmVfZGF0YS9IYW5zb24yMDE2X0NpdGllc19jb3B5Lnhsc3giLCBzaGVldCA9IDEpICU+JSBjbGVhbl9uYW1lcygpDQoNCg0KaGFuc29uMSA8LSBoYW5zb24xJT4lIA0KICBzZWxlY3QoLSBjKDYsNyw4LDkpKQ0KDQpoYW5zb24xDQpgYGANCg0KDQpgYGB7cn0NCmhhbnNvbjIgPC0gcmVhZF9leGNlbCgicmVfZGF0YS9IYW5zb24yMDE2X0NpdGllc19jb3B5Lnhsc3giLCBzaGVldCA9IDIpICU+JSBjbGVhbl9uYW1lcygpDQoNCmhhbnNvbjINCmBgYA0KYGBge3J9DQpyb21hbl9lbXBpcmUgPC0gZnVsbF9qb2luKGhhbnNvbjEsaGFuc29uMiwgYnkgPSAicHJpbWFyeV9rZXkiKQ0KDQpyb21hbl9lbXBpcmUNCmBgYA0KDQpgYGB7cn0NCndyaXRlX2Nzdihyb21hbl9lbXBpcmUsInJlX2RhdGEvcm9tYW5fZW1waXJlLmNzdiIpDQoNCg0KDQpyb21hbl9lbXBpcmUNCmBgYA0KDQoNCldIQVQgSSBXQU5UIFRPIFNIT1c/Pz8/DQoNCk51bWJlciBjaXRpZXMgcGVyIHByb3ZpbmNlPz8NCm1hcD8gY2l0aWVzIGJ5IGxvY2F0aW9uICwgaW4gdGhlIG1hcCBuYW1lIGNpdHkgLSBsb2NhdGlvbg0KDQoNCmBgYHtyfQ0KY291bnRfY2l0aWVzIDwtIHJvbWFuX2VtcGlyZSAlPiUgDQogIGdyb3VwX2J5KFByb3ZpbmNlLCBNb2Rlcm4uVG9wb255bSkgJT4lIA0KICBzdW1tYXJpc2UoY291bnRzID0gbigpKQ0KICANCiAgDQogIGdncGxvdChjb3VudF9jaXRpZXMpKw0KICAgIGdlb21fYmFyKGFlcyh4ID0gUHJvdmluY2UsIHkgPSBjb3VudHMsIGZpbGwgPSBNb2Rlcm4uVG9wb255bSApLCBzdGF0ID0gJ2lkZW50aXR5JykNCiAgDQogIA0KYGBgDQoNCg0K</div>
 
 
 
