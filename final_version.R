@@ -52,39 +52,15 @@ ui <- fluidPage(
                            choices = imperial_province)
         ),
         
-        column(4,
-               selectInput("status",label = h3("Civic Status"),
-                           choices = status)
-        ),
+        # column(4,
+        #        selectInput("status",label = h3("Civic Status"),
+        #                    choices = status)
+        # ),
         plotOutput("city_plot"),
       )
       )
       
     ),
-    tabPanel(
-      "About",# About the app
-      tags$audio(src = "music/rome2.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
-      br(),
-      br(),
-      h3("This shiny dashboar have been created with the intention of fun, enjoy and expand the knowledge over the base of the work of Jack Hanson."),
-      br(),
-      h4("As we said, the core of this Database are the monograph of Jack Hanson and his own database - try to be thankfully homenage-"),
-      br(),
-      h4("Hanson, J. W. (2016a). An Urban Geography of the Roman World, 100 B.C. to A.D. 300. University of Oxford D.Phil."),
-      br(),
-      h4("Hanson, J. W. (2016b). An Urban Geography of the Roman World, 100 B.C. to A.D. 300. Oxford: Archaeopress."),
-      br(),
-      h4("Hanson, J. W. (2016). Cities Database (OXREP databases). Version 1.0. Accessed (date): <http://oxrep.classics.ox.ac.uk/databases/cities/>. DOI: <https://doi.org/10.5287/bodleian:eqapevAn8>"),
-      br(),
-      br(),
-      h4("Also, you can visit the website :"),
-      br(), 
-      br(),
-      h3 (tags$a("The Oxford Roman Economy Project", href = "http://oxrep.classics.ox.ac.uk/"  )),
-      br(),
-      br(),
-      h4("The music is part of the Game Caesar III, donwloaded from"),
-    ), 
     tabPanel("Map",
              tags$audio(src = "music/rome3.mp3",type = "audio/mp3", autoplay = TRUE, controls = NA),
              br(),
@@ -93,10 +69,30 @@ ui <- fluidPage(
              br(),
              selectInput("city",label = h3("Modern City"),
                          choices = modern_city, selected = 1),
-             
              leafletOutput("map_modern_city"),
              
-    )
+    ),
+      tabPanel(
+      "About",# About the app
+      tags$audio(src = "music/rome2.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
+      br(),
+      h3("This shiny dashboar have been created with the intention of fun, enjoy and expand the knowledge over the base of the work of Jack Hanson."),
+      br(),
+      h4("As we said, the core of this Database are the monograph of Jack Hanson and his own database - try to be a thankfully homenage-"),
+      br(),
+      h4("Hanson, J. W. (2016a). An Urban Geography of the Roman World, 100 B.C. to A.D. 300. University of Oxford D.Phil."),
+      br(),
+      h4("Hanson, J. W. (2016b). An Urban Geography of the Roman World, 100 B.C. to A.D. 300. Oxford: Archaeopress."),
+      br(),
+      h4("Hanson, J. W. (2016). Cities Database (OXREP databases). Version 1.0. Accessed (date): <http://oxrep.classics.ox.ac.uk/databases/cities/>. DOI: <https://doi.org/10.5287/bodleian:eqapevAn8>"),
+      br(),
+      h4("Also, you can visit the website :"),
+      br(), 
+      h3 (tags$a("The Oxford Roman Economy Project", href = "http://oxrep.classics.ox.ac.uk/"  )),
+      br(),
+      h4 (tags$a( "The music is part of the Game Caesar III, donwloaded from here", href = "https://www.gamepressure.com/download.asp?ID=775572")),
+    ), 
+   
   ), 
   
   
@@ -117,8 +113,11 @@ server <- function(input, output) {
       filter(province == input$imperial_province) %>%
       #filter(ModernToponym == input$city_input) %>%
       ggplot(aes(x = modern_toponym , y = province , fill = civic_status))+
-      geom_col()
-  )
+      geom_col()+
+      theme(axis.text.x = element_text(angle = 45, hjust = 1, face = 'italic'))+
+        labs(x = "Actual Name",
+             y = "Roman Province") 
+  ) 
   
   
   output$map_modern_city <- renderLeaflet(

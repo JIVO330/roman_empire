@@ -104,7 +104,8 @@ server <- function(input, output) {
       filter(province == input$imperial_province) %>%
       #filter(ModernToponym == input$city_input) %>%
       ggplot(aes(x = modern_toponym , y = province))+
-      geom_col()
+      geom_col()+
+      theme(axis.text.x = element_text(angle = 45, hjust = 1))
       )
     
 

@@ -64,6 +64,20 @@ ui <- fluidPage(
       
       )
     ),
+    tabPanel("Map",
+             tags$audio(src = "music/rome3.mp3",type = "audio/mp3", autoplay = TRUE, controls = NA),
+             br(),
+             br(),
+             h3("Here you can explore the different locations of the Roman cities. Choose a name from the list and it will be displayed in the map. If you click in the blue circle, you will see its Roman name"),
+             br(),
+             selectInput("city",label = h3("Modern City"),
+                         choices = modern_city, selected = 1),
+             
+             
+             
+             leafletOutput("map_modern_city"),
+             
+    ),
      tabPanel(
       "About",# About the app
       tags$audio(src = "music/rome2.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
@@ -88,22 +102,8 @@ ui <- fluidPage(
       br(),
       h4("The music is part of the Game Caesar III, donwloaded from"),
     ), 
-     tabPanel("Map",
-     tags$audio(src = "music/rome3.mp3",type = "audio/mp3", autoplay = TRUE, controls = NA),
-     br(),
-     br(),
-     h3("Here you can explore the different locations of the Roman cities. Choose a name from the list and it will be displayed in the map. If you click in the blue circle, you will see its Roman name"),
-     br(),
-    selectInput("city",label = h3("Modern City"),
-                 choices = modern_city, selected = 1),
-              
-  
-      
-      leafletOutput("map_modern_city"),
-      
-     )
+    
     ), 
-  
   
   
   
