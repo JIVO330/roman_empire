@@ -76,9 +76,9 @@ ui <- fluidPage(
       "About",# About the app
       tags$audio(src = "music/rome2.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
       br(),
-      h3("This shiny dashboar have been created with the intention of fun, enjoy and expand the knowledge over the base of the work of Jack Hanson."),
+      h3("This shiny dashboar have been created with the intention of having fun, enjoying and expanding the knowledge about the Roman Empire over the base o Jack Hanson's work."),
       br(),
-      h4("As we said, the core of this Database are the monograph of Jack Hanson and his own database - try to be a thankfully homenage-"),
+      h4("As stated, the core of this database are  Jack Hanson's monograph and his own database - it tries  to be a tribute of gratitude-"),
       br(),
       h4("Hanson, J. W. (2016a). An Urban Geography of the Roman World, 100 B.C. to A.D. 300. University of Oxford D.Phil."),
       br(),
