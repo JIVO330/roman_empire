@@ -54,13 +54,14 @@ ui <- fluidPage(
                    selectInput("imperial_province", label = h3("Imperial Province"), #h3 size phrase()
                                choices = imperial_province)
                   ),
-              leafletOutput("imperial_province")
+              leafletOutput("imperial_province"),
+              br(),
             
-            # column(4,
-            #        selectInput("country",label = h3("Country"),
-            #                     choices = country)
-            #        ),
-            
+             column(4,
+                    selectInput("country",label = h3("Country"),
+                                 choices = country)
+                    ),
+             leafletOutput("country"),
          )
        )
       
@@ -117,11 +118,18 @@ server <- function(input, output) {
   output$imperial_province <- renderLeaflet({
     roman_empire %>%
       filter(province == input$imperial_province) %>%
-      leaflet() %>%
+      leaflet(height = "750%") %>%
       addTiles() %>%
       addCircleMarkers(lat = ~latitude_y, lng = ~longitude_x, popup = ~ modern_toponym)
   })
-    
+  
+  output$country <- renderLeaflet({
+    roman_empire %>%
+      filter(country == input$country) %>%
+      leaflet() %>%
+      addTiles() %>%
+      addCircleMarkers(lat = ~latitude_y, lng = ~longitude_x, popup = ~ ancient_toponym)
+  })
 }
 
 # Run the application 

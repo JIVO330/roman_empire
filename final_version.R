@@ -33,6 +33,12 @@ status <- roman_empire %>%
   arrange(civic_status) %>% 
   pull()
 
+country <- roman_empire %>% 
+  distinct(country) %>% 
+  arrange(country) %>% 
+  pull()
+
+
 # Define UI for application 
 ui <- fluidPage(
   
@@ -51,16 +57,20 @@ ui <- fluidPage(
                selectInput("imperial_province", label = h3("Imperial Province"), #h3 size phrase()
                            choices = imperial_province)
         ),
-        
-        # column(4,
-        #        selectInput("status",label = h3("Civic Status"),
-        #                    choices = status)
-        # ),
+        leafletOutput("imperial_province"),
         plotOutput("city_plot"),
-      )
-      )
+        
+        br(),
+        column(4,
+               selectInput("country",label = h3("Country"),
+                           choices = country)
+        ),
+        leafletOutput("country"),
       
-    ),
+      )
+    )
+      
+),
     tabPanel("Map",
              tags$audio(src = "music/rome3.mp3",type = "audio/mp3", autoplay = TRUE, controls = NA),
              br(),
@@ -70,6 +80,24 @@ ui <- fluidPage(
              selectInput("city",label = h3("Modern City"),
                          choices = modern_city, selected = 1),
              leafletOutput("map_modern_city"),
+             
+             br(),
+             h3('Now, you can pick up few cities ... but they are under their ancient toponym'),
+             
+             multiInput(    # pickup few cities but dont work properly
+               inputId = "city_2", label = h3("Imperial Cities"),
+               choices = ancient_city,
+               selected = "Abae", width = "400px",
+               options = list(
+                 enable_search = TRUE,
+                 non_selected_header = "Pick few cities:",
+                 selected_header = "Are you sure?:")
+             ),
+             #verbatimTextOutput(outputId = "res") ,
+             
+             leafletOutput("map_modern_city_2"),
+             
+             verbatimTextOutput(outputId = "res") ,
              
     ),
       tabPanel(
@@ -107,7 +135,18 @@ ui <- fluidPage(
 # Define server logic required to draw a histogram
 server <- function(input, output) {
   
+  #SPQR TAB
+  output$imperial_province <- renderLeaflet({
+    roman_empire %>%
+      filter(province == input$imperial_province) %>%
+      leaflet() %>%
+      addTiles() %>%
+      addCircleMarkers(lat = ~latitude_y, lng = ~longitude_x, popup = ~ modern_toponym)
+  })
   
+  
+  
+  #SPQR TAB
   output$city_plot <- renderPlot(
       roman_empire %>%
       filter(province == input$imperial_province) %>%
@@ -119,7 +158,15 @@ server <- function(input, output) {
              y = "Roman Province") 
   ) 
   
+  output$country <- renderLeaflet({
+    roman_empire %>%
+      filter(country == input$country) %>%
+      leaflet() %>%
+      addTiles() %>%
+      addCircleMarkers(lat = ~latitude_y, lng = ~longitude_x, popup = ~ ancient_toponym)
+  })
   
+  #Top map in MAP tab
   output$map_modern_city <- renderLeaflet(
       roman_empire %>% 
       filter(modern_toponym == input$city) %>% 
@@ -127,6 +174,16 @@ server <- function(input, output) {
       addTiles() %>%
       addCircleMarkers(lat = ~latitude_y, lng = ~longitude_x, popup = ~ ancient_toponym)
   )
+  
+  # second map for choose your city multiple options
+  output$map_modern_city_2<- renderLeaflet({
+    #input$city_2 %>% 
+    roman_empire %>% 
+      filter(ancient_toponym %in% input$city_2) %>% 
+      leaflet("res") %>% 
+      addTiles() %>%
+      addCircleMarkers(lat = ~latitude_y, lng = ~longitude_x, popup = ~ modern_toponym)
+  })
   
   
   

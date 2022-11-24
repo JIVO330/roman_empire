@@ -79,7 +79,8 @@ ui <- fluidPage(
              leafletOutput("map_modern_city"),
              br(),
              h3('Now, you can pick up few cities ... but they are under their ancient toponym'),
-             multiInput(    # pickup few cities but dont work properly
+            
+              multiInput(    # pickup few cities but dont work properly
                inputId = "city_2", label = h3("Imperial Cities"),
                choices = ancient_city,
                selected = "Abae", width = "400px",
@@ -146,8 +147,8 @@ server <- function(input, output) {
   output$map_modern_city_2<- renderLeaflet({
     #input$city_2 %>% 
     roman_empire %>% 
-      filter(ancient_toponym == input$city_2) %>% 
-      leaflet("res") %>% 
+      filter(ancient_toponym %in% input$city_2) %>% 
+      leaflet() %>% 
       addTiles() %>%
       addCircleMarkers(lat = ~latitude_y, lng = ~longitude_x, popup = ~ modern_toponym)
   })
