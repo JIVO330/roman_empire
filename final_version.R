@@ -54,18 +54,18 @@ ui <- fluidPage(
       (fluidRow (
         
         column(4,
-               selectInput("imperial_province", label = h3("Imperial Province"), #h3 size phrase()
+               selectInput("imperial_province", label = h3(tags$i("Imperial Province")), #h3 size phrase()
                            choices = imperial_province)
         ),
-        leafletOutput("imperial_province"),
-        plotOutput("city_plot"),
+           leafletOutput("imperial_province"),
+           plotOutput("city_plot"),
         
         br(),
         column(4,
-               selectInput("country",label = h3("Country"),
+               selectInput("country",label = h3(tags$i("Country")),
                            choices = country)
         ),
-        leafletOutput("country"),
+           leafletOutput("country"),
       
       )
     )
@@ -77,7 +77,7 @@ ui <- fluidPage(
              br(),
              h3("Here you can explore the different locations of the Roman cities. Choose a name from the list and it will be displayed in the map. If you click in the blue circle, you will see its Roman name"),
              br(),
-             selectInput("city",label = h3("Modern City"),
+             selectInput("city",label = h3(tags$i("Modern City")),
                          choices = modern_city, selected = 1),
              leafletOutput("map_modern_city"),
              
@@ -85,16 +85,15 @@ ui <- fluidPage(
              h3('Now, you can pick up few cities ... but they are under their ancient toponym'),
              
              multiInput(    # pickup few cities but dont work properly
-               inputId = "city_2", label = h3("Imperial Cities"),
-               choices = ancient_city,
-               selected = "Abae", width = "400px",
-               options = list(
+               inputId = "city_2", label = h3(tags$i("Imperial Cities")),
+                choices = ancient_city,
+                selected = "Abae", width = "400px",
+                options = list(
                  enable_search = TRUE,
                  non_selected_header = "Pick few cities:",
                  selected_header = "Are you sure?:")
              ),
-             #verbatimTextOutput(outputId = "res") ,
-             
+      
              leafletOutput("map_modern_city_2"),
              
              verbatimTextOutput(outputId = "res") ,
