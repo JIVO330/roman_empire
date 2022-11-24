@@ -39,7 +39,7 @@ write_csv(roman_empire,"re_data/roman_empire.csv")
 
 
 
-roman_empire
+view(roman_empire)
 ```
 
 

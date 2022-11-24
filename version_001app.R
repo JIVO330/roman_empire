@@ -27,6 +27,11 @@ modern_city <- roman_empire %>%
   arrange(modern_toponym) %>% 
   pull()
 
+country <- roman_empire %>% 
+  distinct(country) %>% 
+  arrange(country) %>% 
+  pull()
+
 # here:here()
 #  roman_empire <- read_csv(here("re_data/roman_empire"))
 
@@ -49,12 +54,13 @@ ui <- fluidPage(
                    selectInput("imperial_province", label = h3("Imperial Province"), #h3 size phrase()
                                choices = imperial_province)
                   ),
+              leafletOutput("imperial_province")
             
-            column(4,
-                   selectInput("status",label = h3("Civic Status"),
-                                choices = status)
-                   ),
-            plotOutput("city_plot"),
+            # column(4,
+            #        selectInput("country",label = h3("Country"),
+            #                     choices = country)
+            #        ),
+            
          )
        )
       
@@ -98,17 +104,23 @@ ui <- fluidPage(
 server <- function(input, output) {
    
   # we want to knnow the distribution of cities by Province
-  
-      output$city_plot <- renderPlot(
-      roman_empire %>%
-      filter(province == input$imperial_province) %>%
-      #filter(ModernToponym == input$city_input) %>%
-      ggplot(aes(x = modern_toponym , y = province))+
-      geom_col()+
-      theme(axis.text.x = element_text(angle = 45, hjust = 1))
-      )
+      # 
+      # output$city_plot <- renderPlot(
+      # roman_empire %>%
+      # filter(province == input$imperial_province) %>%
+      # #filter(ModernToponym == input$city_input) %>%
+      # ggplot(aes(x = modern_toponym , y = province))+
+      # geom_col()+
+      # theme(axis.text.x = element_text(angle = 45, hjust = 1))
+      # )
     
-
+  output$imperial_province <- renderLeaflet({
+    roman_empire %>%
+      filter(province == input$imperial_province) %>%
+      leaflet() %>%
+      addTiles() %>%
+      addCircleMarkers(lat = ~latitude_y, lng = ~longitude_x, popup = ~ modern_toponym)
+  })
     
 }
 
