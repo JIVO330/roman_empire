@@ -49,7 +49,28 @@ ui <- fluidPage(
   # creation of 2 spaces/tables
   tabsetPanel(
     tabPanel(
-      "SPQR",
+      "About",# About the app
+      tags$audio(src = "music/rome2.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
+      br(),
+      p("This shiny dashboard has been created with the intention of having fun, enjoying and expanding the knowledge about the Roman Empire over Jack Hanson's work."),
+      br(),
+      p("As stated, the core of this database is Jack Hanson's monograph and database - it tries to be a tribute of gratitude."),
+      br(),
+      h3("Bibliography"),
+      p("- Hanson, J. W. (2016a). An Urban Geography of the Roman World, 100 B.C. to A.D. 300. University of Oxford D.Phil."),
+      br(),
+      p("- Hanson, J. W. (2016b). An Urban Geography of the Roman World, 100 B.C. to A.D. 300. Oxford: Archaeopress."),
+      br(),
+      p("- Hanson, J. W. (2016). Cities Database (OXREP databases). Version 1.0. Accessed (date): <http://oxrep.classics.ox.ac.uk/databases/cities/>. DOI: <https://doi.org/10.5287/bodleian:eqapevAn8>"),
+      br(),
+      h3("Useful Websites"),
+      br(), 
+      p(tags$a("The Oxford Roman Economy Project", href = "http://oxrep.classics.ox.ac.uk/")),
+      br(),
+      p(tags$a( "The music is part of the Game Caesar III, donwloaded from here", href = "https://www.gamepressure.com/download.asp?ID=775572")),
+    ),
+    tabPanel(
+      "Provinces",
       tags$audio(src = "music/rome1.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
       (fluidRow (
         
@@ -71,18 +92,18 @@ ui <- fluidPage(
     )
       
 ),
-    tabPanel("Map",
+    tabPanel("Cities",
              tags$audio(src = "music/rome3.mp3",type = "audio/mp3", autoplay = TRUE, controls = NA),
              br(),
              br(),
-             h3("Here you can explore the different locations of the Roman cities. Choose a name from the list and it will be displayed in the map. If you click in the blue circle, you will see its Roman name"),
+             h3("Explore the different locations of the Roman cities. Choose a name from the list to display it on the map. Click the blue circle to discover its Roman name"),
              br(),
              selectInput("city",label = h3(tags$i("Modern City")),
                          choices = modern_city, selected = 1),
              leafletOutput("map_modern_city"),
              
              br(),
-             h3('Now, you can pick up few cities ... but they are under their ancient toponym'),
+             h3('Pick up a few cities now... but, be careful, they are under their ancient toponym'),
              
              multiInput(    # pickup few cities but dont work properly
                inputId = "city_2", label = h3(tags$i("Imperial Cities")),
@@ -90,36 +111,15 @@ ui <- fluidPage(
                 selected = "Abae", width = "400px",
                 options = list(
                  enable_search = TRUE,
-                 non_selected_header = "Pick few cities:",
-                 selected_header = "Are you sure?:")
+                 non_selected_header = "Add cities:",
+                 selected_header = "Your cities (Click to remove):")
              ),
       
              leafletOutput("map_modern_city_2"),
              
              verbatimTextOutput(outputId = "res") ,
              
-    ),
-      tabPanel(
-      "About",# About the app
-      tags$audio(src = "music/rome2.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
-      br(),
-      h3("This shiny dashboar have been created with the intention of having fun, enjoying and expanding the knowledge about the Roman Empire over the base o Jack Hanson's work."),
-      br(),
-      h4("As stated, the core of this database are  Jack Hanson's monograph and his own database - it tries  to be a tribute of gratitude-"),
-      br(),
-      h4("Hanson, J. W. (2016a). An Urban Geography of the Roman World, 100 B.C. to A.D. 300. University of Oxford D.Phil."),
-      br(),
-      h4("Hanson, J. W. (2016b). An Urban Geography of the Roman World, 100 B.C. to A.D. 300. Oxford: Archaeopress."),
-      br(),
-      h4("Hanson, J. W. (2016). Cities Database (OXREP databases). Version 1.0. Accessed (date): <http://oxrep.classics.ox.ac.uk/databases/cities/>. DOI: <https://doi.org/10.5287/bodleian:eqapevAn8>"),
-      br(),
-      h4("Also, you can visit the website :"),
-      br(), 
-      h3 (tags$a("The Oxford Roman Economy Project", href = "http://oxrep.classics.ox.ac.uk/"  )),
-      br(),
-      h4 (tags$a( "The music is part of the Game Caesar III, donwloaded from here", href = "https://www.gamepressure.com/download.asp?ID=775572")),
     ), 
-   
   ), 
   
   
