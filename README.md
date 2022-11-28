@@ -8,5 +8,5 @@
 
  The music that it is possible to hear is from the old game Caesar III from Sierra, it was downloaded from the website .... I do not remember at the moment
 
- The project has 3 shiny R versions, where I am working in different concepts and issues, plus a final version with the results.
+ The project has 3 shiny R versions, where I am working in different concepts and issues as a kind of workbench, plus a final version with the results.
   The main idea is that you can hear diverse music in each 'page', they should run automatically, as background.

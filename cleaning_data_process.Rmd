@@ -11,53 +11,69 @@ library(readxl)
 ```
 
  
-```{r}
-
-hanson1 <- read_excel("re_data/Hanson2016_Cities_copy.xlsx", sheet = 1) %>% clean_names()
-
-
-hanson1 <- hanson1%>% 
-  select(- c(6,7,8,9))
-
-hanson1
-```
-
-
-```{r}
-hanson2 <- read_excel("re_data/Hanson2016_Cities_copy.xlsx", sheet = 2) %>% clean_names()
-
-hanson2
-```
-```{r}
-roman_empire <- full_join(hanson1,hanson2, by = "primary_key")
-
-roman_empire
-```
 
 ```{r}
 write_csv(roman_empire,"re_data/roman_empire.csv")
 
 
 
-view(roman_empire)
+roman_empire <- read_csv("re_data/roman_empire.csv")
+
+roman_empire
 ```
 
-
-WHAT I WANT TO SHOW????
-
-Number cities per province??
-map? cities by location , in the map name city - location
+  NUMBER CITIES BY IMPERIAL PROVINCE
 
 
 ```{r}
 count_cities <- roman_empire %>% 
-  group_by(Province, Modern.Toponym) %>% 
+  group_by(province) %>% 
   summarise(counts = n())
+
+
+count_cities
+``` 
+  
+```{r}
+ ggplot(count_cities)+
+    geom_bar(aes(x = province, y = counts ), stat = 'identity')+
+    ylab("Number of cities") +
+      xlab("Province") +
+      labs(title  = "Number odf cities by Imperial Province") +
+      theme(axis.text.x = element_text(angle=45, hjust=1))
+  
+```
+
+NUMBER CITIES BY MODERN COUNTRIES
+
+
+```{r}
+count_cities_by_country <- roman_empire %>% 
+  group_by(country) %>% 
+  summarise(counts = n())
+
+count_cities_by_country
+```
+  
+```{r}
+ggplot(count_cities_by_country)+
+    geom_bar(aes(x = country, y = counts ), stat = 'identity')+
+    ylab("Number of cities") +
+      xlab("country") +
+      labs(title  = "Number odf cities by nowadays countries") +
+      theme(axis.text.x = element_text(angle=45, hjust=1))
+```
   
   
-  ggplot(count_cities)+
-    geom_bar(aes(x = Province, y = counts, fill = Modern.Toponym ), stat = 'identity')
   
+  
+  
+  
+  
+  
+  
+  
+ 
   
 ```
 

@@ -7,6 +7,10 @@ library(ggplot2)
 library(bslib)
 library(maps)
 library(leaflet)
+library(shinyWidgets)
+
+
+
 #library(here)
 
 roman_empire <- read_csv("re_data/roman_empire.csv")
@@ -117,8 +121,7 @@ ui <- fluidPage(
       
              leafletOutput("map_modern_city_2"),
              
-             verbatimTextOutput(outputId = "res") ,
-             
+             verbatimTextOutput(outputId = "res"),
     ), 
   ), 
   
