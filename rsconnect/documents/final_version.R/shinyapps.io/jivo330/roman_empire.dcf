@@ -1,0 +1,14 @@
+name: roman_empire
+title: roman_empire
+username:
+account: jivo330
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7726793
+bundleId: 6552013
+url: https://jivo330.shinyapps.io/roman_empire/
+when: 1669326086.44905
+lastSyncTime: 1669326086.44906
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app.R|practice/app.R|version_001app.R|version_002/app.R|version_002app.R|version_003/003.1/app.R|version_003/app.R|version_003/version_003.R|version_003.R|version_003app.R|version3app.R

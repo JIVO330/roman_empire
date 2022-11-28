@@ -7,6 +7,10 @@ library(ggplot2)
 library(bslib)
 library(maps)
 library(leaflet)
+library(shinyWidgets)
+
+
+
 #library(here)
 
 roman_empire <- read_csv("re_data/roman_empire.csv")
@@ -49,7 +53,7 @@ ui <- fluidPage(
   # creation of 2 spaces/tables
   tabsetPanel(
     tabPanel(
-      "SPQR",
+      "SPQR",# tag$i()
       tags$audio(src = "music/rome1.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
       (fluidRow (
         
@@ -71,7 +75,7 @@ ui <- fluidPage(
     )
       
 ),
-    tabPanel("Map",
+    tabPanel("Map",#Cosmogrphia tag$i()
              tags$audio(src = "music/rome3.mp3",type = "audio/mp3", autoplay = TRUE, controls = NA),
              br(),
              br(),
@@ -100,7 +104,7 @@ ui <- fluidPage(
              
     ),
       tabPanel(
-      "About",# About the app
+      "About",# About the app tag$
       tags$audio(src = "music/rome2.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
       br(),
       h3("This shiny dashboar have been created with the intention of having fun, enjoying and expanding the knowledge about the Roman Empire over the base o Jack Hanson's work."),
