@@ -66,15 +66,23 @@ ggplot(count_cities_by_country)+
   
   
   
+  how many cities have this status?
   
   
-  
+```{r}
+
+
+roman_empire %>% 
+  filter()
+
+
+```
+
   
   
   
   
  
   
-```
 
 

@@ -33,7 +33,7 @@ ui <- fluidPage(
   titlePanel("THE ROMAN EMPIRE"),
   h2( tags$i("LUX MUNDI")),
   theme = bs_theme(bootswatch = "sketchy" ),  
-  # creation of 2 spaces/tables
+  # creation of few spaces/tables
   tabsetPanel(
     tabPanel(
       "SPQR",
@@ -156,6 +156,10 @@ server <- function(input, output) {
       addCircleMarkers(lat = ~latitude_y, lng = ~longitude_x, popup = ~ modern_toponym)
   })
  
+  
+  
+  
+  
   
   
 }

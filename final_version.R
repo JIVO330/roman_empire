@@ -1,4 +1,3 @@
-
 ######FINAL VERSION. ALLL THE STUFF THAT WORKS
 
 library(shiny)
@@ -50,64 +49,15 @@ ui <- fluidPage(
   titlePanel("THE ROMAN EMPIRE"),
   h2( tags$i("LUX MUNDI")),
   theme = bs_theme(bootswatch = "sketchy" ),  
-  # creation of 2 spaces/tables
+  # creation of few spaces/tables
   tabsetPanel(
     tabPanel(
-      "SPQR",# tag$i()
-      tags$audio(src = "music/rome1.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
-      (fluidRow (
-        
-        column(4,
-               selectInput("imperial_province", label = h3(tags$i("Imperial Province")), #h3 size phrase()
-                           choices = imperial_province)
-        ),
-           leafletOutput("imperial_province"),
-           plotOutput("city_plot"),
-        
-        br(),
-        column(4,
-               selectInput("country",label = h3(tags$i("Country")),
-                           choices = country)
-        ),
-           leafletOutput("country"),
-      
-      )
-    )
-      
-),
-    tabPanel("Map",#Cosmogrphia tag$i()
-             tags$audio(src = "music/rome3.mp3",type = "audio/mp3", autoplay = TRUE, controls = NA),
-             br(),
-             br(),
-             h3("Here you can explore the different locations of the Roman cities. Choose a name from the list and it will be displayed in the map. If you click in the blue circle, you will see its Roman name"),
-             br(),
-             selectInput("city",label = h3(tags$i("Modern City")),
-                         choices = modern_city, selected = 1),
-             leafletOutput("map_modern_city"),
-             
-             br(),
-             h3('Now, you can pick up few cities ... but they are under their ancient toponym'),
-             
-             multiInput(    # pickup few cities but dont work properly
-               inputId = "city_2", label = h3(tags$i("Imperial Cities")),
-                choices = ancient_city,
-                selected = "Abae", width = "400px",
-                options = list(
-                 enable_search = TRUE,
-                 non_selected_header = "Pick few cities:",
-                 selected_header = "Are you sure?:")
-             ),
-      
-             leafletOutput("map_modern_city_2"),
-             
-             verbatimTextOutput(outputId = "res") ,
-             
-    ),
-      tabPanel(
-      "About",# About the app tag$
+      tags$i("About"),# About the app tag$
       tags$audio(src = "music/rome2.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
       br(),
-      h3("This shiny dashboar have been created with the intention of having fun, enjoying and expanding the knowledge about the Roman Empire over the base o Jack Hanson's work."),
+      h3("This shiny dashboar have been created with the intention of having fun, enjoying and expanding the knowledge about the Roman Empire over the base of Jack Hanson's work."),
+      br(),
+      h4("At the Imperium panel, you can find the cities by Imperial Province or Modern Countries. At Civitas Panel, you will do the same by this time for cities."),
       br(),
       h4("As stated, the core of this database are  Jack Hanson's monograph and his own database - it tries  to be a tribute of gratitude-"),
       br(),
@@ -117,13 +67,68 @@ ui <- fluidPage(
       br(),
       h4("Hanson, J. W. (2016). Cities Database (OXREP databases). Version 1.0. Accessed (date): <http://oxrep.classics.ox.ac.uk/databases/cities/>. DOI: <https://doi.org/10.5287/bodleian:eqapevAn8>"),
       br(),
-      h4("Also, you can visit the website :"),
+      h4("Also, in each section you will find a button on top to play music"),
+      br(),
+      h4(" Useful Websites :"),
       br(), 
       h3 (tags$a("The Oxford Roman Economy Project", href = "http://oxrep.classics.ox.ac.uk/"  )),
       br(),
       h4 (tags$a( "The music is part of the Game Caesar III, donwloaded from here", href = "https://www.gamepressure.com/download.asp?ID=775572")),
+      
+      
+    ),
+    tabPanel(
+      tags$i("Imperium"),
+      tags$audio(src = "music/rome1.mp3",type ="audio/mp3",autoplay = TRUE, controls = NA),
+      (fluidRow (
+        
+        column(4,
+               selectInput("imperial_province", label = h3(tags$i("Imperial Province")), #h3 size phrase()
+                           choices = imperial_province)
+        ),
+        leafletOutput("imperial_province"),
+        plotOutput("city_plot"),
+        
+        br(),
+        column(4,
+               selectInput("country",label = h3(tags$i("Country")),
+                           choices = country)
+        ),
+        leafletOutput("country"),
+        
+    )
+   )
+    ),
+    tabPanel(
+      tags$i("Civitas"),#Cosmogrphia tag$i()
+      tags$audio(src = "music/rome3.mp3",type = "audio/mp3", autoplay = TRUE, controls = NA),
+      br(),
+      br(),
+      h3("Here you can explore the different locations of the Roman cities. Choose a name from the list and it will be displayed in the map. If you click in the blue circle, you will see its Roman name"),
+      br(),
+      selectInput("city",label = h3(tags$i("Modern City")),
+                  choices = modern_city, selected = 1),
+      leafletOutput("map_modern_city"),
+      
+      br(),
+      h3('Now, you can pick up few cities ... but look, they are under their ancient toponym'),
+      
+      multiInput(    # pickup few cities but dont work properly
+        inputId = "city_2", label = h3(tags$i("Imperial Cities")),
+        choices = ancient_city,
+        selected = "Abae", width = "400px",
+        options = list(
+          enable_search = TRUE,
+          non_selected_header = "Pick few cities:",
+          selected_header = "Are you sure?:")
+      ),
+      
+      leafletOutput("map_modern_city_2"),
+      
+      verbatimTextOutput(outputId = "res") ,
+      
     ), 
-   
+    
   ), 
   
   
@@ -151,14 +156,14 @@ server <- function(input, output) {
   
   #SPQR TAB
   output$city_plot <- renderPlot(
-      roman_empire %>%
+    roman_empire %>%
       filter(province == input$imperial_province) %>%
       #filter(ModernToponym == input$city_input) %>%
       ggplot(aes(x = modern_toponym , y = province , fill = civic_status))+
       geom_col()+
       theme(axis.text.x = element_text(angle = 45, hjust = 1, face = 'italic'))+
-        labs(x = "Actual Name",
-             y = "Roman Province") 
+      labs(x = "Actual Name",
+           y = "Roman Province") 
   ) 
   
   output$country <- renderLeaflet({
@@ -171,7 +176,7 @@ server <- function(input, output) {
   
   #Top map in MAP tab
   output$map_modern_city <- renderLeaflet(
-      roman_empire %>% 
+    roman_empire %>% 
       filter(modern_toponym == input$city) %>% 
       leaflet() %>% 
       addTiles() %>%

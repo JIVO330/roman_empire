@@ -5,10 +5,10 @@ account: jivo330
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7726793
-bundleId: 6552013
+bundleId: 6578916
 url: https://jivo330.shinyapps.io/roman_empire/
-when: 1669326086.44905
-lastSyncTime: 1669326086.44906
+when: 1669929238.11088
+lastSyncTime: 1669929238.11089
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: app.R|practice/app.R|version_001app.R|version_002/app.R|version_002app.R|version_003/003.1/app.R|version_003/app.R|version_003/version_003.R|version_003.R|version_003app.R|version3app.R
+ignoredFiles: .gitattributes|cleaning_data_process.nb.html|cleaning_data_process.Rmd|README.md|version_001app.R|version_002app.R|version_004.R|version3app.R
