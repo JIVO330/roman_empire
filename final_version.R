@@ -67,7 +67,9 @@ ui <- fluidPage(
       br(),
       h4("Hanson, J. W. (2016). Cities Database (OXREP databases). Version 1.0. Accessed (date): <http://oxrep.classics.ox.ac.uk/databases/cities/>. DOI: <https://doi.org/10.5287/bodleian:eqapevAn8>"),
       br(),
-      h4("Also, in each section you will find a button on top to play music"),
+      h4("Note. There is a Roman city inside a 'Sovereign Base Areas'. That means, the city is by georaphy in one country but politically belongs to another."),
+      br(),
+      h4("Also, in each section you will find a button on top to play music."),
       br(),
       h4(" Useful Websites :"),
       br(), 
@@ -162,7 +164,7 @@ server <- function(input, output) {
       ggplot(aes(x = modern_toponym , y = province , fill = civic_status))+
       geom_col()+
       theme(axis.text.x = element_text(angle = 45, hjust = 1, face = 'italic'))+
-      labs(x = "Actual Name",
+      labs(x = "Roman Name",
            y = "Roman Province") 
   ) 
   

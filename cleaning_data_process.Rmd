@@ -71,11 +71,26 @@ ggplot(count_cities_by_country)+
   
 ```{r}
 
+roman_empire %>%
+      filter(province ) %>% #== input$imperial_province2) %>%
+      filter(civic_status) %>% # == input$status) %>%
+      filter (country) %>%  #== input$country2) %>% 
+      ggplot(aes(x = modern_toponym , y = province , fill = civic_status))+
+      geom_col()+
+      theme(axis.text.x = element_text(angle = 45, hjust = 1, face = 'italic'))+
+      labs(x = "Actual Name",
+           y = "Roman Province")
 
-roman_empire %>% 
-  filter()
+```
 
+```{r}
+roman_empire <- roman_empire %>% 
+  mutate(continent = country) %>% 
+  mutate(continent=recode(continent,"Greece" = "Europe", 
+                          "Albania" = "Europe","Egypt" = "Africa","Tunisia" ="Africa","Libya" = "Africa","Italy" = "Europe","France" = "Europe","Jordan" = "Asia", "Syria" = "Asia","Turkey" = "Asia","Israel" = "Asia","Spain" = "Europe","Bulgaria" = "Europe","Croatia"= "Europe", "Bosnia and Herzegovina" ="Europe","Cyprus" ="Europe", "Germany"= "Europe", "Austria" = "Europe","Hungary"="Europe","Lebanon" = "Asia","Macedonia" ="Europe","Malta"="Europe","Montenegro"="Europe","Morocco"="Africa","Netherlands"= "Europe","Northern Cyprus" = "Europe", "Portugal" ="Europe","Romania"= "Europe","Serbia"= "Europe", "Slovenia"= "Europe", "Spain"= "Europe","Switzerland"="Europe","Tunisia"= "Africa","United Kingdom" = "Europe"))
+  
 
+view(roman_empire)
 ```
 
   
